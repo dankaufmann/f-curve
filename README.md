@@ -6,3 +6,6 @@
 **JEL classification:** E32, E37, C53
 
 **Keywords:** Covid-19, Leading indicator, Financial market data, Forecasting, Switzerland
+
+# Current f-curve
+![Update](./Results/Test.png).
