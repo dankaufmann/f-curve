@@ -11,7 +11,7 @@
 ![Update](./Results/MainGDPShort.png).
 
 # Current GDP forecast:
-!![Forecasts]('./Results/Fcst_GDP.html')
+{% include './Results/Fcst_GDP.html' %}
 
 # Historical correlation with GDP growth
 ![Update](./Results/MainGDP.png).
