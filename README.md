@@ -17,3 +17,8 @@
 # Historical correlation with GDP growth
 ![](./Results/MainGDP.png){ width=50% }
 ![](./Results/Decomposition.png){ width=50% }
+
+```{r, fig.width = 1}
+# Small fig.width
+include_graphics(./Results/Decomposition.png)
+```
