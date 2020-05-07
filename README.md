@@ -9,9 +9,13 @@
 
 # Current f-curve:
 ![Update](./Results/MainGDPShort.png).
-![Update](./Results/MainGDP.png).
 
 # Current GDP forecast:
 ```{r}
 knitr::kable(./Results/Fcst_GDP.tex, "markdown")
 ```
+
+[![IMAGE ALT TEXT HERE](./Results/Fcst_GDP.html)](./Results/Fcst_GDP.html)
+
+# Historical correlation with GDP growth
+![Update](./Results/MainGDP.png).
