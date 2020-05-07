@@ -8,17 +8,17 @@
 **Keywords:** Covid-19, Leading indicator, Financial market data, Forecasting, Switzerland
 
 # Current f-curve:
-![](./Results/MainGDPShort.png){ width=50% }
-![](./Results/DecompositionShort.png){ width=50% }
+![](./Results/MainGDPShort.png =50x)
+![](./Results/DecompositionShort.png =50x)
 
 # Current GDP forecast:
 {% include './Results/Fcst_GDP.html' %}
 
 # Historical correlation with GDP growth
-![](./Results/MainGDP.png){ width=50% }
-![](./Results/Decomposition.png){ width=50% }
+![](./Results/MainGDP.png =50x)
+![](./Results/Decomposition.png =50x)
 
 ```{r, fig.width = 1}
 # Small fig.width
-include_graphics(./Results/Decomposition.png)
+include_graphics(./Results/Decomposition.png =50x)
 ```
