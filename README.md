@@ -12,4 +12,4 @@
 ![Update](./Results/MainGDP.png).
 
 # Current GDP forecast:
-![Update](./Results/Fcst_GDP.tex).
+knitr::kable(./Results/Fcst_GDP.tex, "markdown")
