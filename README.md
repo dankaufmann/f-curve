@@ -8,10 +8,10 @@
 **Keywords:** Covid-19, Leading indicator, Financial market data, Forecasting, Switzerland
 
 # Current f-curve:
-![Update](./Results/MainGDPShort.png).
+![Update](./Results/MainGDPShort.png=250x).
 
 # Current GDP forecast:
 {% include './Results/Fcst_GDP.html' %}
 
 # Historical correlation with GDP growth
-![Update](./Results/MainGDP.png).
+![Update](./Results/MainGDP.png=250x).
