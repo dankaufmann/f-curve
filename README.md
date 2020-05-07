@@ -19,6 +19,6 @@
 ![](./Results/Decomposition.png)
 
 <figure>
-  <img src="./Results/Decomposition.png" alt="Trulli" style="width:10%">
+  <img src="./Results/Decomposition.png" alt="Trulli" style="width:10px">
   <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
 </figure>
