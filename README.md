@@ -12,13 +12,8 @@
 ![](./Results/DecompositionShort.png)
 
 # Current GDP forecast:
-{% include './Results/Fcst_GDP.html' %}
+![](./Results/Fcst_Table.png)
 
 # Historical correlation with GDP growth
 ![](./Results/MainGDP.png)
 ![](./Results/Decomposition.png)
-
-<figure>
-  <img src="./Results/Decomposition.png" alt="Trulli" style="width:10px">
-  <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
-</figure>
