@@ -1,0 +1,2664 @@
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/siemens-sieht-in-coronakrise-talsohle-bald-erreicht/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2018/08/210554135-t-160x160.jpg" alt="Siemens sieht in Coronakrise Talsohle bald erreicht"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">1</span>
+                <time datetime="2020-05-08T09:08:15+02:00" class="teaser__time">08.05.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/ausland/" target="_blank">Ausland</a>, <a href="https://www.fuw.ch/unternehmen/technologie/" target="_blank">Technologie</a></span>
+    
+                    <span class="teaser__lock" data-postid="1619375"></span>
+        
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/siemens-sieht-in-coronakrise-talsohle-bald-erreicht/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Siemens sieht in Coronakrise Talsohle bald erreicht - 1619375', '', this); }">Siemens sieht in Coronakrise Talsohle bald erreicht</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/siemens-sieht-in-coronakrise-talsohle-bald-erreicht/" target="_blank"> Der Technologiekonzern zieht seine Gewinnprognose zurück. Der Nachfragerückgang wird sich vor allem in den künftigen Kernsparten zeigen. </a>
+            </p>
+    <p class="teaser__tags"><strong>Stichwörter:</strong> <span>Siemens</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/uber-mit-verlust-von-29-mrd-im-1-quartal/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2020/01/336551080-1-t-160x160.jpg" alt="Uber mit Verlust von 2,9 Mrd. $"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">2</span>
+                <time datetime="2020-05-08T08:49:19+02:00" class="teaser__time">08.05.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/ausland/" target="_blank">Ausland</a></span>
+    
+                    <span class="teaser__lock" data-postid="1619370"></span>
+        
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/uber-mit-verlust-von-29-mrd-im-1-quartal/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Uber mit Verlust von 2,9 Mrd. $ - 1619370', '', this); }">Uber mit Verlust von 2,9 Mrd. $</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/uber-mit-verlust-von-29-mrd-im-1-quartal/" target="_blank"> Mlliardenschwere Abschreibungen führen zum Minus. Angesichts der Ausgangssperren nutzen derzeit weniger Menschen rund um den Globus die Fahrdienste. </a>
+            </p>
+    <p class="teaser__tags"><strong>Stichwörter:</strong> <span>Uber</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/hbm-verdient-leicht-weniger-2/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2019/09/292371596_highres-t-160x160.jpg" alt="HBM verdient leicht weniger"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">3</span>
+                <time datetime="2020-05-08T07:52:37+02:00" class="teaser__time">08.05.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/gesundheit/" target="_blank">Gesundheit</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock" data-postid="1619143"></span>
+        
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/hbm-verdient-leicht-weniger-2/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'HBM verdient leicht weniger - 1619143', '', this); }">HBM verdient leicht weniger</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/hbm-verdient-leicht-weniger-2/" target="_blank"> Marktturbulenzen aufgrund der Covid-19-Pandemie hat die auf den Gesundheitssektor fokussierte Beteiligungsgesellschaft nahezu unbeschadet überstanden.</a>
+            </p>
+    <p class="teaser__tags"><strong>Stichwörter:</strong> <span>HBM Healthcare Investments</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/dormakaba-belastet/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2018/07/zvg-1-t-160x160.jpg" alt="Dormakaba belastet"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">4</span>
+                <time datetime="2020-05-08T07:32:56+02:00" class="teaser__time">08.05.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/industrie/" target="_blank">Industrie</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock" data-postid="1619337"></span>
+        
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/dormakaba-belastet/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Dormakaba belastet - 1619337', '', this); }">Dormakaba belastet</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/dormakaba-belastet/" target="_blank"><span class="teaser__lead-marker">Ersteinschätzung | </span> Auswirkungen der Coronapandemie bremsen den Schliesstechnikspezialisten im dritten Quartal 2019/20. Vor allem leidet sein Chinageschäft.</a>
+            </p>
+    <p class="teaser__tags"><strong>Stichwörter:</strong> <span>Dormakaba</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/datacolor-rutscht-in-die-roten-zahlen/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2019/05/99923801_highres-t-160x160.jpg" alt="Datacolor rutscht in die roten Zahlen"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">5</span>
+                <time datetime="2020-05-08T07:25:23+02:00" class="teaser__time">08.05.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/industrie/" target="_blank">Industrie</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock" data-postid="1619132"></span>
+        
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/datacolor-rutscht-in-die-roten-zahlen/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Datacolor rutscht in die roten Zahlen - 1619132', '', this); }">Datacolor rutscht in die roten Zahlen</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/datacolor-rutscht-in-die-roten-zahlen/" target="_blank"> Im ersten Halbjahr hat das Farbmetrikunternehmen unter den Effekten der Coronakrise gelitten. Es rechnet mit einem verstärkten Konjunkturabschwung.</a>
+            </p>
+    <p class="teaser__tags"><strong>Stichwörter:</strong> <span>Datacolor</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/stadler-wird-opfer-von-cyberangriff/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2019/04/walter-bieri-keystone-bussnang-t-160x160.jpg" alt="Stadler wird Opfer von Cyberangriff"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">6</span>
+                <time datetime="2020-05-08T07:12:48+02:00" class="teaser__time">08.05.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/industrie/" target="_blank">Industrie</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock" data-postid="1619330"></span>
+        
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/stadler-wird-opfer-von-cyberangriff/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Stadler wird Opfer von Cyberangriff - 1619330', '', this); }">Stadler wird Opfer von Cyberangriff</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/stadler-wird-opfer-von-cyberangriff/" target="_blank"> Hacker wollen den Zughersteller mit einem Cyberangriff auf sein IT-Netzwerk erpressen. Wahrscheinlich sind Daten gestohlen worden.</a>
+            </p>
+    <p class="teaser__tags"><strong>Stichwörter:</strong> <span>Österreich</span><span>Stadler Rail</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/meyer-burger-verliert-grossauftrag/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2019/07/157687585-t-160x160.jpg" alt="Meyer Burger verliert Grossauftrag"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">7</span>
+                <time datetime="2020-05-08T07:10:24+02:00" class="teaser__time">08.05.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a>, <a href="https://www.fuw.ch/unternehmen/technologie/" target="_blank">Technologie</a></span>
+    
+                    <span class="teaser__lock" data-postid="1619326"></span>
+        
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/meyer-burger-verliert-grossauftrag/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Meyer Burger verliert Grossauftrag - 1619326', '', this); }">Meyer Burger verliert Grossauftrag</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/meyer-burger-verliert-grossauftrag/" target="_blank"> Wieder schlechte Nachrichten für den Solarzulieferer: Ein amerikanischer Auftraggeber im Bereich Heterojunction tritt von der Vereinbarung zurück. </a>
+            </p>
+    <p class="teaser__tags"><strong>Stichwörter:</strong> <span>Meyer Burger</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/schaffner-haelt-sich-knapp-im-plus/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2013/12/Schaffner_T-160x160.jpg" alt="Schaffner braucht eine (neue) Strategie"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">8</span>
+                <time datetime="2020-05-07T16:46:11+02:00" class="teaser__time">07.05.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/industrie/" target="_blank">Industrie</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock teaser__lock--is-locked" data-postid="1618927">
+                        <a href="https://www.fuw.ch/article/schaffner-haelt-sich-knapp-im-plus/" target="_blank">
+                            <svg><use xlink:href="#icon--abo"></use></svg>
+                        </a>
+                    </span>
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/schaffner-haelt-sich-knapp-im-plus/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Schaffner braucht eine (neue) Strategie - 1618927', '', this); }">Schaffner braucht eine (neue) Strategie</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/schaffner-haelt-sich-knapp-im-plus/" target="_blank"><span class="teaser__lead-marker">Analyse | </span> Der Elektrokomponentenhersteller schrumpft weiter. Für die Trendwende setzt er unter anderem auf Smart Meters.</a>
+            </p>
+    <p class="teaser__tags"><strong>Autor:</strong> Sylviane Chassot</p><p class="teaser__tags"><strong>Stichwörter:</strong> <span>Schaffner</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/valiant-erwartet-trotz-coronakrise-stabile-entwicklung/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2019/09/97234-t-160x160.jpg" alt="Valiant stockt bei Rückstellungen auf"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">9</span>
+                <time datetime="2020-05-07T16:22:53+02:00" class="teaser__time">07.05.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/finanz/" target="_blank">Finanz</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock teaser__lock--is-locked" data-postid="1618933">
+                        <a href="https://www.fuw.ch/article/valiant-erwartet-trotz-coronakrise-stabile-entwicklung/" target="_blank">
+                            <svg><use xlink:href="#icon--abo"></use></svg>
+                        </a>
+                    </span>
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/valiant-erwartet-trotz-coronakrise-stabile-entwicklung/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Valiant stockt bei Rückstellungen auf - 1618933', '', this); }">Valiant stockt bei Rückstellungen auf</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/valiant-erwartet-trotz-coronakrise-stabile-entwicklung/" target="_blank"><span class="teaser__lead-marker">Analyse | </span> Die Retailbank ist im ersten Quartal weiter gewachsen. Covid-19 verunmöglicht jedoch eine klare Prognose für 2020. </a>
+            </p>
+    <p class="teaser__tags"><strong>Autor:</strong> Beatrice Bösiger</p><p class="teaser__tags"><strong>Stichwörter:</strong> <span>Valiant</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/umwaelzungen-im-meier-tobler-aktionariat/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2018/10/meiertobler_service_wp-t-160x160.png" alt="Grossaktionär Ferguson verkauft alle Anteile an Meier Tobler"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">10</span>
+                <time datetime="2020-05-07T13:08:28+02:00" class="teaser__time">07.05.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/industrie/" target="_blank">Industrie</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock teaser__lock--is-locked" data-postid="1619033">
+                        <a href="https://www.fuw.ch/article/umwaelzungen-im-meier-tobler-aktionariat/" target="_blank">
+                            <svg><use xlink:href="#icon--abo"></use></svg>
+                        </a>
+                    </span>
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/umwaelzungen-im-meier-tobler-aktionariat/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Grossaktionär Ferguson verkauft alle Anteile an Meier Tobler - 1619033', '', this); }">Grossaktionär Ferguson verkauft alle Anteile an Meier Tobler</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/umwaelzungen-im-meier-tobler-aktionariat/" target="_blank"><span class="teaser__lead-marker">Analyse | </span> Silvan Meier übernimmt die Titel und will sie ohne Aufschlag an bestehende Aktionäre weitergeben. Der Streubesitz soll steigen.</a>
+            </p>
+    <p class="teaser__tags"><strong>Autor:</strong> Rainer Weihofen</p><p class="teaser__tags"><strong>Stichwörter:</strong> <span>Meier Tobler</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/versicherer-zahlen-taeglich-139-mio-fr-aus/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2020/05/s.8_yb_th-160x160.jpg" alt="«Versicherer zahlen täglich 139 Mio. Fr. aus»"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">11</span>
+                <time datetime="2020-05-07T12:42:59+02:00" class="teaser__time">07.05.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/finanz/" target="_blank">Finanz</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock teaser__lock--is-locked" data-postid="1618765">
+                        <a href="https://www.fuw.ch/article/versicherer-zahlen-taeglich-139-mio-fr-aus/" target="_blank">
+                            <svg><use xlink:href="#icon--abo"></use></svg>
+                        </a>
+                    </span>
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/versicherer-zahlen-taeglich-139-mio-fr-aus/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', '«Versicherer zahlen täglich 139 Mio. Fr. aus» - 1618765', '', this); }">«Versicherer zahlen täglich 139 Mio. Fr. aus»</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/versicherer-zahlen-taeglich-139-mio-fr-aus/" target="_blank"> Thomas Helbling, Direktor des Versicherungsverbands, lobt die finanzielle Solvenz der Branchenunternehmen und stützt deren weitgehende Dividendenpolitik.
+</a>
+            </p>
+    <p class="teaser__tags"><strong>Autor:</strong> Thomas Hengartner</p><p class="teaser__tags"><strong>Stichwörter:</strong> <span>Helvetia</span><span>Swiss Life</span><span>Swiss Re</span><span>Versicherungen</span><span>Zurich Insurance</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/upc-schweiz-mit-umsatzrueckgang/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2019/02/288898218-t-160x160.jpg" alt="UPC Schweiz mit Umsatzrückgang"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">12</span>
+                <time datetime="2020-05-07T11:14:16+02:00" class="teaser__time">07.05.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a>, <a href="https://www.fuw.ch/unternehmen/technologie/" target="_blank">Technologie</a></span>
+    
+                    <span class="teaser__lock" data-postid="1618936"></span>
+        
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/upc-schweiz-mit-umsatzrueckgang/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'UPC Schweiz mit Umsatzrückgang - 1618936', '', this); }">UPC Schweiz mit Umsatzrückgang</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/upc-schweiz-mit-umsatzrueckgang/" target="_blank"> Bei der Kabelnetzbetreiberin geht die Talfahrt weiter. Sie verliert in den ersten drei Monaten 16'400 Abonnenten.</a>
+            </p>
+    <p class="teaser__tags"><strong>Stichwörter:</strong> <span>UPC Cablecom</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/osram-steigert-betriebsgewinn/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2020/05/osram_ledriving_dynamic_mirror_indicator-160x160.jpg" alt="Osram steigert Betriebsgewinn"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">13</span>
+                <time datetime="2020-05-07T09:25:37+02:00" class="teaser__time">07.05.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/ausland/" target="_blank">Ausland</a>, <a href="https://www.fuw.ch/unternehmen/technologie/" target="_blank">Technologie</a></span>
+    
+                    <span class="teaser__lock" data-postid="1619103"></span>
+        
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/osram-steigert-betriebsgewinn/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Osram steigert Betriebsgewinn - 1619103', '', this); }">Osram steigert Betriebsgewinn</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/osram-steigert-betriebsgewinn/" target="_blank"> Rückstellungen für das angekündigte Sparprogramm drücken den Münchner Lichtkonzern unter dem Strich allerdings in die roten Zahlen.</a>
+            </p>
+    
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/credit-suisse-im-unsicheren/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2019/12/322561433_1-6-t-160x160.jpg" alt="Credit Suisse im Unsicheren"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">14</span>
+                <time datetime="2020-05-07T08:51:36+02:00" class="teaser__time">07.05.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/finanz/" target="_blank">Finanz</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock" data-postid="1619078"></span>
+        
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/credit-suisse-im-unsicheren/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Credit Suisse im Unsicheren - 1619078', '', this); }">Credit Suisse im Unsicheren</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/credit-suisse-im-unsicheren/" target="_blank"> Wie gross die Auswirkungen der Coronapandemie auf das Geschäft seien, sei derzeit nicht abschätzbar. Die Bank hofft aber, dass die Ziele erreicht werden können.</a>
+            </p>
+    <p class="teaser__tags"><strong>Stichwörter:</strong> <span>Credit Suisse</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/abb-erhaelt-auftrag-von-stadler-rail/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2019/04/salvatore-di-nolfi-keystone-in-genf-t-160x160.jpg" alt="ABB erhält Auftrag von Stadler Rail"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">15</span>
+                <time datetime="2020-05-07T08:17:06+02:00" class="teaser__time">07.05.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/industrie/" target="_blank">Industrie</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock" data-postid="1619057"></span>
+        
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/abb-erhaelt-auftrag-von-stadler-rail/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'ABB erhält Auftrag von Stadler Rail - 1619057', '', this); }">ABB erhält Auftrag von Stadler Rail</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/abb-erhaelt-auftrag-von-stadler-rail/" target="_blank"> Der Industriekonzern wird über 160 Züge und Lokomotiven von Stadler mit Elektrotechnik ausrüsten. </a>
+            </p>
+    <p class="teaser__tags"><strong>Stichwörter:</strong> <span>ABB</span><span>Stadler Rail</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/gilead-chef-im-auge-des-coronasturms/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2020/05/361739886-160x160.jpg" alt="Gilead-Chef: Im Auge des Coronasturms"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">16</span>
+                <time datetime="2020-05-07T07:40:43+02:00" class="teaser__time">07.05.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/gesundheit/" target="_blank">Gesundheit</a></span>
+    
+                    <span class="teaser__lock teaser__lock--is-locked" data-postid="1618900">
+                        <a href="https://www.fuw.ch/article/gilead-chef-im-auge-des-coronasturms/" target="_blank">
+                            <svg><use xlink:href="#icon--abo"></use></svg>
+                        </a>
+                    </span>
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/gilead-chef-im-auge-des-coronasturms/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Gilead-Chef: Im Auge des Coronasturms - 1618900', '', this); }">Gilead-Chef: Im Auge des Coronasturms</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/gilead-chef-im-auge-des-coronasturms/" target="_blank"> Daniel O’Day, CEO und Chairman von Gilead, ist auf heikler Mission. Remdesivir ist das erste Mittel, das Covid-19-Patienten hilft. Das ist Freude und Bürde zugleich. </a>
+            </p>
+    <p class="teaser__tags"><strong>Autor:</strong> Rupen Boyadjian</p><p class="teaser__tags"><strong>Stichwörter:</strong> <span>Gilead Sciences</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/molecular-partners-sieht-pipeline-projekte-bis-2021-finanziert/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2020/02/111744940_highres-t-160x160.jpg" alt="Molecular kann Coronavirus neutralisieren"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">17</span>
+                <time datetime="2020-05-07T07:38:38+02:00" class="teaser__time">07.05.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/gesundheit/" target="_blank">Gesundheit</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock" data-postid="1618930"></span>
+        
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/molecular-partners-sieht-pipeline-projekte-bis-2021-finanziert/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Molecular kann Coronavirus neutralisieren - 1618930', '', this); }">Molecular kann Coronavirus neutralisieren</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/molecular-partners-sieht-pipeline-projekte-bis-2021-finanziert/" target="_blank"> Im Labor haben mehrere Wirkstoffkandidaten sehr hohe antivirale Aktivität gezeigt. Die übrigen Projekte sind im ersten Quartal auf Kurs.</a>
+            </p>
+    <p class="teaser__tags"><strong>Stichwörter:</strong> <span>Molecular Partners</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/mch-sucht-nachfolger-fuer-baselworld/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2020/02/337798970_highres-t-160x160.jpg" alt="MCH sucht Nachfolger für Baselworld"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">18</span>
+                <time datetime="2020-05-07T07:25:01+02:00" class="teaser__time">07.05.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/konsum/" target="_blank">Konsum</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock" data-postid="1619012"></span>
+        
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/mch-sucht-nachfolger-fuer-baselworld/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'MCH sucht Nachfolger für Baselworld - 1619012', '', this); }">MCH sucht Nachfolger für Baselworld</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/mch-sucht-nachfolger-fuer-baselworld/" target="_blank"> MCH und Aussteller einigen sich im Streit über die 2020 ausgefallene Messe. Der auf Januar 2021 verschobene Termin wird abgesagt.</a>
+            </p>
+    <p class="teaser__tags"><strong>Stichwörter:</strong> <span>MCH Group</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/staenderat-fegt-dividendenverbot-vom-tisch/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2019/02/369750920-t-160x160.jpg" alt="Ständerat fegt Dividendenverbot vom Tisch"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">19</span>
+                <time datetime="2020-05-06T17:41:54+02:00" class="teaser__time">06.05.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock" data-postid="1618962"></span>
+        
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/staenderat-fegt-dividendenverbot-vom-tisch/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Ständerat fegt Dividendenverbot vom Tisch - 1618962', '', this); }">Ständerat fegt Dividendenverbot vom Tisch</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/staenderat-fegt-dividendenverbot-vom-tisch/" target="_blank"> Nun also doch nicht: Der Ständerat lehnte den Entscheid des Nationalrats von Dienstagabend ab.</a>
+            </p>
+    <p class="teaser__tags"><strong>Stichwörter:</strong> <span>Coronavirus</span><span>Schweizer Politik</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/gesetzliche-grundlage-fuer-staatshilfen-fuer-flugnahe-betriebe-steht/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2018/12/338973124-t-160x160.jpg" alt="Gesetzliche Grundlage für Staatshilfen für flugnahe Betriebe steht"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">20</span>
+                <time datetime="2020-05-06T15:34:28+02:00" class="teaser__time">06.05.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock" data-postid="1618946"></span>
+        
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/gesetzliche-grundlage-fuer-staatshilfen-fuer-flugnahe-betriebe-steht/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Gesetzliche Grundlage für Staatshilfen für flugnahe Betriebe steht - 1618946', '', this); }">Gesetzliche Grundlage für Staatshilfen für flugnahe Betriebe steht</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/gesetzliche-grundlage-fuer-staatshilfen-fuer-flugnahe-betriebe-steht/" target="_blank"> Nach den Fluggesellschaften sollen auch deren Zulieferer von staatlicher Unterstützung profitieren. </a>
+            </p>
+    <p class="teaser__tags"><strong>Stichwörter:</strong> <span>Coronavirus</span><span>Flughafen Zürich</span><span>Gategroup</span><span>Schweizer Politik</span><span>Swissport</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/neue-akzente-im-immobiliensektor/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2020/05/s.9_ir_ga-160x160.jpg" alt="Neue Akzente im Immobiliensektor"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">21</span>
+                <time datetime="2020-05-06T14:01:56+02:00" class="teaser__time">06.05.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/immobilien-unternehmen/" target="_blank">Immobilien</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock teaser__lock--is-locked" data-postid="1618499">
+                        <a href="https://www.fuw.ch/article/neue-akzente-im-immobiliensektor/" target="_blank">
+                            <svg><use xlink:href="#icon--abo"></use></svg>
+                        </a>
+                    </span>
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/neue-akzente-im-immobiliensektor/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Neue Akzente im Immobiliensektor - 1618499', '', this); }">Neue Akzente im Immobiliensektor</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/neue-akzente-im-immobiliensektor/" target="_blank"> Das Segment Wohnen wird wieder entdeckt, weil es einen stabileren Einnahmenfluss verspricht. Das Korrekturrisiko liegt im Büromarkt.</a>
+            </p>
+    <p class="teaser__tags"><strong>Autor:</strong> Wolfgang Gamma</p><p class="teaser__tags"><strong>Stichwörter:</strong> <span>Immobilien Schweiz</span><span>Investis</span><span>PSP</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/bank-reyl-lanciert-digitalbank/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2019/08/computer-3239667_1920-1-t-160x160.jpg" alt="Bank Reyl lanciert Digitalbank"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">22</span>
+                <time datetime="2020-05-06T13:31:34+02:00" class="teaser__time">06.05.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/finanz/" target="_blank">Finanz</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock teaser__lock--is-locked" data-postid="1618860">
+                        <a href="https://www.fuw.ch/article/bank-reyl-lanciert-digitalbank/" target="_blank">
+                            <svg><use xlink:href="#icon--abo"></use></svg>
+                        </a>
+                    </span>
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/bank-reyl-lanciert-digitalbank/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Bank Reyl lanciert Digitalbank - 1618860', '', this); }">Bank Reyl lanciert Digitalbank</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/bank-reyl-lanciert-digitalbank/" target="_blank"> Alpian will Vermögensverwaltung via App anbieten und strebt die Banklizenz an. Der Markteintritt soll Anfang 2021 erfolgen. </a>
+            </p>
+    <p class="teaser__tags"><strong>Autor:</strong> Beatrice Bösiger</p><p class="teaser__tags"><strong>Stichwörter:</strong> <span>Digitalisierung</span><span>Private Banking</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/landisgyr-mit-umsatzrueckgang/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2018/10/323030573-t-1-160x160.jpg" alt="Landis+Gyr steht vor Einbruch"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">23</span>
+                <time datetime="2020-05-06T12:26:27+02:00" class="teaser__time">06.05.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/industrie/" target="_blank">Industrie</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock teaser__lock--is-locked" data-postid="1618367">
+                        <a href="https://www.fuw.ch/article/landisgyr-mit-umsatzrueckgang/" target="_blank">
+                            <svg><use xlink:href="#icon--abo"></use></svg>
+                        </a>
+                    </span>
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/landisgyr-mit-umsatzrueckgang/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Landis+Gyr steht vor Einbruch - 1618367', '', this); }">Landis+Gyr steht vor Einbruch</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/landisgyr-mit-umsatzrueckgang/" target="_blank"><span class="teaser__lead-marker">Analyse | </span> Dem Stromzählerspezialist fehlten die Aufträge schon vor der Covid-19-Krise. Jetzt dürfte der Umsatz wegbrechen.</a>
+            </p>
+    <p class="teaser__tags"><strong>Autor:</strong> Eflamm Mordrelle</p><p class="teaser__tags"><strong>Stichwörter:</strong> <span>Landis+Gyr</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/schmolzbickenbach-erelidet-verlust-im-ersten-quartal/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2018/07/228736348-t-160x160.jpg" alt="Schmolz + Bickenbach ist hart getroffen"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">24</span>
+                <time datetime="2020-05-06T12:08:29+02:00" class="teaser__time">06.05.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/industrie/" target="_blank">Industrie</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock teaser__lock--is-locked" data-postid="1618368">
+                        <a href="https://www.fuw.ch/article/schmolzbickenbach-erelidet-verlust-im-ersten-quartal/" target="_blank">
+                            <svg><use xlink:href="#icon--abo"></use></svg>
+                        </a>
+                    </span>
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/schmolzbickenbach-erelidet-verlust-im-ersten-quartal/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Schmolz + Bickenbach ist hart getroffen - 1618368', '', this); }">Schmolz + Bickenbach ist hart getroffen</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/schmolzbickenbach-erelidet-verlust-im-ersten-quartal/" target="_blank"><span class="teaser__lead-marker">Analyse | </span> Die Coronakrise kommt für den Spezialstahlhersteller gemäss CEO Clemens Iller zu einem «äusserst schlechten Zeitpunkt».</a>
+            </p>
+    <p class="teaser__tags"><strong>Autor:</strong> Adrian Blum</p><p class="teaser__tags"><strong>Stichwörter:</strong> <span>Schmolz + Bickenbach</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/ubs-und-credit-suisse-sind-bussenmaschinen/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2020/05/s.6_ir_ubs_vas-160x160.jpg" alt="UBS und Credit Suisse sind Bussenmaschinen"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">25</span>
+                <time datetime="2020-05-06T09:45:47+02:00" class="teaser__time">06.05.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/finanz/" target="_blank">Finanz</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock teaser__lock--is-locked" data-postid="1618432">
+                        <a href="https://www.fuw.ch/article/ubs-und-credit-suisse-sind-bussenmaschinen/" target="_blank">
+                            <svg><use xlink:href="#icon--abo"></use></svg>
+                        </a>
+                    </span>
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/ubs-und-credit-suisse-sind-bussenmaschinen/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'UBS und Credit Suisse sind Bussenmaschinen - 1618432', '', this); }">UBS und Credit Suisse sind Bussenmaschinen</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/ubs-und-credit-suisse-sind-bussenmaschinen/" target="_blank"> Der US-Steuerstreit ist bald beendet. Doch die Rechtsfälle vor allem der Grossbanken sind noch immer zahlreich. Strafzahlungen werden weiter fliessen.</a>
+            </p>
+    <p class="teaser__tags"><strong>Autor:</strong> Valentin Ade</p><p class="teaser__tags"><strong>Stichwörter:</strong> <span>Credit Suisse</span><span>UBS</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/moodys-senkt-ausblick-fuer-clariant-kreditrating-auf-stabil/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2019/06/180483871-t-1-160x160.jpg" alt="Moody's senkt Ausblick für Clariant-Kreditrating auf stabil"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">26</span>
+                <time datetime="2020-05-06T09:17:29+02:00" class="teaser__time">06.05.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/industrie/" target="_blank">Industrie</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock" data-postid="1618682"></span>
+        
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/moodys-senkt-ausblick-fuer-clariant-kreditrating-auf-stabil/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Moodys senkt Ausblick für Clariant-Kreditrating auf stabil - 1618682', '', this); }">Moody's senkt Ausblick für Clariant-Kreditrating auf stabil</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/moodys-senkt-ausblick-fuer-clariant-kreditrating-auf-stabil/" target="_blank"> Die Ratingagentur stuft den Spezialchemiekonzern herab. Das Finanzprofil werde sich in den nächsten zwölf bis achtzehn Monaten verschlechtern. </a>
+            </p>
+    <p class="teaser__tags"><strong>Stichwörter:</strong> <span>Clariant</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/veraison-steigt-bei-aryzta-ein/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2019/06/73424725_highres-t-160x160.jpg" alt="Veraison steigt bei Aryzta ein"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">27</span>
+                <time datetime="2020-05-06T08:27:53+02:00" class="teaser__time">06.05.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/konsum/" target="_blank">Konsum</a></span>
+    
+                    <span class="teaser__lock" data-postid="1618645"></span>
+        
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/veraison-steigt-bei-aryzta-ein/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Veraison steigt bei Aryzta ein - 1618645', '', this); }">Veraison steigt bei Aryzta ein</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/veraison-steigt-bei-aryzta-ein/" target="_blank"> Die Investmentgesellschaft Veraison hält neu 3,2% des Aktienkapitals an Aryzta. Die Aktien des Grossbäckers reagieren mit Avancen.</a>
+            </p>
+    <p class="teaser__tags"><strong>Stichwörter:</strong> <span>Aryzta</span><span>Veraison</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/hochdorf-schliesst-drei-verlustbringende-tochterfirmen/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2019/03/66878910-t-160x160.jpg" alt="Hochdorf schliesst drei Tochterfirmen"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">28</span>
+                <time datetime="2020-05-06T08:02:07+02:00" class="teaser__time">06.05.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/konsum/" target="_blank">Konsum</a></span>
+    
+                    <span class="teaser__lock" data-postid="1618598"></span>
+        
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/hochdorf-schliesst-drei-verlustbringende-tochterfirmen/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Hochdorf schliesst drei Tochterfirmen - 1618598', '', this); }">Hochdorf schliesst drei Tochterfirmen</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/hochdorf-schliesst-drei-verlustbringende-tochterfirmen/" target="_blank"> Der Milchverarbeiter Hochdorf setzt die Restrukturierung fort und löst verlustbringende Einheiten auf.</a>
+            </p>
+    <p class="teaser__tags"><strong>Stichwörter:</strong> <span>Hochdorf</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/banque-profil-de-gestion-schreibt-verlust-im-ersten-quartal/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2019/05/323112263_highres-t-160x160.jpg" alt="Banque Profil de Gestion schreibt Verlust"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">29</span>
+                <time datetime="2020-05-06T07:33:45+02:00" class="teaser__time">06.05.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/finanz/" target="_blank">Finanz</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock" data-postid="1618590"></span>
+        
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/banque-profil-de-gestion-schreibt-verlust-im-ersten-quartal/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Banque Profil de Gestion schreibt Verlust - 1618590', '', this); }">Banque Profil de Gestion schreibt Verlust</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/banque-profil-de-gestion-schreibt-verlust-im-ersten-quartal/" target="_blank"> Die Genfer Bank startet mit einem Verlust in das neue Geschäftsjahr, kann ihn allerdings leicht verringern. </a>
+            </p>
+    <p class="teaser__tags"><strong>Stichwörter:</strong> <span>Banque Profil de Gestion</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/relief-therapeutics-startet-phase-2-studie-gegen-covid-19/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2019/03/gettyimages-494796825-t-160x160.jpg" alt="Relief Therapeutics startet Phase-2-Studie gegen Covid-19"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">30</span>
+                <time datetime="2020-05-06T07:25:44+02:00" class="teaser__time">06.05.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/gesundheit/" target="_blank">Gesundheit</a></span>
+    
+                    <span class="teaser__lock" data-postid="1618588"></span>
+        
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/relief-therapeutics-startet-phase-2-studie-gegen-covid-19/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Relief Therapeutics startet Phase-2-Studie gegen Covid-19 - 1618588', '', this); }">Relief Therapeutics startet Phase-2-Studie gegen Covid-19</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/relief-therapeutics-startet-phase-2-studie-gegen-covid-19/" target="_blank"> Das Biotech-Unternehmen beginnt in den USA eine Phase-2-Studie mit dem Mittel Aviptadil.</a>
+            </p>
+    <p class="teaser__tags"><strong>Stichwörter:</strong> <span>Coronavirus</span><span>Relief Therapeutics</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/der-praktikus-vom-6-mai-2020/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2019/01/app_logo_praktikus-160x160.jpg" alt="Der Praktikus"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">31</span>
+                <time datetime="2020-05-05T17:30:42+02:00" class="teaser__time">05.05.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/praktikus/" target="_blank">Praktikus</a></span>
+    
+                    <span class="teaser__lock teaser__lock--is-locked" data-postid="1618483">
+                        <a href="https://www.fuw.ch/article/der-praktikus-vom-6-mai-2020/" target="_blank">
+                            <svg><use xlink:href="#icon--abo"></use></svg>
+                        </a>
+                    </span>
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/der-praktikus-vom-6-mai-2020/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Der Praktikus - 1618483', '', this); }">Der Praktikus</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/der-praktikus-vom-6-mai-2020/" target="_blank"> Die Themen: das Nachtreten gegen Zur Rose, der stockende Leclanché-Ladezyklus, der Wiederholungstäter Elon Musk und die EU-Schulden.</a>
+            </p>
+    <p class="teaser__tags"><strong>Stichwörter:</strong> <span>Credit Suisse</span><span>Leclanché</span><span>Medacta</span><span>Steuerstreit</span><span>Tesla Motors</span><span>UBS</span><span>Zur Rose</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/aluflexpack-setzt-mehr-um/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2020/05/381614839_highres-160x160.jpg" alt="Aluflexpack bestätigt Ausblick"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">32</span>
+                <time datetime="2020-05-05T16:50:48+02:00" class="teaser__time">05.05.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/industrie/" target="_blank">Industrie</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock teaser__lock--is-locked" data-postid="1617938">
+                        <a href="https://www.fuw.ch/article/aluflexpack-setzt-mehr-um/" target="_blank">
+                            <svg><use xlink:href="#icon--abo"></use></svg>
+                        </a>
+                    </span>
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/aluflexpack-setzt-mehr-um/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Aluflexpack bestätigt Ausblick - 1617938', '', this); }">Aluflexpack bestätigt Ausblick</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/aluflexpack-setzt-mehr-um/" target="_blank"><span class="teaser__lead-marker">Analyse | </span> Der Verpackungsspezialist trotzt der Krise. Das kommt gut an.
+</a>
+            </p>
+    <p class="teaser__tags"><strong>Autor:</strong> Rainer Weihofen</p><p class="teaser__tags"><strong>Stichwörter:</strong> <span>Aluflexpack</span><span>Industrie Schweiz</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/oc-oerlikon-setzt-markant-weniger-um/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2016/11/69030535-t-160x160.jpg" alt="Oerlikon muss Stellen streichen"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">33</span>
+                <time datetime="2020-05-05T16:50:11+02:00" class="teaser__time">05.05.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a>, <a href="https://www.fuw.ch/unternehmen/technologie/" target="_blank">Technologie</a></span>
+    
+                    <span class="teaser__lock teaser__lock--is-locked" data-postid="1617934">
+                        <a href="https://www.fuw.ch/article/oc-oerlikon-setzt-markant-weniger-um/" target="_blank">
+                            <svg><use xlink:href="#icon--abo"></use></svg>
+                        </a>
+                    </span>
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/oc-oerlikon-setzt-markant-weniger-um/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Oerlikon muss Stellen streichen - 1617934', '', this); }">Oerlikon muss Stellen streichen</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/oc-oerlikon-setzt-markant-weniger-um/" target="_blank"><span class="teaser__lead-marker">Analyse | </span> In Teilen der Sparte Oberflächentechnik wird sich die Nachfrage nur langsam erholen.</a>
+            </p>
+    <p class="teaser__tags"><strong>Autor:</strong> Andreas Meier</p><p class="teaser__tags"><strong>Stichwörter:</strong> <span>OC Oerlikon</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/psp-gibt-sich-vorsichtiger/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2019/08/88351581_highres-t-160x160.jpg" alt="Vorsichtigere PSP"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">34</span>
+                <time datetime="2020-05-05T16:45:00+02:00" class="teaser__time">05.05.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/immobilien-unternehmen/" target="_blank">Immobilien</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock teaser__lock--is-locked" data-postid="1617943">
+                        <a href="https://www.fuw.ch/article/psp-gibt-sich-vorsichtiger/" target="_blank">
+                            <svg><use xlink:href="#icon--abo"></use></svg>
+                        </a>
+                    </span>
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/psp-gibt-sich-vorsichtiger/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Vorsichtigere PSP - 1617943', '', this); }">Vorsichtigere PSP</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/psp-gibt-sich-vorsichtiger/" target="_blank"><span class="teaser__lead-marker">Analyse | </span> Der Immobilienkonzern PSP Swiss Property verbucht im ersten Quartal einen Gewinnrückgang. Er reduziert den Ausblick leicht.</a>
+            </p>
+    <p class="teaser__tags"><strong>Autor:</strong> Wolfgang Gamma</p><p class="teaser__tags"><strong>Stichwörter:</strong> <span>PSP</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/chefanalysten-raten-zum-investieren/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2020/05/39857-160x160.jpg" alt="Chefanalysten raten zum Investieren"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">35</span>
+                <time datetime="2020-05-05T16:37:33+02:00" class="teaser__time">05.05.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock teaser__lock--is-locked" data-postid="1618394">
+                        <a href="https://www.fuw.ch/article/chefanalysten-raten-zum-investieren/" target="_blank">
+                            <svg><use xlink:href="#icon--abo"></use></svg>
+                        </a>
+                    </span>
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/chefanalysten-raten-zum-investieren/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Chefanalysten raten zum Investieren - 1618394', '', this); }">Chefanalysten raten zum Investieren</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/chefanalysten-raten-zum-investieren/" target="_blank"> Eine Expertenbefragung zeigt: Es könnte erneut zu Korrekturen kommen. Dennoch raten die meisten, investiert zu bleiben oder Aktien zuzukaufen.
+</a>
+            </p>
+    <p class="teaser__tags"><strong>Autor:</strong> Yvonne Debrunner</p><p class="teaser__tags"><strong>Stichwörter:</strong> <span>ABB</span><span>Arbonia-Forster</span><span>Logitech</span><span>Lonza</span><span>Nestlé</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/bei-ktm-wird-wieder-normal-gearbeitet/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2017/03/300023113-t-160x160.jpg" alt="Pierer Mobility profitiert vom Zweirad-Trend"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">36</span>
+                <time datetime="2020-05-05T15:10:00+02:00" class="teaser__time">05.05.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/industrie/" target="_blank">Industrie</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock teaser__lock--is-locked" data-postid="1618101">
+                        <a href="https://www.fuw.ch/article/bei-ktm-wird-wieder-normal-gearbeitet/" target="_blank">
+                            <svg><use xlink:href="#icon--abo"></use></svg>
+                        </a>
+                    </span>
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/bei-ktm-wird-wieder-normal-gearbeitet/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Pierer Mobility profitiert vom Zweirad-Trend - 1618101', '', this); }">Pierer Mobility profitiert vom Zweirad-Trend</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/bei-ktm-wird-wieder-normal-gearbeitet/" target="_blank"><span class="teaser__lead-marker">Analyse | </span> Die österreichische Fahrzeuggruppe Pierer Mobility beendet die Kurzarbeit für rund 3800 Mitarbeiter und spricht von «positiven Signalen aus den wieder geöffneten Märkten». </a>
+            </p>
+    <p class="teaser__tags"><strong>Autor:</strong> Christian Braun</p><p class="teaser__tags"><strong>Stichwörter:</strong> <span>KTM</span><span>Pierer Mobility</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/comet-erhaelt-neuen-chef/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2016/11/253990602-t-160x160.jpg" alt="Comet erhält neuen Chef"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">37</span>
+                <time datetime="2020-05-05T15:09:55+02:00" class="teaser__time">05.05.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/industrie/" target="_blank">Industrie</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock teaser__lock--is-locked" data-postid="1618091">
+                        <a href="https://www.fuw.ch/article/comet-erhaelt-neuen-chef/" target="_blank">
+                            <svg><use xlink:href="#icon--abo"></use></svg>
+                        </a>
+                    </span>
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/comet-erhaelt-neuen-chef/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Comet erhält neuen Chef - 1618091', '', this); }">Comet erhält neuen Chef</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/comet-erhaelt-neuen-chef/" target="_blank"><span class="teaser__lead-marker">Analyse | </span> Kevin Crofton tritt im Herbst als CEO des Technologieunternehmens an. Der Grossaktionär Veraison ist zufrieden.
+</a>
+            </p>
+    <p class="teaser__tags"><strong>Autor:</strong> Gabriella Hunter</p><p class="teaser__tags"><strong>Stichwörter:</strong> <span>Comet</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/coronakrise-schlaegt-voll-auf-adecco-durch/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2018/02/adecco_t-160x160.jpg" alt="Abschreiber drückt Adecco in den Verlust"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">38</span>
+                <time datetime="2020-05-05T14:40:59+02:00" class="teaser__time">05.05.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/konsum/" target="_blank">Konsum</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock teaser__lock--is-locked" data-postid="1617941">
+                        <a href="https://www.fuw.ch/article/coronakrise-schlaegt-voll-auf-adecco-durch/" target="_blank">
+                            <svg><use xlink:href="#icon--abo"></use></svg>
+                        </a>
+                    </span>
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/coronakrise-schlaegt-voll-auf-adecco-durch/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Abschreiber drückt Adecco in den Verlust - 1617941', '', this); }">Abschreiber drückt Adecco in den Verlust</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/coronakrise-schlaegt-voll-auf-adecco-durch/" target="_blank"><span class="teaser__lead-marker">Analyse | </span> Der Stellenvermittler wird durch die Coronakrise ausgebremst. Trotz Quartalsverlust dürfte die attraktive Dividende gesichert sein.</a>
+            </p>
+    <p class="teaser__tags"><strong>Autor:</strong> Ivo Ruch</p><p class="teaser__tags"><strong>Stichwörter:</strong> <span>Adecco</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/positive-daten-fuer-vifor-mittel/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2018/05/309608775-t-160x160.jpg" alt="Positive Daten für Vifor-Mittel"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">39</span>
+                <time datetime="2020-05-05T14:02:16+02:00" class="teaser__time">05.05.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/gesundheit/" target="_blank">Gesundheit</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock" data-postid="1618365"></span>
+        
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/positive-daten-fuer-vifor-mittel/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Positive Daten für Vifor-Mittel - 1618365', '', this); }">Positive Daten für Vifor-Mittel</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/positive-daten-fuer-vifor-mittel/" target="_blank"> Der Vifor-Partner Akebia erreicht in einer Phase-III-Studie mit Vadadustat die Ziele. Die Aktien ziehen an.</a>
+            </p>
+    <p class="teaser__tags"><strong>Stichwörter:</strong> <span>Vifor Pharma</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/sig-combibloc-schreibt-verlust/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2019/11/ennio-leanza-keystone-t-160x160.jpg" alt="SIG trotzt der Krise und wächst weiter"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">40</span>
+                <time datetime="2020-05-05T13:40:30+02:00" class="teaser__time">05.05.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/industrie/" target="_blank">Industrie</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock teaser__lock--is-locked" data-postid="1617936">
+                        <a href="https://www.fuw.ch/article/sig-combibloc-schreibt-verlust/" target="_blank">
+                            <svg><use xlink:href="#icon--abo"></use></svg>
+                        </a>
+                    </span>
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/sig-combibloc-schreibt-verlust/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'SIG trotzt der Krise und wächst weiter - 1617936', '', this); }">SIG trotzt der Krise und wächst weiter</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/sig-combibloc-schreibt-verlust/" target="_blank"><span class="teaser__lead-marker">Analyse | </span> Schwache Währungen sorgen für einen Quartalsverlust. Der Verpackungsspezialist bestätigt die Prognose.</a>
+            </p>
+    <p class="teaser__tags"><strong>Autor:</strong> Rainer Weihofen</p><p class="teaser__tags"><strong>Stichwörter:</strong> <span>SIG Combibloc</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/helvetia-geht-auf-gastrobetriebe-zu/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2019/12/393621508_highres-t-160x160.jpg" alt="Helvetia geht auf Gastrobetriebe zu"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">41</span>
+                <time datetime="2020-05-05T11:25:00+02:00" class="teaser__time">05.05.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/finanz/" target="_blank">Finanz</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock" data-postid="1618289"></span>
+        
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/helvetia-geht-auf-gastrobetriebe-zu/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Helvetia geht auf Gastrobetriebe zu - 1618289', '', this); }">Helvetia geht auf Gastrobetriebe zu</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/helvetia-geht-auf-gastrobetriebe-zu/" target="_blank"> Der Versicherungskonzern will Gastrounternehmen mit Epidemieversicherung eine Vergleichslösung anbieten.</a>
+            </p>
+    <p class="teaser__tags"><strong>Stichwörter:</strong> <span>Helvetia</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/virus-setzt-sich-in-policen-fest/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2020/05/g_s21_versicherung_th-01-160x160.jpg" alt="Virus setzt sich in Versicherungspolicen fest"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">42</span>
+                <time datetime="2020-05-05T11:07:13+02:00" class="teaser__time">05.05.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/finanz/" target="_blank">Finanz</a></span>
+    
+                    <span class="teaser__lock teaser__lock--is-locked" data-postid="1617837">
+                        <a href="https://www.fuw.ch/article/virus-setzt-sich-in-policen-fest/" target="_blank">
+                            <svg><use xlink:href="#icon--abo"></use></svg>
+                        </a>
+                    </span>
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/virus-setzt-sich-in-policen-fest/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Virus setzt sich in Versicherungspolicen fest - 1617837', '', this); }">Virus setzt sich in Versicherungspolicen fest</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/virus-setzt-sich-in-policen-fest/" target="_blank"> Die Versicherer kommen wegen der Wirtschaftsschwäche zu weniger Neugeschäft. Nur für Pandemiedeckung dürfte die Nachfrage kräftig zunehmen. Doch hier haben die Unternehmen wenig zu bieten.</a>
+            </p>
+    <p class="teaser__tags"><strong>Autor:</strong> Thomas Hengartner</p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/lgt-macht-sparten-eigenstaendig/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2017/03/302580335-t-160x160.jpg" alt="LGT macht Sparten eigenständig"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">43</span>
+                <time datetime="2020-05-05T09:28:45+02:00" class="teaser__time">05.05.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/finanz/" target="_blank">Finanz</a></span>
+    
+                    <span class="teaser__lock teaser__lock--is-locked" data-postid="1618176">
+                        <a href="https://www.fuw.ch/article/lgt-macht-sparten-eigenstaendig/" target="_blank">
+                            <svg><use xlink:href="#icon--abo"></use></svg>
+                        </a>
+                    </span>
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/lgt-macht-sparten-eigenstaendig/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'LGT macht Sparten eigenständig - 1618176', '', this); }">LGT macht Sparten eigenständig</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/lgt-macht-sparten-eigenstaendig/" target="_blank"> Die liechtensteinische Finanzgruppe erhofft sich von der neuen Struktur mehr Schlagkraft. Die Rückkehr an die Börse ist jedoch kein Thema.</a>
+            </p>
+    <p class="teaser__tags"><strong>Autor:</strong> Stefan Krähenbühl</p><p class="teaser__tags"><strong>Stichwörter:</strong> <span>LGT</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/polyphor-beantragt-neues-aktienkapital/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2018/12/357412517-t-160x160.jpg" alt="Polyphor beantragt neues Aktienkapital"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">44</span>
+                <time datetime="2020-05-05T08:28:13+02:00" class="teaser__time">05.05.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/gesundheit/" target="_blank">Gesundheit</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock" data-postid="1618152"></span>
+        
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/polyphor-beantragt-neues-aktienkapital/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Polyphor beantragt neues Aktienkapital - 1618152', '', this); }">Polyphor beantragt neues Aktienkapital</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/polyphor-beantragt-neues-aktienkapital/" target="_blank"> Das Biopharmaunternehmen verlangt von den Aktionären ein Aktienkapital von 11,1 Mio. Fr. Damit beabsichtigt es, strategische Flexibilität zu gewinnen.</a>
+            </p>
+    <p class="teaser__tags"><strong>Stichwörter:</strong> <span>Polyphor</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/obseva-daemmt-minus-ein/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2018/12/348187965-t-160x160.jpg" alt="ObsEva dämmt Minus ein"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">45</span>
+                <time datetime="2020-05-05T07:55:35+02:00" class="teaser__time">05.05.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/gesundheit/" target="_blank">Gesundheit</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock" data-postid="1618116"></span>
+        
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/obseva-daemmt-minus-ein/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'ObsEva dämmt Minus ein - 1618116', '', this); }">ObsEva dämmt Minus ein</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/obseva-daemmt-minus-ein/" target="_blank"> Das Genfer Biotech-Unternehmen reduziert im ersten Quartal den Verlust und rechnet mit wichtigen Studiendaten im zweiten.</a>
+            </p>
+    <p class="teaser__tags"><strong>Stichwörter:</strong> <span>ObsEva</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/newrons-mittel-sarizotan-scheitert/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2019/05/newron-zvg-t-160x160.jpg" alt="Newron stürzen nach Rückschlag ab"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">46</span>
+                <time datetime="2020-05-04T15:59:40+02:00" class="teaser__time">04.05.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/gesundheit/" target="_blank">Gesundheit</a></span>
+    
+                    <span class="teaser__lock teaser__lock--is-locked" data-postid="1617735">
+                        <a href="https://www.fuw.ch/article/newrons-mittel-sarizotan-scheitert/" target="_blank">
+                            <svg><use xlink:href="#icon--abo"></use></svg>
+                        </a>
+                    </span>
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/newrons-mittel-sarizotan-scheitert/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Newron stürzen nach Rückschlag ab - 1617735', '', this); }">Newron stürzen nach Rückschlag ab</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/newrons-mittel-sarizotan-scheitert/" target="_blank"><span class="teaser__lead-marker">Analyse | </span> Der Wirkstoff Sarizotan, mit dem Patientinnen mit Rett-Syndrom hätten behandelt werden sollen, hat in einer Phase-III-Studie enttäuscht.</a>
+            </p>
+    <p class="teaser__tags"><strong>Autor:</strong> Rupen Boyadjian</p><p class="teaser__tags"><strong>Stichwörter:</strong> <span>Newron</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/breite-unterstuetzung-fuer-corona-notkredite/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2020/05/415378808_highres-160x160.jpg" alt="Breite Unterstützung für Corona-Notkredite"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">47</span>
+                <time datetime="2020-05-04T15:33:59+02:00" class="teaser__time">04.05.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock" data-postid="1618019"></span>
+        
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/breite-unterstuetzung-fuer-corona-notkredite/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Breite Unterstützung für Corona-Notkredite - 1618019', '', this); }">Breite Unterstützung für Corona-Notkredite</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/breite-unterstuetzung-fuer-corona-notkredite/" target="_blank"> Die Notkredite in Höhe von mehr als 57 Mrd. Fr. zur Bewältigung der Coronakrise sind im Nationalrat auf grosse Zustimmung gestossen. </a>
+            </p>
+    <p class="teaser__tags"><strong>Stichwörter:</strong> <span>Coronavirus</span><span>Schweizer Politik</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/alain-berset-krisenmanager/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2020/05/s.13_alessandrodellavallekey_pm-160x160.jpg" alt="Alain Berset: Krisenmanager"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">48</span>
+                <time datetime="2020-05-04T14:15:33+02:00" class="teaser__time">04.05.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/markte/makro/" target="_blank">Makro</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock teaser__lock--is-locked" data-postid="1617906">
+                        <a href="https://www.fuw.ch/article/alain-berset-krisenmanager/" target="_blank">
+                            <svg><use xlink:href="#icon--abo"></use></svg>
+                        </a>
+                    </span>
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/alain-berset-krisenmanager/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Alain Berset: Krisenmanager - 1617906', '', this); }">Alain Berset: Krisenmanager</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/alain-berset-krisenmanager/" target="_blank"> Der Innenminister ist in Zeiten der Coronapandemie die ­dominante Figur im Bundesrat.</a>
+            </p>
+    <p class="teaser__tags"><strong>Autor:</strong> Peter Morf</p><p class="teaser__tags"><strong>Stichwörter:</strong> <span>Schweizer Politik</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/aryzta-kaempft-gegen-coronakrise/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2019/11/22149770_highres-t-160x160.jpg" alt="Aryzta benötigt mehr finanziellen Spielraum"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">49</span>
+                <time datetime="2020-05-04T13:45:03+02:00" class="teaser__time">04.05.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/konsum/" target="_blank">Konsum</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock teaser__lock--is-locked" data-postid="1617736">
+                        <a href="https://www.fuw.ch/article/aryzta-kaempft-gegen-coronakrise/" target="_blank">
+                            <svg><use xlink:href="#icon--abo"></use></svg>
+                        </a>
+                    </span>
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/aryzta-kaempft-gegen-coronakrise/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Aryzta benötigt mehr finanziellen Spielraum - 1617736', '', this); }">Aryzta benötigt mehr finanziellen Spielraum</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/aryzta-kaempft-gegen-coronakrise/" target="_blank"><span class="teaser__lead-marker">Analyse | </span> Der Backwarenkonzern bekommt von den Banken neue Kreditkonditionen. Erfreulich ist die verbesserte Liquidität.</a>
+            </p>
+    <p class="teaser__tags"><strong>Autor:</strong> Ivo Ruch</p><p class="teaser__tags"><strong>Stichwörter:</strong> <span>Aryzta</span><span>Konsum</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/coronakrise-verschaerft-thyssenkrupps-kassenlage/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2020/05/361348359-160x160.jpg" alt="ThyssenKrupp ist in Geldnöten"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">50</span>
+                <time datetime="2020-05-04T10:54:06+02:00" class="teaser__time">04.05.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/ausland/" target="_blank">Ausland</a>, <a href="https://www.fuw.ch/unternehmen/industrie/" target="_blank">Industrie</a></span>
+    
+                    <span class="teaser__lock" data-postid="1617870"></span>
+        
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/coronakrise-verschaerft-thyssenkrupps-kassenlage/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'ThyssenKrupp ist in Geldnöten - 1617870', '', this); }">ThyssenKrupp ist in Geldnöten</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/coronakrise-verschaerft-thyssenkrupps-kassenlage/" target="_blank"> Die Einbussen durch die Coronaviruskrise fressen Einnahmen aus dem milliardenschweren Verkauf der Aufzugssparte auf. Die Aktien fallen.</a>
+            </p>
+    <p class="teaser__tags"><strong>Autor:</strong> Eflamm Mordrelle</p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/quintet-schweiz-geht-an-den-start/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2015/02/Bellevue-Group-ZVG-T-160x160.jpg" alt="Quintet Schweiz geht an den Start"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">51</span>
+                <time datetime="2020-05-04T08:09:04+02:00" class="teaser__time">04.05.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/finanz/" target="_blank">Finanz</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock teaser__lock--is-locked" data-postid="1617650">
+                        <a href="https://www.fuw.ch/article/quintet-schweiz-geht-an-den-start/" target="_blank">
+                            <svg><use xlink:href="#icon--abo"></use></svg>
+                        </a>
+                    </span>
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/quintet-schweiz-geht-an-den-start/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Quintet Schweiz geht an den Start - 1617650', '', this); }">Quintet Schweiz geht an den Start</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/quintet-schweiz-geht-an-den-start/" target="_blank"> Die Übernahme der Bank am Bellevue ist vollzogen. Quintet Private Bank will in der Schweiz stark wachsen.</a>
+            </p>
+    <p class="teaser__tags"><strong>Autor:</strong> Monica Hegglin</p><p class="teaser__tags"><strong>Stichwörter:</strong> <span>Banken</span><span>Bellevue Group</span><span>Finanzplatz</span><span>Quintet</span><span>Schweiz</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/zur-rose-ceo-angeklagt/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2017/11/29382561-t-160x160.jpg" alt="Zur-Rose-CEO angeklagt"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">52</span>
+                <time datetime="2020-05-04T07:20:44+02:00" class="teaser__time">04.05.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/gesundheit/" target="_blank">Gesundheit</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock" data-postid="1617710"></span>
+        
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/zur-rose-ceo-angeklagt/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Zur-Rose-CEO angeklagt - 1617710', '', this); }">Zur-Rose-CEO angeklagt</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/zur-rose-ceo-angeklagt/" target="_blank"> Gegen Walter Oberhänsli hat die Staatsanwaltschaft Kreuzlingen Anklage erhoben. Es geht um den Versand von rezeptfreien Medikamenten sowie um Entschädigungen für Ärzte.</a>
+            </p>
+    <p class="teaser__tags"><strong>Stichwörter:</strong> <span>Zur Rose</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/der-ma-markt-wartet-auf-die-zuendung/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2020/04/s.5_saulgrandagetty_sk-160x160.jpg" alt="Der M&A-Markt wartet auf die Zündung"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">53</span>
+                <time datetime="2020-05-04T07:15:24+02:00" class="teaser__time">04.05.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock teaser__lock--is-locked" data-postid="1617487">
+                        <a href="https://www.fuw.ch/article/der-ma-markt-wartet-auf-die-zuendung/" target="_blank">
+                            <svg><use xlink:href="#icon--abo"></use></svg>
+                        </a>
+                    </span>
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/der-ma-markt-wartet-auf-die-zuendung/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Der M&A-Markt wartet auf die Zündung - 1617487', '', this); }">Der M&A-Markt wartet auf die Zündung</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/der-ma-markt-wartet-auf-die-zuendung/" target="_blank"> Übernahmeankündigungen sind ein rares Gut geworden. Doch im zweiten Semester könnte die Erholung einsetzen. Ziele gibt es zuhauf.</a>
+            </p>
+    <p class="teaser__tags"><strong>Autor:</strong> Stefan Krähenbühl</p><p class="teaser__tags"><strong>Stichwörter:</strong> <span>Mergers Acquisitions</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/fda-erteilt-notzulassung-fuer-roches-antikoerpertest/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2020/05/1zvg-roche-in-rotkreuz-t-160x160.jpg" alt="FDA erteilt Notzulassung für Roches Antikörpertest"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">54</span>
+                <time datetime="2020-05-03T06:42:56+02:00" class="teaser__time">03.05.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/gesundheit/" target="_blank">Gesundheit</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock" data-postid="1617666"></span>
+        
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/fda-erteilt-notzulassung-fuer-roches-antikoerpertest/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'FDA erteilt Notzulassung für Roches Antikörpertest - 1617666', '', this); }">FDA erteilt Notzulassung für Roches Antikörpertest</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/fda-erteilt-notzulassung-fuer-roches-antikoerpertest/" target="_blank"> Der Pharmakonzern will bald pro Monat Millionen Blutplasmatests zur Erkennung von Covid-19 produzieren.</a>
+            </p>
+    <p class="teaser__tags"><strong>Stichwörter:</strong> <span>Roche</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/gileads-coronamittel-erhaelt-notfallzulassung/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2017/04/m123877-1-t-160x160.jpg" alt="Gileads Coronamittel erhält Notfallzulassung"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">55</span>
+                <time datetime="2020-05-02T08:01:16+02:00" class="teaser__time">02.05.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/gesundheit/" target="_blank">Gesundheit</a></span>
+    
+                    <span class="teaser__lock teaser__lock--is-locked" data-postid="1617638">
+                        <a href="https://www.fuw.ch/article/gileads-coronamittel-erhaelt-notfallzulassung/" target="_blank">
+                            <svg><use xlink:href="#icon--abo"></use></svg>
+                        </a>
+                    </span>
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/gileads-coronamittel-erhaelt-notfallzulassung/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Gileads Coronamittel erhält Notfallzulassung - 1617638', '', this); }">Gileads Coronamittel erhält Notfallzulassung</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/gileads-coronamittel-erhaelt-notfallzulassung/" target="_blank"> Die US-Gesundheitsbehörde hat Remdesivir zur Behandlung schwer kranker Covid-19-Patienten in Spitälern freigegeben. </a>
+            </p>
+    <p class="teaser__tags"><strong>Stichwörter:</strong> <span>Coronavirus</span><span>Gilead Sciences</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/bank-hapoalim-zahlt-zweithoechste-strafe-im-us-steuerstreit/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2019/08/226271702-bloomberg-t-160x160.jpg" alt="Bank Hapoalim zahlt zweithöchste Strafe im US-Steuerstreit"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">56</span>
+                <time datetime="2020-05-01T18:20:16+02:00" class="teaser__time">01.05.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/finanz/" target="_blank">Finanz</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock" data-postid="1617622"></span>
+        
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/bank-hapoalim-zahlt-zweithoechste-strafe-im-us-steuerstreit/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Bank Hapoalim zahlt zweithöchste Strafe im US-Steuerstreit - 1617622', '', this); }">Bank Hapoalim zahlt zweithöchste Strafe im US-Steuerstreit</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/bank-hapoalim-zahlt-zweithoechste-strafe-im-us-steuerstreit/" target="_blank"> Die israelische Bank einigt sich für ihre ehemalige Schweizer Tochter mit den US-Behörden. Nun warten nur noch Pictet und Rahn+Bodmer.</a>
+            </p>
+    <p class="teaser__tags"><strong>Stichwörter:</strong> <span>Banken</span><span>FIFA</span><span>Pictet</span><span>Private Banking</span><span>Steuerstreit</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/tech-giganten-enteilen-der-realitaet/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2020/04/s.6_richarddehullessenkey_tr-160x160.jpg" alt="Tech-Giganten enteilen der Realität"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">57</span>
+                <time datetime="2020-05-01T11:44:30+02:00" class="teaser__time">01.05.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/ausland/" target="_blank">Ausland</a>, <a href="https://www.fuw.ch/unternehmen/technologie/" target="_blank">Technologie</a></span>
+    
+                    <span class="teaser__lock teaser__lock--is-locked" data-postid="1617575">
+                        <a href="https://www.fuw.ch/article/tech-giganten-enteilen-der-realitaet/" target="_blank">
+                            <svg><use xlink:href="#icon--abo"></use></svg>
+                        </a>
+                    </span>
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/tech-giganten-enteilen-der-realitaet/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Tech-Giganten enteilen der Realität - 1617575', '', this); }">Tech-Giganten enteilen der Realität</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/tech-giganten-enteilen-der-realitaet/" target="_blank"> Die Branchengrössen ziehen Bilanz. Unbeschadet kommen sie nicht durch die Krise, aber ihre Dienste sind gefragt wie nie – und teils auch ihre Aktien.</a>
+            </p>
+    <p class="teaser__tags"><strong>Autor:</strong> Thorsten Riedl</p><p class="teaser__tags"><strong>Stichwörter:</strong> <span>Alphabet</span><span>Amazon</span><span>Apple</span><span>Facebook</span><span>Google</span><span>Microsoft</span><span>Netflix</span><span>Technologie</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/lonza-soll-covid-impfstoff-produzieren/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2016/01/Dominic-Steinmann-Keystone-T-160x160.jpg" alt="Lonza soll Covid-Impfstoff produzieren"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">58</span>
+                <time datetime="2020-05-01T10:43:03+02:00" class="teaser__time">01.05.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/gesundheit/" target="_blank">Gesundheit</a></span>
+    
+                    <span class="teaser__lock" data-postid="1617608"></span>
+        
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/lonza-soll-covid-impfstoff-produzieren/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Lonza soll Covid-Impfstoff produzieren - 1617608', '', this); }">Lonza soll Covid-Impfstoff produzieren</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/lonza-soll-covid-impfstoff-produzieren/" target="_blank"> Wenn der neuartige mRNA-Impfstoff des US-Biotech-Unternehmens Moderna zugelassen wird, würde er zuerst in den USA und der Schweiz hergestellt.</a>
+            </p>
+    <p class="teaser__tags"><strong>Stichwörter:</strong> <span>Coronavirus</span><span>Lonza</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/leclanche-verschiebt-publikation-des-jahresberichts/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2020/05/1dominic-favre-keystone-t-160x160.jpg" alt="Leclanché verschiebt Publikation des Jahresberichts"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">59</span>
+                <time datetime="2020-05-01T10:08:57+02:00" class="teaser__time">01.05.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/energie/" target="_blank">Energie</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock" data-postid="1617594"></span>
+        
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/leclanche-verschiebt-publikation-des-jahresberichts/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Leclanché verschiebt Publikation des Jahresberichts - 1617594', '', this); }">Leclanché verschiebt Publikation des Jahresberichts</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/leclanche-verschiebt-publikation-des-jahresberichts/" target="_blank"> Beim Hersteller von Batterien verzögert die Aufnahme von zusätzlichen Mitteln die Abläufe.</a>
+            </p>
+    <p class="teaser__tags"><strong>Stichwörter:</strong> <span>Leclanché</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/shl-erleidet-gewinneinbruch/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2013/11/shl_T-160x160.jpg" alt="SHL erleidet Gewinneinbruch"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">60</span>
+                <time datetime="2020-04-30T19:00:35+02:00" class="teaser__time">30.04.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/gesundheit/" target="_blank">Gesundheit</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock" data-postid="1616936"></span>
+        
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/shl-erleidet-gewinneinbruch/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'SHL erleidet Gewinneinbruch - 1616936', '', this); }">SHL erleidet Gewinneinbruch</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/shl-erleidet-gewinneinbruch/" target="_blank"> Der Telemedizinanbieter hat einen etwas tieferen Umsatz erzielt und klar weniger verdient. </a>
+            </p>
+    <p class="teaser__tags"><strong>Stichwörter:</strong> <span>SHL Telemedicine</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/relief-verbucht-abschreiber-auf-spaeterem-covid-kandidaten/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2017/03/relief-therapeutics-t-160x160.png" alt="Relief verbucht Abschreiber auf späterem Covid-Kandidaten"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">61</span>
+                <time datetime="2020-04-30T18:40:45+02:00" class="teaser__time">30.04.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/gesundheit/" target="_blank">Gesundheit</a></span>
+    
+                    <span class="teaser__lock" data-postid="1617520"></span>
+        
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/relief-verbucht-abschreiber-auf-spaeterem-covid-kandidaten/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Relief verbucht Abschreiber auf späterem Covid-Kandidaten - 1617520', '', this); }">Relief verbucht Abschreiber auf späterem Covid-Kandidaten</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/relief-verbucht-abschreiber-auf-spaeterem-covid-kandidaten/" target="_blank"> Für das abgelaufene Geschäftsjahr weist Relief Therapeutics wegen einer Wertminderung einen deutlich höheren Verlust aus. </a>
+            </p>
+    <p class="teaser__tags"><strong>Stichwörter:</strong> <span>Coronavirus</span><span>Relief Therapeutics</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/leonteq-gewinnt-basler-kb-als-neue-partnerin/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2020/02/214470582-t-160x160.jpg" alt="Leonteq kann zusätzliche Partner präsentieren"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">62</span>
+                <time datetime="2020-04-30T18:34:39+02:00" class="teaser__time">30.04.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/finanz/" target="_blank">Finanz</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock teaser__lock--is-locked" data-postid="1617184">
+                        <a href="https://www.fuw.ch/article/leonteq-gewinnt-basler-kb-als-neue-partnerin/" target="_blank">
+                            <svg><use xlink:href="#icon--abo"></use></svg>
+                        </a>
+                    </span>
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/leonteq-gewinnt-basler-kb-als-neue-partnerin/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Leonteq kann zusätzliche Partner präsentieren - 1617184', '', this); }">Leonteq kann zusätzliche Partner präsentieren</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/leonteq-gewinnt-basler-kb-als-neue-partnerin/" target="_blank"> Der Derivatspezialist hat drei neue Kooperationen präsentiert. Das dürfte sich auch positiv auf die Aktien auswirken.</a>
+            </p>
+    <p class="teaser__tags"><strong>Autor:</strong> Beatrice Bösiger</p><p class="teaser__tags"><strong>Stichwörter:</strong> <span>Leonteq</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/ubs-prozess-in-frankreich-voraussichtlich-veschoben/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2020/02/347689137-t-160x160.jpg" alt="UBS-Prozess in Frankreich voraussichtlich veschoben"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">63</span>
+                <time datetime="2020-04-30T18:06:46+02:00" class="teaser__time">30.04.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/finanz/" target="_blank">Finanz</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock" data-postid="1617484"></span>
+        
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/ubs-prozess-in-frankreich-voraussichtlich-veschoben/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'UBS-Prozess in Frankreich voraussichtlich veschoben - 1617484', '', this); }">UBS-Prozess in Frankreich voraussichtlich veschoben</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/ubs-prozess-in-frankreich-voraussichtlich-veschoben/" target="_blank"> Die Grossbank wird wegen Geldwäsche und Beihilfe zu Steuerhinterziehung verurteilt. Der Prozess wird bis auf weiters verschoben. </a>
+            </p>
+    <p class="teaser__tags"><strong>Stichwörter:</strong> <span>UBS</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/der-praktikus-vom-02-mai-2020/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2019/01/app_logo_praktikus-160x160.jpg" alt="Der Praktikus vom 2. Mai 2020"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">64</span>
+                <time datetime="2020-04-30T17:30:42+02:00" class="teaser__time">30.04.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/praktikus/" target="_blank">Praktikus</a></span>
+    
+                    <span class="teaser__lock teaser__lock--is-locked" data-postid="1617434">
+                        <a href="https://www.fuw.ch/article/der-praktikus-vom-02-mai-2020/" target="_blank">
+                            <svg><use xlink:href="#icon--abo"></use></svg>
+                        </a>
+                    </span>
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/der-praktikus-vom-02-mai-2020/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Der Praktikus vom 2. Mai 2020 - 1617434', '', this); }">Der Praktikus vom 2. Mai 2020</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/der-praktikus-vom-02-mai-2020/" target="_blank"> Die Themen: Gold ist zu teuer, AMS zu unübersichtlich, Schindler zeigt sich robust, Medactas gutes Händchen und Hoffen für die Swiss.</a>
+            </p>
+    <p class="teaser__tags"><strong>Stichwörter:</strong> <span>AMS</span><span>Gold</span><span>Medacta</span><span>Schindler</span><span>Swiss</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/fuw-value-portfolio-kaempft-gegen-covid-19/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2020/04/s.11_zvg_valuep_cb-160x160.jpg" alt="FuW-Value-Portfolio kämpft gegen Covid-19"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">65</span>
+                <time datetime="2020-04-30T17:14:00+02:00" class="teaser__time">30.04.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock teaser__lock--is-locked" data-postid="1617376">
+                        <a href="https://www.fuw.ch/article/fuw-value-portfolio-kaempft-gegen-covid-19/" target="_blank">
+                            <svg><use xlink:href="#icon--abo"></use></svg>
+                        </a>
+                    </span>
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/fuw-value-portfolio-kaempft-gegen-covid-19/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'FuW-Value-Portfolio kämpft gegen Covid-19 - 1617376', '', this); }">FuW-Value-Portfolio kämpft gegen Covid-19</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/fuw-value-portfolio-kaempft-gegen-covid-19/" target="_blank"> Die Coronapandemie trifft das Value-Portfolio breitflächig, auch an unverhofften Stellen. Frische Kraft verspricht es sich unter anderem von Zurich Insurance.
+</a>
+            </p>
+    <p class="teaser__tags"><strong>Autor:</strong> Christian Braun</p><p class="teaser__tags"><strong>Stichwörter:</strong> <span>Value-Portfolio</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/straumann-kippt-nach-flauem-ersten-quartal-den-ausblick/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2019/10/366695359_highres-t-160x160.jpg" alt="Straumann in einer anderen Welt"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">66</span>
+                <time datetime="2020-04-30T15:10:59+02:00" class="teaser__time">30.04.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/gesundheit/" target="_blank">Gesundheit</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock" data-postid="1616939"></span>
+        
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/straumann-kippt-nach-flauem-ersten-quartal-den-ausblick/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Straumann in einer anderen Welt - 1616939', '', this); }">Straumann in einer anderen Welt</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/straumann-kippt-nach-flauem-ersten-quartal-den-ausblick/" target="_blank"><span class="teaser__lead-marker">Analyse | </span> Das Dentalunternehmen meldet den ersten Umsatzrückgang seit sechs Jahren. Das zweite Quartal wird hart.</a>
+            </p>
+    <p class="teaser__tags"><strong>Stichwörter:</strong> <span>Straumann</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/olympische-sommerspiele-sorgen-fuer-rote-zahlen-bei-swiss-re/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2019/10/1michele-limina-bloomberg-t-160x160.jpg" alt="Swiss Re schreibt erwarteten Verlust"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">67</span>
+                <time datetime="2020-04-30T15:10:54+02:00" class="teaser__time">30.04.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/finanz/" target="_blank">Finanz</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock teaser__lock--is-locked" data-postid="1616950">
+                        <a href="https://www.fuw.ch/article/olympische-sommerspiele-sorgen-fuer-rote-zahlen-bei-swiss-re/" target="_blank">
+                            <svg><use xlink:href="#icon--abo"></use></svg>
+                        </a>
+                    </span>
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/olympische-sommerspiele-sorgen-fuer-rote-zahlen-bei-swiss-re/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Swiss Re schreibt erwarteten Verlust - 1616950', '', this); }">Swiss Re schreibt erwarteten Verlust</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/olympische-sommerspiele-sorgen-fuer-rote-zahlen-bei-swiss-re/" target="_blank"><span class="teaser__lead-marker">Analyse | </span> Der Rückversicherer bucht Altlasten und Wertkorrekturen. Doch das Neugeschäft liefert Mehreinnahmen zu guten Margen. </a>
+            </p>
+    <p class="teaser__tags"><strong>Autor:</strong> Thomas Hengartner</p><p class="teaser__tags"><strong>Stichwörter:</strong> <span>Swiss Re</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/der-starke-franken-wirkt-fuer-clariant-so-negativ-wie-die-krise/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2019/10/317386255-t-1-160x160.jpg" alt="Clariant verteidigt die Margen"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">68</span>
+                <time datetime="2020-04-30T14:36:52+02:00" class="teaser__time">30.04.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/industrie/" target="_blank">Industrie</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock teaser__lock--is-locked" data-postid="1616945">
+                        <a href="https://www.fuw.ch/article/der-starke-franken-wirkt-fuer-clariant-so-negativ-wie-die-krise/" target="_blank">
+                            <svg><use xlink:href="#icon--abo"></use></svg>
+                        </a>
+                    </span>
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/der-starke-franken-wirkt-fuer-clariant-so-negativ-wie-die-krise/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Clariant verteidigt die Margen - 1616945', '', this); }">Clariant verteidigt die Margen</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/der-starke-franken-wirkt-fuer-clariant-so-negativ-wie-die-krise/" target="_blank"><span class="teaser__lead-marker">Analyse | </span> Trotz eines empfindlichen Umsatzrückgangs, auch wegen ungünstiger Währungseffekte, erweist sich die Profitabilität im ersten Quartal als robust.
+</a>
+            </p>
+    <p class="teaser__tags"><strong>Autor:</strong> Christian Braun</p><p class="teaser__tags"><strong>Stichwörter:</strong> <span>Clariant</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/geberit-verliert-ein-bisschen-gewinn-steigert-aber-die-marge/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2020/03/259858861-t-160x160.jpg" alt="Geberit verbessert die Margen"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">69</span>
+                <time datetime="2020-04-30T14:15:15+02:00" class="teaser__time">30.04.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/industrie/" target="_blank">Industrie</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock teaser__lock--is-locked" data-postid="1616956">
+                        <a href="https://www.fuw.ch/article/geberit-verliert-ein-bisschen-gewinn-steigert-aber-die-marge/" target="_blank">
+                            <svg><use xlink:href="#icon--abo"></use></svg>
+                        </a>
+                    </span>
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/geberit-verliert-ein-bisschen-gewinn-steigert-aber-die-marge/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Geberit verbessert die Margen - 1616956', '', this); }">Geberit verbessert die Margen</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/geberit-verliert-ein-bisschen-gewinn-steigert-aber-die-marge/" target="_blank"><span class="teaser__lead-marker">Analyse | </span> Umsatz und Gewinn leiden im ersten Quartal unter dem starken Franken. Die Aussichten für die nächsten Monate sind ungewiss.
+</a>
+            </p>
+    <p class="teaser__tags"><strong>Autor:</strong> Rainer Weihofen</p><p class="teaser__tags"><strong>Stichwörter:</strong> <span>Geberit</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/viele-deutsche-streichen-die-dividende/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2020/04/s.11_julianstratenschultekey_tr-160x160.jpg" alt="Viele Deutsche streichen die Dividende"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">70</span>
+                <time datetime="2020-04-30T13:03:19+02:00" class="teaser__time">30.04.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/ausland/" target="_blank">Ausland</a></span>
+    
+                    <span class="teaser__lock teaser__lock--is-locked" data-postid="1616567">
+                        <a href="https://www.fuw.ch/article/viele-deutsche-streichen-die-dividende/" target="_blank">
+                            <svg><use xlink:href="#icon--abo"></use></svg>
+                        </a>
+                    </span>
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/viele-deutsche-streichen-die-dividende/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Viele Deutsche streichen die Dividende - 1616567', '', this); }">Viele Deutsche streichen die Dividende</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/viele-deutsche-streichen-die-dividende/" target="_blank"> Die Ausschüttung deutscher Unternehmen liegt weit unter derjenigen des Vorjahres. Eine Besserung wird wohl Jahre in Anspruch nehmen.</a>
+            </p>
+    <p class="teaser__tags"><strong>Autor:</strong> Thorsten Riedl</p><p class="teaser__tags"><strong>Stichwörter:</strong> <span>Continental</span><span>Deutschland</span><span>Dividenden</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/schweizer-cfo-sorgen-sich-weniger-wegen-der-krise/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2020/03/000_1pq4p3-t-160x160.jpg" alt="Schweizer CFO sorgen sich weniger"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">71</span>
+                <time datetime="2020-04-30T12:40:55+02:00" class="teaser__time">30.04.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock" data-postid="1617270"></span>
+        
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/schweizer-cfo-sorgen-sich-weniger-wegen-der-krise/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Schweizer CFO sorgen sich weniger - 1617270', '', this); }">Schweizer CFO sorgen sich weniger</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/schweizer-cfo-sorgen-sich-weniger-wegen-der-krise/" target="_blank"> Im Vergleich mit anderen Ländern zeigen sich hierzulande weniger Finanzchefs besorgt wegen der Krise. Das Barometer ist binnen Monatsfrist deutlich zurückgegangen.</a>
+            </p>
+    <p class="teaser__tags"><strong>Stichwörter:</strong> <span>Coronavirus</span><span>Schweizer Wirtschaft</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/shell-kuerzt-erstmals-seit-zweitem-weltkrieg-dividende/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2019/10/341608514_1-7-t-160x160.jpg" alt="Shell kürzt erstmals seit Zweitem Weltkrieg Dividende"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">72</span>
+                <time datetime="2020-04-30T12:30:24+02:00" class="teaser__time">30.04.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/ausland/" target="_blank">Ausland</a>, <a href="https://www.fuw.ch/unternehmen/rohstoffe-unternehmen/" target="_blank">Rohstoffe</a></span>
+    
+                    <span class="teaser__lock" data-postid="1617209"></span>
+        
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/shell-kuerzt-erstmals-seit-zweitem-weltkrieg-dividende/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Shell kürzt erstmals seit Zweitem Weltkrieg Dividende - 1617209', '', this); }">Shell kürzt erstmals seit Zweitem Weltkrieg Dividende</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/shell-kuerzt-erstmals-seit-zweitem-weltkrieg-dividende/" target="_blank"> Der Verfall des Ölpreises macht Royal Dutch Shell zu schaffen. Der Gewinn fällt deutlich, die Dividende wird reduziert.</a>
+            </p>
+    <p class="teaser__tags"><strong>Autor:</strong> Helmut Hetzel, Den Haag</p><p class="teaser__tags"><strong>Stichwörter:</strong> <span>Royal Dutch Shell</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/lafargeholcims-umsatz-broeckelt-in-der-krise/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2017/12/300427780-t-160x160.jpg" alt="LafargeHolcim voller Zuversicht"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">73</span>
+                <time datetime="2020-04-30T12:25:09+02:00" class="teaser__time">30.04.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/industrie/" target="_blank">Industrie</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock teaser__lock--is-locked" data-postid="1616953">
+                        <a href="https://www.fuw.ch/article/lafargeholcims-umsatz-broeckelt-in-der-krise/" target="_blank">
+                            <svg><use xlink:href="#icon--abo"></use></svg>
+                        </a>
+                    </span>
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/lafargeholcims-umsatz-broeckelt-in-der-krise/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'LafargeHolcim voller Zuversicht - 1616953', '', this); }">LafargeHolcim voller Zuversicht</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/lafargeholcims-umsatz-broeckelt-in-der-krise/" target="_blank"><span class="teaser__lead-marker">Analyse | </span> In China arbeitet der Konzern wieder mit voller Kapazität. Der CEO erwartet, dass die Erholung überall schnell verläuft.</a>
+            </p>
+    <p class="teaser__tags"><strong>Autor:</strong> Yvonne Debrunner</p><p class="teaser__tags"><strong>Stichwörter:</strong> <span>LafargeHolcim</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/swisscom-ann-coronaeffekte-nicht-quantifizeren/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2019/02/330032090-t-160x160.jpg" alt="Swisscom unbeeindruckt von Covid-19"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">74</span>
+                <time datetime="2020-04-30T12:10:02+02:00" class="teaser__time">30.04.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a>, <a href="https://www.fuw.ch/unternehmen/technologie/" target="_blank">Technologie</a></span>
+    
+                    <span class="teaser__lock teaser__lock--is-locked" data-postid="1616968">
+                        <a href="https://www.fuw.ch/article/swisscom-ann-coronaeffekte-nicht-quantifizeren/" target="_blank">
+                            <svg><use xlink:href="#icon--abo"></use></svg>
+                        </a>
+                    </span>
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/swisscom-ann-coronaeffekte-nicht-quantifizeren/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Swisscom unbeeindruckt von Covid-19 - 1616968', '', this); }">Swisscom unbeeindruckt von Covid-19</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/swisscom-ann-coronaeffekte-nicht-quantifizeren/" target="_blank"><span class="teaser__lead-marker">Analyse | </span> Der Telecomkonzern hält auch in der Krise den Kurs. Die Dividende scheint sicher.</a>
+            </p>
+    <p class="teaser__tags"><strong>Autor:</strong> Eflamm Mordrelle</p><p class="teaser__tags"><strong>Stichwörter:</strong> <span>Swisscom</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/cs-aktionaere-bestaetigen-urs-rohner-als-praesidenten/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2020/02/341090685_highres-t-160x160.jpg" alt="CS-Aktionäre machen Rohner ein letztes Mal zum Präsidenten"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">75</span>
+                <time datetime="2020-04-30T12:02:13+02:00" class="teaser__time">30.04.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/finanz/" target="_blank">Finanz</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock" data-postid="1617245"></span>
+        
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/cs-aktionaere-bestaetigen-urs-rohner-als-praesidenten/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'CS-Aktionäre machen Rohner ein letztes Mal zum Präsidenten - 1617245', '', this); }">CS-Aktionäre machen Rohner ein letztes Mal zum Präsidenten</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/cs-aktionaere-bestaetigen-urs-rohner-als-praesidenten/" target="_blank"> An der Generalversammlung wurde die Halbierung der Dividende sowie alle anderen Anträge des VR abgesegnet.</a>
+            </p>
+    <p class="teaser__tags"><strong>Stichwörter:</strong> <span>Credit Suisse</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/valora-ernennt-neuen-cfo/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2019/02/martin-ruetschi-keystone-zueri-t-160x160.jpg" alt="Valora sichert sich zusätzliche Mittel"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">76</span>
+                <time datetime="2020-04-30T10:58:40+02:00" class="teaser__time">30.04.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/konsum/" target="_blank">Konsum</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock" data-postid="1617217"></span>
+        
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/valora-ernennt-neuen-cfo/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Valora sichert sich zusätzliche Mittel - 1617217', '', this); }">Valora sichert sich zusätzliche Mittel</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/valora-ernennt-neuen-cfo/" target="_blank"> Die Massnahmen gegen die Verbreitung des Coronavirus belasten die Kioskbetreiberin weiterhin. Beat Fellmann wird neuer CFO.</a>
+            </p>
+    <p class="teaser__tags"><strong>Stichwörter:</strong> <span>Valora</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/die-kantonalbanken-ruesten-sich/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2020/04/s.7_alexandraweykey_sk_bb-160x160.jpg" alt="Die Kantonalbanken rüsten sich"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">77</span>
+                <time datetime="2020-04-29T16:02:10+02:00" class="teaser__time">29.04.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/finanz/" target="_blank">Finanz</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock teaser__lock--is-locked" data-postid="1616651">
+                        <a href="https://www.fuw.ch/article/die-kantonalbanken-ruesten-sich/" target="_blank">
+                            <svg><use xlink:href="#icon--abo"></use></svg>
+                        </a>
+                    </span>
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/die-kantonalbanken-ruesten-sich/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Die Kantonalbanken rüsten sich - 1616651', '', this); }">Die Kantonalbanken rüsten sich</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/die-kantonalbanken-ruesten-sich/" target="_blank"> Weil die Krise Firmenkredite gefährdet, erhöhen die Staatsbanken ihr Risikopolster. Das belastet den Gewinn.</a>
+            </p>
+    <p class="teaser__tags"><strong>Autor:</strong> Stefan Krähenbühl und Beatrice Bösiger</p><p class="teaser__tags"><strong>Stichwörter:</strong> <span>Glarner Kantonalbank</span><span>Graubündner Kantonalbank</span><span>Kantonalbanken-Gruppe</span><span>Luzerner Kantonalbank</span><span>St. Galler Kantonalbank</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/gilead-mittel-zeigt-positive-ergebnisse-bei-covid-19-wirkstoff/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2012/11/Gilead_Truvada_T-160x160.jpg" alt="Gilead gibt Anlegern Hoffnung"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">78</span>
+                <time datetime="2020-04-29T15:51:45+02:00" class="teaser__time">29.04.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/gesundheit/" target="_blank">Gesundheit</a></span>
+    
+                    <span class="teaser__lock" data-postid="1617014"></span>
+        
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/gilead-mittel-zeigt-positive-ergebnisse-bei-covid-19-wirkstoff/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Gilead gibt Anlegern Hoffnung - 1617014', '', this); }">Gilead gibt Anlegern Hoffnung</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/gilead-mittel-zeigt-positive-ergebnisse-bei-covid-19-wirkstoff/" target="_blank"><span class="teaser__lead-marker">Analyse | </span> Der Wirkstoff Remdesivir des US-Biotech-Unternehmens kann die Heilung von Coronapatienten beschleunigen.</a>
+            </p>
+    <p class="teaser__tags"><strong>Autor:</strong> Rupen Boyadjian</p><p class="teaser__tags"><strong>Stichwörter:</strong> <span>Gilead Sciences</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/efg-erhaelt-mehr-geld-von-kunden/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2019/11/307391500_highres-t-160x160.jpg" alt="Solider Geschäftsgang bei EFG"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">79</span>
+                <time datetime="2020-04-29T15:34:39+02:00" class="teaser__time">29.04.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/finanz/" target="_blank">Finanz</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock teaser__lock--is-locked" data-postid="1616740">
+                        <a href="https://www.fuw.ch/article/efg-erhaelt-mehr-geld-von-kunden/" target="_blank">
+                            <svg><use xlink:href="#icon--abo"></use></svg>
+                        </a>
+                    </span>
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/efg-erhaelt-mehr-geld-von-kunden/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Solider Geschäftsgang bei EFG - 1616740', '', this); }">Solider Geschäftsgang bei EFG</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/efg-erhaelt-mehr-geld-von-kunden/" target="_blank"><span class="teaser__lead-marker">Analyse | </span> Bei der Vermögensverwalterin sind die verwalteten Vermögen im ersten Quartal zurückgegangen. Der Trend zeigt im April wieder nach oben. </a>
+            </p>
+    <p class="teaser__tags"><strong>Autor:</strong> Beatrice Bösiger</p><p class="teaser__tags"><strong>Stichwörter:</strong> <span>EFG International</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/bundesrat-hilft-swiss/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2018/04/316534723-t-160x160.jpg" alt="Bundesrat hilft Swiss"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">80</span>
+                <time datetime="2020-04-29T14:59:44+02:00" class="teaser__time">29.04.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/konsum/" target="_blank">Konsum</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock" data-postid="1616931"></span>
+        
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/bundesrat-hilft-swiss/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Bundesrat hilft Swiss - 1616931', '', this); }">Bundesrat hilft Swiss</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/bundesrat-hilft-swiss/" target="_blank"> Die Landesregierung unterstützt Airlines wie Swiss und Edelweiss mit bis zu 1,9 Mrd. Fr. Der Bundesrat will sich aber nicht beteiligen.</a>
+            </p>
+    <p class="teaser__tags"><strong>Stichwörter:</strong> <span>Schweizer Politik</span><span>Swiss</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/ubs-vrp-urteil-im-frankreich-prozess-wohl-erst-naechstes-jahr/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2017/02/axel-weber-t-160x160.jpg" alt="UBS-Aktionäre stimmen allen Anträgen zu"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">81</span>
+                <time datetime="2020-04-29T14:10:13+02:00" class="teaser__time">29.04.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/finanz/" target="_blank">Finanz</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock" data-postid="1616891"></span>
+        
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/ubs-vrp-urteil-im-frankreich-prozess-wohl-erst-naechstes-jahr/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'UBS-Aktionäre stimmen allen Anträgen zu - 1616891', '', this); }">UBS-Aktionäre stimmen allen Anträgen zu</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/ubs-vrp-urteil-im-frankreich-prozess-wohl-erst-naechstes-jahr/" target="_blank"> Die Generalversammlung der UBS hat sämtlichen Anträgen des Verwaltungsrates zugestimmt. </a>
+            </p>
+    <p class="teaser__tags"><strong>Stichwörter:</strong> <span>Banken</span><span>UBS</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/ams-sieht-sich-wenig-von-der-krise-betroffen/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2020/03/164813138_highres-t-160x160.jpg" alt="AMS entkoppelt sich von der Krise"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">82</span>
+                <time datetime="2020-04-29T11:15:51+02:00" class="teaser__time">29.04.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/technologie/" target="_blank">Technologie</a></span>
+    
+                    <span class="teaser__lock teaser__lock--is-locked" data-postid="1616340">
+                        <a href="https://www.fuw.ch/article/ams-sieht-sich-wenig-von-der-krise-betroffen/" target="_blank">
+                            <svg><use xlink:href="#icon--abo"></use></svg>
+                        </a>
+                    </span>
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/ams-sieht-sich-wenig-von-der-krise-betroffen/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'AMS entkoppelt sich von der Krise - 1616340', '', this); }">AMS entkoppelt sich von der Krise</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/ams-sieht-sich-wenig-von-der-krise-betroffen/" target="_blank"><span class="teaser__lead-marker">Analyse | </span> Das Geschäft mit Sensoren läuft für den Chiphersteller. Folgen wegen der Coronapandemie soll es kaum geben.</a>
+            </p>
+    <p class="teaser__tags"><strong>Autor:</strong> Thorsten Riedl</p><p class="teaser__tags"><strong>Stichwörter:</strong> <span>AMS</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/comet-hat-anspruchsvolle-ziele/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2019/04/3zvg-t-160x160.jpg" alt="Comet hat anspruchsvolle Ziele"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">83</span>
+                <time datetime="2020-04-29T10:58:56+02:00" class="teaser__time">29.04.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/industrie/" target="_blank">Industrie</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock teaser__lock--is-locked" data-postid="1616791">
+                        <a href="https://www.fuw.ch/article/comet-hat-anspruchsvolle-ziele/" target="_blank">
+                            <svg><use xlink:href="#icon--abo"></use></svg>
+                        </a>
+                    </span>
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/comet-hat-anspruchsvolle-ziele/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Comet hat anspruchsvolle Ziele - 1616791', '', this); }">Comet hat anspruchsvolle Ziele</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/comet-hat-anspruchsvolle-ziele/" target="_blank"><span class="teaser__lead-marker">Analyse | </span> Das Unternehmen konzentriert die Kräfte auf zwei Technologien. Es will vor allem im Halbleiter- und Elektronikmarkt deutlich wachsen.
+</a>
+            </p>
+    <p class="teaser__tags"><strong>Autor:</strong> Rainer Weihofen</p><p class="teaser__tags"><strong>Stichwörter:</strong> <span>Comet</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/rudolf-hadorn-er-schaffte-es-zweimal-von-unten-nach-oben/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2020/04/s.14_dominicsteinemannkey_syc-160x160.jpg" alt="Rudolf Hadorn: Er schaffte es zweimal von unten nach oben"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">84</span>
+                <time datetime="2020-04-29T10:53:51+02:00" class="teaser__time">29.04.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/industrie/" target="_blank">Industrie</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock teaser__lock--is-locked" data-postid="1616829">
+                        <a href="https://www.fuw.ch/article/rudolf-hadorn-er-schaffte-es-zweimal-von-unten-nach-oben/" target="_blank">
+                            <svg><use xlink:href="#icon--abo"></use></svg>
+                        </a>
+                    </span>
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/rudolf-hadorn-er-schaffte-es-zweimal-von-unten-nach-oben/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Rudolf Hadorn: Er schaffte es zweimal von unten nach oben - 1616829', '', this); }">Rudolf Hadorn: Er schaffte es zweimal von unten nach oben</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/rudolf-hadorn-er-schaffte-es-zweimal-von-unten-nach-oben/" target="_blank"> Nach über 30 Jahren will sich der Chef von Gurit aus dem operativen Geschäft zurückziehen. Vor Veränderungen hat sich Rudolf Hadorn nie gescheut.
+</a>
+            </p>
+    <p class="teaser__tags"><strong>Autor:</strong> Sylviane Chassot</p><p class="teaser__tags"><strong>Stichwörter:</strong> <span>Gurit</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/zaesur-fuer-die-medtech-branche/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2020/04/s.12_getty_as-160x160.jpg" alt="Zäsur für die Medtech-Branche"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">85</span>
+                <time datetime="2020-04-29T09:56:53+02:00" class="teaser__time">29.04.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/gesundheit/" target="_blank">Gesundheit</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock teaser__lock--is-locked" data-postid="1616554">
+                        <a href="https://www.fuw.ch/article/zaesur-fuer-die-medtech-branche/" target="_blank">
+                            <svg><use xlink:href="#icon--abo"></use></svg>
+                        </a>
+                    </span>
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/zaesur-fuer-die-medtech-branche/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Zäsur für die Medtech-Branche - 1616554', '', this); }">Zäsur für die Medtech-Branche</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/zaesur-fuer-die-medtech-branche/" target="_blank"> Nach langer Hausse geht der Umsatz 2020 erstmals zurück – von vollen Auftragsbüchern zum Produktionsstopp.</a>
+            </p>
+    <p class="teaser__tags"><strong>Autor:</strong> Arno Schmocker</p><p class="teaser__tags"><strong>Stichwörter:</strong> <span>Medtech</span><span>Schweiz</span><span>Straumann</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/coronakrise-schwaecht-wachstum-von-google-mutterkonzern/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2019/12/340973118-160x160.jpg" alt="Coronakrise schwächt Wachstum von Google-Mutterkonzern"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">86</span>
+                <time datetime="2020-04-29T08:37:26+02:00" class="teaser__time">29.04.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/ausland/" target="_blank">Ausland</a>, <a href="https://www.fuw.ch/unternehmen/technologie/" target="_blank">Technologie</a></span>
+    
+                    <span class="teaser__lock" data-postid="1616780"></span>
+        
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/coronakrise-schwaecht-wachstum-von-google-mutterkonzern/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Coronakrise schwächt Wachstum von Google-Mutterkonzern - 1616780', '', this); }">Coronakrise schwächt Wachstum von Google-Mutterkonzern</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/coronakrise-schwaecht-wachstum-von-google-mutterkonzern/" target="_blank"> Alphabet verzeichnet zum Jahresstart aufgrund der Coronapandemie niedrigere Werbeeinnahmen. </a>
+            </p>
+    <p class="teaser__tags"><strong>Stichwörter:</strong> <span>Google</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/daetwyler-verkauft-civil-engineering-geschaeft-an-management/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2015/03/Dätwyler-matrizen-4-T-160x160.jpg" alt="Dätwyler verkauft Tiefbausparte an Management"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">87</span>
+                <time datetime="2020-04-29T08:27:17+02:00" class="teaser__time">29.04.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/industrie/" target="_blank">Industrie</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock" data-postid="1616770"></span>
+        
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/daetwyler-verkauft-civil-engineering-geschaeft-an-management/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Dätwyler verkauft Tiefbausparte an Management - 1616770', '', this); }">Dätwyler verkauft Tiefbausparte an Management</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/daetwyler-verkauft-civil-engineering-geschaeft-an-management/" target="_blank"><span class="teaser__lead-marker">Analyse | </span> Der Dichtungshersteller konzentriert sich auf seine profitabelsten Bereiche: Er verkauft die Tiefbausparte.</a>
+            </p>
+    <p class="teaser__tags"><strong>Autor:</strong> Yvonne Debrunner</p><p class="teaser__tags"><strong>Stichwörter:</strong> <span>Dätwyler</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/valartis-zahlt-keine-dividende/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2019/04/98377699_highres-t-160x160.jpg" alt="Valartis zahlt keine Dividende"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">88</span>
+                <time datetime="2020-04-29T07:23:32+02:00" class="teaser__time">29.04.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/finanz/" target="_blank">Finanz</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock" data-postid="1616722"></span>
+        
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/valartis-zahlt-keine-dividende/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Valartis zahlt keine Dividende - 1616722', '', this); }">Valartis zahlt keine Dividende</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/valartis-zahlt-keine-dividende/" target="_blank"> Die Finanzgruppe will auf eine Ausschüttung an die Aktionäre verzichten. Sie vernichtet zudem eigene Aktien.</a>
+            </p>
+    <p class="teaser__tags"><strong>Stichwörter:</strong> <span>Valartis</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/eph-schreibt-2019-gewinn/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2019/04/373923105_highres-t-160x160.jpg" alt="EPH schreibt 2019 Gewinn"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">89</span>
+                <time datetime="2020-04-29T07:21:04+02:00" class="teaser__time">29.04.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/markte/immobilien/" target="_blank">Immobilien</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock" data-postid="1616719"></span>
+        
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/eph-schreibt-2019-gewinn/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'EPH schreibt 2019 Gewinn - 1616719', '', this); }">EPH schreibt 2019 Gewinn</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/eph-schreibt-2019-gewinn/" target="_blank"> Wie bereits zuvor angekündigt weist die Immobilienbeteiligungsgesellschaft Eastern Property Holding für das abgelaufene Jahr schwarze Zahlen aus.</a>
+            </p>
+    <p class="teaser__tags"><strong>Stichwörter:</strong> <span>Eastern Property</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/airesis-rutscht-tiefer-in-die-verlustzone/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2016/11/99251174-t-160x160.jpg" alt="Airesis rutscht tiefer in die Verlustzone"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">90</span>
+                <time datetime="2020-04-29T07:18:07+02:00" class="teaser__time">29.04.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/finanz/" target="_blank">Finanz</a></span>
+    
+                    <span class="teaser__lock" data-postid="1616357"></span>
+        
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/airesis-rutscht-tiefer-in-die-verlustzone/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Airesis rutscht tiefer in die Verlustzone - 1616357', '', this); }">Airesis rutscht tiefer in die Verlustzone</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/airesis-rutscht-tiefer-in-die-verlustzone/" target="_blank"> Die Beteiligungsgesellschaft weitet ihr Minus im vergangenen Geschäftsjahr aus. Die französische Sportmarke Le Coq Sportif schreibt wieder einen Verlust.</a>
+            </p>
+    <p class="teaser__tags"><strong>Stichwörter:</strong> <span>Airesis</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/diese-flop-aktien-sind-einstiegskandidaten/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2019/07/2steffen-schmidt-keystone-in-winterthur-t-160x160.jpg" alt="Diese Flop-Aktien sind Einstiegskandidaten"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">91</span>
+                <time datetime="2020-04-29T07:11:29+02:00" class="teaser__time">29.04.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock teaser__lock--is-locked" data-postid="1616577">
+                        <a href="https://www.fuw.ch/article/diese-flop-aktien-sind-einstiegskandidaten/" target="_blank">
+                            <svg><use xlink:href="#icon--abo"></use></svg>
+                        </a>
+                    </span>
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/diese-flop-aktien-sind-einstiegskandidaten/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Diese Flop-Aktien sind Einstiegskandidaten - 1616577', '', this); }">Diese Flop-Aktien sind Einstiegskandidaten</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/diese-flop-aktien-sind-einstiegskandidaten/" target="_blank"> Einige attraktive Titel haben die jüngste Kurserholung an der Börse nicht mitgemacht. Doch nicht jede Kaufgelegenheit ist wirklich eine.
+</a>
+            </p>
+    <p class="teaser__tags"><strong>Autor:</strong> eflamm mordrelle und ivo ruch</p><p class="teaser__tags"><strong>Stichwörter:</strong> <span>AMS</span><span>Autoneum</span><span>Credit Suisse</span><span>Flughafen Zürich</span><span>OC Oerlikon</span><span>Sulzer</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/oelaktien-sind-eine-teure-wette/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2020/04/s.10_andyrainkey_mei-1-160x160.jpg" alt="Ölaktien sind eine teure Wette"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">92</span>
+                <time datetime="2020-04-28T18:37:01+02:00" class="teaser__time">28.04.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/ausland/" target="_blank">Ausland</a>, <a href="https://www.fuw.ch/unternehmen/rohstoffe-unternehmen/" target="_blank">Rohstoffe</a></span>
+    
+                    <span class="teaser__lock teaser__lock--is-locked" data-postid="1616514">
+                        <a href="https://www.fuw.ch/article/oelaktien-sind-eine-teure-wette/" target="_blank">
+                            <svg><use xlink:href="#icon--abo"></use></svg>
+                        </a>
+                    </span>
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/oelaktien-sind-eine-teure-wette/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Ölaktien sind eine teure Wette - 1616514', '', this); }">Ölaktien sind eine teure Wette</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/oelaktien-sind-eine-teure-wette/" target="_blank"> Der gefallene Ölpreis setzt die Förderunternehmen unter Druck. Aber noch bleiben die Titel von BP, Royal Dutch Shell & Co. stolz bewertet.</a>
+            </p>
+    <p class="teaser__tags"><strong>Autor:</strong> Pascal Meisser</p><p class="teaser__tags"><strong>Stichwörter:</strong> <span>Chevron</span><span>Exxon Mobil</span><span>Royal Dutch Shell</span><span>Total</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/der-praktikus-vom-28-april-2020-copy/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2019/01/app_logo_praktikus-160x160.jpg" alt="Der Praktikus vom 29. April 2020"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">93</span>
+                <time datetime="2020-04-28T18:20:42+02:00" class="teaser__time">28.04.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/praktikus/" target="_blank">Praktikus</a></span>
+    
+                    <span class="teaser__lock teaser__lock--is-locked" data-postid="1616676">
+                        <a href="https://www.fuw.ch/article/der-praktikus-vom-28-april-2020-copy/" target="_blank">
+                            <svg><use xlink:href="#icon--abo"></use></svg>
+                        </a>
+                    </span>
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/der-praktikus-vom-28-april-2020-copy/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Der Praktikus vom 29. April 2020 - 1616676', '', this); }">Der Praktikus vom 29. April 2020</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/der-praktikus-vom-28-april-2020-copy/" target="_blank"> Die Themen: Rückstellungen der Grossbanken, was sich bei KB jetzt rächt, Valora auf dem Radar und zu viel Corona-Poker.</a>
+            </p>
+    <p class="teaser__tags"><strong>Stichwörter:</strong> <span>Credit Suisse</span><span>LafargeHolcim</span><span>Novartis</span><span>Roche</span><span>UBS</span><span>Valora</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/pharmawerte-und-nestle-helfen-smi-aus-der-krise/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2020/02/19085635_highres-t-160x160.jpg" alt="Pharmawerte und Nestlé helfen SMI aus der Krise"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">94</span>
+                <time datetime="2020-04-28T16:38:18+02:00" class="teaser__time">28.04.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock" data-postid="1616598"></span>
+        
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/pharmawerte-und-nestle-helfen-smi-aus-der-krise/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Pharmawerte und Nestlé helfen SMI aus der Krise - 1616598', '', this); }">Pharmawerte und Nestlé helfen SMI aus der Krise</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/pharmawerte-und-nestle-helfen-smi-aus-der-krise/" target="_blank"> Der Schweizer Aktienmarkt hält sich im internationalen Vergleich sehr gut. Das verdankt er auch der defensiven Ausrichtung.</a>
+            </p>
+    <p class="teaser__tags"><strong>Autor:</strong> Gabriella Hunter</p><p class="teaser__tags"><strong>Stichwörter:</strong> <span>Adecco</span><span>Börse</span><span>LafargeHolcim</span><span>SMI</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/ubs-verdient-deutlich-mehr/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2019/09/340345804_highres-t-160x160.jpg" alt="UBS zeigt sich von ihrer besten Seite"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">95</span>
+                <time datetime="2020-04-28T16:20:24+02:00" class="teaser__time">28.04.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/finanz/" target="_blank">Finanz</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock teaser__lock--is-locked" data-postid="1616130">
+                        <a href="https://www.fuw.ch/article/ubs-verdient-deutlich-mehr/" target="_blank">
+                            <svg><use xlink:href="#icon--abo"></use></svg>
+                        </a>
+                    </span>
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/ubs-verdient-deutlich-mehr/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'UBS zeigt sich von ihrer besten Seite - 1616130', '', this); }">UBS zeigt sich von ihrer besten Seite</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/ubs-verdient-deutlich-mehr/" target="_blank"><span class="teaser__lead-marker">Analyse | </span> Im ersten Quartal hat die Grossbank unter dem Strich von der Coronakrise profitiert. Der Ausblick ist allerdings sehr zurückhaltend.</a>
+            </p>
+    <p class="teaser__tags"><strong>Autor:</strong> Monica Hegglin</p><p class="teaser__tags"><strong>Stichwörter:</strong> <span>UBS</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/bucher-macht-die-pandemie-zu-schaffen/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2018/12/163979567-t-160x160.jpg" alt="Bucher peilt 2020 Gewinn an"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">96</span>
+                <time datetime="2020-04-28T16:00:26+02:00" class="teaser__time">28.04.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/industrie/" target="_blank">Industrie</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock teaser__lock--is-locked" data-postid="1616109">
+                        <a href="https://www.fuw.ch/article/bucher-macht-die-pandemie-zu-schaffen/" target="_blank">
+                            <svg><use xlink:href="#icon--abo"></use></svg>
+                        </a>
+                    </span>
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/bucher-macht-die-pandemie-zu-schaffen/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Bucher peilt 2020 Gewinn an - 1616109', '', this); }">Bucher peilt 2020 Gewinn an</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/bucher-macht-die-pandemie-zu-schaffen/" target="_blank"><span class="teaser__lead-marker">Analyse | </span> Eine starke Marktstellung und eine solide Bilanz helfen der Industriegruppe durch die Krise.
+</a>
+            </p>
+    <p class="teaser__tags"><strong>Autor:</strong> Andreas Meier</p><p class="teaser__tags"><strong>Stichwörter:</strong> <span>Bucher</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/novartis-mit-gewinnschub/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2019/04/333967738_1-11-1-t-160x160.jpg" alt="Novartis erhält Schub durch Corona"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">97</span>
+                <time datetime="2020-04-28T15:00:21+02:00" class="teaser__time">28.04.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/gesundheit/" target="_blank">Gesundheit</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock teaser__lock--is-locked" data-postid="1616132">
+                        <a href="https://www.fuw.ch/article/novartis-mit-gewinnschub/" target="_blank">
+                            <svg><use xlink:href="#icon--abo"></use></svg>
+                        </a>
+                    </span>
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/novartis-mit-gewinnschub/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Novartis erhält Schub durch Corona - 1616132', '', this); }">Novartis erhält Schub durch Corona</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/novartis-mit-gewinnschub/" target="_blank"><span class="teaser__lead-marker">Analyse | </span> Im Startquartal hat der Pharmakonzern die Erwartungen deutlich übertroffen.</a>
+            </p>
+    <p class="teaser__tags"><strong>Autor:</strong> Rupen Boyadjian</p><p class="teaser__tags"><strong>Stichwörter:</strong> <span>Novartis</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/abb-zahlen-besser-als-befuerchtet/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2019/07/333311619_1-7-t-160x160.jpg" alt="ABB steht der Einbruch noch bevor"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">98</span>
+                <time datetime="2020-04-28T13:22:01+02:00" class="teaser__time">28.04.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/industrie/" target="_blank">Industrie</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock teaser__lock--is-locked" data-postid="1616128">
+                        <a href="https://www.fuw.ch/article/abb-zahlen-besser-als-befuerchtet/" target="_blank">
+                            <svg><use xlink:href="#icon--abo"></use></svg>
+                        </a>
+                    </span>
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/abb-zahlen-besser-als-befuerchtet/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'ABB steht der Einbruch noch bevor - 1616128', '', this); }">ABB steht der Einbruch noch bevor</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/abb-zahlen-besser-als-befuerchtet/" target="_blank"><span class="teaser__lead-marker">Analyse | </span> Die Coronakrise hat den Technologiekonzern bisher weniger getroffen als befürchtet. Die Aktien gewinnen.</a>
+            </p>
+    <p class="teaser__tags"><strong>Autor:</strong> Eflamm Mordrelle</p><p class="teaser__tags"><strong>Stichwörter:</strong> <span>ABB</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/stellenvermittler-sind-eine-heisse-wette/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2020/04/s.8_gaetanballykey_ri-160x160.jpg" alt="Stellenvermittler sind eine heisse Wette"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">99</span>
+                <time datetime="2020-04-28T10:15:24+02:00" class="teaser__time">28.04.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/konsum/" target="_blank">Konsum</a>, <a href="https://www.fuw.ch/unternehmen/schweiz/" target="_blank">Schweiz</a></span>
+    
+                    <span class="teaser__lock teaser__lock--is-locked" data-postid="1615626">
+                        <a href="https://www.fuw.ch/article/stellenvermittler-sind-eine-heisse-wette/" target="_blank">
+                            <svg><use xlink:href="#icon--abo"></use></svg>
+                        </a>
+                    </span>
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/stellenvermittler-sind-eine-heisse-wette/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'Stellenvermittler sind eine heisse Wette - 1615626', '', this); }">Stellenvermittler sind eine heisse Wette</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/stellenvermittler-sind-eine-heisse-wette/" target="_blank"> Die grossen Personaldienstleister haben in der Coronakrise kaum noch Arbeit. Besserung ist frühestens für das dritte Quartal zu erwarten.</a>
+            </p>
+    <p class="teaser__tags"><strong>Autor:</strong> Ivo Ruch</p><p class="teaser__tags"><strong>Stichwörter:</strong> <span>Adecco</span></p>
+        </article>
+    </li>
+
+    <li class="teaser-list__item u-group">
+        <article class="teaser teaser--in-listing teaser--has-image">
+<a class="teaser__image-link" href="https://www.fuw.ch/article/hsbc-muss-herben-gewinnrueckgang-einstecken/" target="_blank"><img class="teaser__image" src="https://www.fuw.ch/wp-content/uploads/2018/02/312941193_1-6-1-t-160x160.jpg" alt="HSBC und Santander müssen Gewinnrückgang einstecken"></a>
+            <div class="teaser__meta">
+<span class="teaser__ranking">100</span>
+                <time datetime="2020-04-28T09:15:58+02:00" class="teaser__time">28.04.2020</time>
+                <span class="teaser__category"><a href="https://www.fuw.ch/unternehmen/ausland/" target="_blank">Ausland</a>, <a href="https://www.fuw.ch/unternehmen/finanz/" target="_blank">Finanz</a></span>
+    
+                    <span class="teaser__lock" data-postid="1616404"></span>
+        
+            </div>
+
+            <header class="teaser__header">
+                <h3 class="teaser__title">
+                    <a href="https://www.fuw.ch/article/hsbc-muss-herben-gewinnrueckgang-einstecken/" target="_blank" onclick="if (typeof analytics.pushEvent=='function') { analytics.pushEvent('List Category [] CLICK', 'HSBC und Santander müssen Gewinnrückgang einstecken - 1616404', '', this); }">HSBC und Santander müssen Gewinnrückgang einstecken</a>
+                </h3>
+            </header>
+
+            <p class="teaser__lead">
+                <a href="https://www.fuw.ch/article/hsbc-muss-herben-gewinnrueckgang-einstecken/" target="_blank"> Die grösste europäische Bank verdient klar weniger. Und der spanischen Santander verhageln Coronarückstellungen die Bilanz.</a>
+            </p>
+    <p class="teaser__tags"><strong>Stichwörter:</strong> <span>HSBC</span><span>Santander</span></p>
+        </article>
+    </li>

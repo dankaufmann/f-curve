@@ -7,7 +7,10 @@
 
 **Keywords:** Covid-19, Leading indicator, Financial market data, Forecasting, Switzerland
 
-**Recommended citation:** Burri, Marc and Daniel Kaufmann, "A daily fever curve for the Swiss economy", IRENE Working Paper No., stable version: [github.com/dankaufmann/f-curve](https://github.com/dankaufmann/f-curve)
+**Recommended citation:** Burri, Marc and Daniel Kaufmann, "A daily fever curve for the Swiss economy", IRENE Working Paper No., V 1.0: [github.com/dankaufmann/f-curve](https://github.com/dankaufmann/f-curve)
+
+## Download data
+[f-curve data (csv)](./Results/f-curve-data.csv)
  
 ## Current f-curve:
 ![](./Results/MainGDPShort.png)
