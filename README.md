@@ -22,3 +22,5 @@
 ## Historical correlation with GDP growth
 ![](./Results/MainGDP.png)
 ![](./Results/Decomposition.png)
+
+## Installation
