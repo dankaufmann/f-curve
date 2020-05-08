@@ -12,7 +12,7 @@
 ![](./Results/DecompositionShort.png)
 
 ## Current GDP growth forecast:
-![](./Results/Fcst_Table.png)
+![](./Results/Fcst_Table_GDP.png)
 
 ## Historical correlation with GDP growth
 ![](./Results/MainGDP.png)
