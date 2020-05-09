@@ -9,7 +9,6 @@
 # Swiss economy", IRENE Working Paper No., University of Neuchâtel,
 # https://github.com/dankaufmann/f-curve
 #
-# Marc Burri and Daniel Kaufmann, 2020 (daniel.kaufmann@unine.ch)
 #-------------------------------------------------------------------------------------
 # V 1.0
 #-------------------------------------------------------------------------------------

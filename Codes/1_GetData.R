@@ -9,7 +9,6 @@
 # Swiss economy", IRENE Working Paper No., University of Neuchâtel,
 # https://github.com/dankaufmann/f-curve
 #
-# Marc Burri and Daniel Kaufmann, 2020 (daniel.kaufmann@unine.ch)
 #-------------------------------------------------------------------------------------
 # V 1.0
 #-------------------------------------------------------------------------------------
@@ -18,7 +17,7 @@
 rm(list = ls())
 source("AllPackages.R")
 endDate   <- Sys.Date()
-updateNews <- FALSE       # Choose whether you want to update news (takes up to 20 min)
+updateNews <- FALSE # Choose whether you want to update news (takes up to 20 min)
 
 #-------------------------------------------------------------------------------------
 # Download the data
@@ -36,7 +35,11 @@ if (updateNews) {
   updateNewsIndicator()
 }
 
+
 load(file="../Data/News/all.RData")
+load(file="../Data/News/nzz.RData")
+load(file="../Data/News/fuw.RData")
+load(file="../Data/News/ta.RData")
 
 News.CH <- df_all_ch %>%
   select("time", "mean") %>%
@@ -44,6 +47,36 @@ News.CH <- df_all_ch %>%
   ts_span(start = "2000-01-01", end = endDate)
 
 News.FOR <- df_all_int %>%
+  select("time", "mean") %>%
+  ts_xts() %>%
+  ts_span(start = "2000-01-01", end = endDate)
+
+News.NZZ.CH <- df_nzz_ch %>%
+  select("time", "mean") %>%
+  ts_xts() %>%
+  ts_span(start = "2000-01-01", end = endDate)
+
+News.NZZ.FOR <- df_nzz_int %>%
+  select("time", "mean") %>%
+  ts_xts() %>%
+  ts_span(start = "2000-01-01", end = endDate)
+
+News.FUW.CH <- df_fuw_ch %>%
+  select("time", "mean") %>%
+  ts_xts() %>%
+  ts_span(start = "2000-01-01", end = endDate)
+
+News.FUW.FOR <- df_fuw_int %>%
+  select("time", "mean") %>%
+  ts_xts() %>%
+  ts_span(start = "2000-01-01", end = endDate)
+
+News.TA.CH <- df_ta_ch %>%
+  select("time", "mean") %>%
+  ts_xts() %>%
+  ts_span(start = "2000-01-01", end = endDate)
+
+News.TA.FOR <- df_ta_int %>%
   select("time", "mean") %>%
   ts_xts() %>%
   ts_span(start = "2000-01-01", end = endDate)
@@ -58,10 +91,6 @@ Tecon   <- read.csv("../Data/TrendEcon.csv")
 Tecon   <- xts(Tecon[,2], order.by = as.Date(Tecon[,1]))
 
 # Financial market variables
-#download.file(url = "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-hist.zip?a5a0e33a1d9ed4d9fa3e765230f40e65", destfile = "./Data/ExchangeRates.zip", mode="wb")
-#unzip('./Data/ExchangeRates.zip', exdir = "./Data")
-#download.file(url = "https://www.bundesbank.de/statistic-rmi/StatisticDownload?tsId=BBK01.ST0304&its_csvFormat=de&its_fileFormat=csv&mode=its", destfile = "./Data/EONIA.csv", mode="wb")
-#download.file(url = "https://www.six-group.com/exchanges/downloads/indexdata/hsrron.csv", destfile = "./Data/SARON.csv", mode="wb")
 download.file(url = "https://www.six-group.com/exchanges/downloads/indexdata/hsb_maturity_gov_y.csv", destfile = "../Data/ObligationsConf.csv", mode="wb")
 download.file(url = "https://www.six-group.com/exchanges/downloads/indexdata/hsb_maturity_dom_non_gov_rating_sbi_y.csv", destfile = "../Data/ObligationsEnt.csv", mode="wb")
 download.file(url = "https://www.six-group.com/exchanges/downloads/indexdata/h_vsmi_30.csv", destfile = "../Data/VIX.csv", mode="wb")
@@ -70,7 +99,6 @@ download.file(url = "https://www.six-group.com/exchanges/downloads/indexdata/hsb
 download.file(url = "https://www.six-group.com/exchanges/downloads/indexdata/hsb_maturity_for_rating_sbi_y.csv", destfile = "../Data/ForShort.csv", mode="wb")
 download.file(url = "https://www.bundesbank.de/statistic-rmi/StatisticDownload?tsId=BBK01.WT1010&its_csvFormat=de&its_fileFormat=csv&mode=its", destfile = "../Data/GermanBondYield.csv", mode="wb")
 download.file(url = "http://sdw.ecb.europa.eu/quickviewexport.do;jsessionid=62044D6532AB70D16C184E5A8FFADEEC?SERIES_KEY=165.YC.B.U2.EUR.4F.G_N_A.SV_C_YM.SR_1Y&type=csv", destfile = "../Data/EuroShortRate.csv", mode="wb")
-#SARON       <- read.csv("./Data/SARON.csv", sep = ";", skip = 3)
 
 # German government bond yields
 Gov10.DEU     <- read.csv("../Data/GermanBondYield.csv", sep = ";", skip = 5,  na.strings = "Kein Wert vorhanden", stringsAsFactors = FALSE, )
@@ -210,8 +238,6 @@ RPShort.CH  <- AAA_BBB2.CH - Gov2.CH.l
 RPShort.FOR <- ForAAA_AA - Gov2.CH.l 
 RP.FOR      <- ForCorp.l - Gov8.CH.l  
 TS.EUR      <- Gov10.DEU - Gov1.EUR.l
-#TS.US       <- L.op(ts_xts(ts_fred("T10Y2Y")), 1)
-#VIX.US      <- L.op(ts_xts(ts_fred("VIXCLS")), 1)
 TS.US       <- ts_xts(ts_fred("T10Y2Y"))
 VIX.US      <- ts_xts(ts_fred("VIXCLS"))
 
@@ -219,7 +245,6 @@ VIX.US      <- ts_xts(ts_fred("VIXCLS"))
 ts_summary(IRDIFF.CH)
 ts_summary(TS.CH)
 ts_summary(RP.CH)
-#ts_summary(RP2.CH)
 ts_summary(RPShort.CH)
 ts_summary(RPShort.FOR)
 ts_summary(RP.FOR)
@@ -229,8 +254,10 @@ ts_summary(VIX.US)
 ts_summary(VIX.CH)
 
 # Export the data (only those series that work well!)
-Indicators <- ts_c(TS.CH, RP.CH, RPShort.CH, VIX.CH, IRDIFF.CH, News.CH, News.FOR, RPShort.FOR, RP.FOR, TS.US, VIX.US, TS.EUR, Tecon)
+Indicators <- ts_c(TS.CH, RP.CH, RPShort.CH, VIX.CH, IRDIFF.CH, News.CH, 
+                   News.FOR, RPShort.FOR, RP.FOR, TS.US, VIX.US, TS.EUR, 
+                   Tecon, News.NZZ.CH, News.FUW.CH, News.TA.CH, News.NZZ.FOR, News.FUW.FOR, News.TA.FOR)
 
-# Datei speichern
+# Save indicators for f-curve
 save(list = c("GDP", "NGDP", "GDPDefl", "Indicators"), file = "../Data/IndicatorData.RData")
 

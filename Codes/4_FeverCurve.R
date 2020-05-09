@@ -9,7 +9,6 @@
 # Swiss economy", IRENE Working Paper No., University of Neuchâtel,
 # https://github.com/dankaufmann/f-curve
 #
-# Marc Burri and Daniel Kaufmann, 2020 (daniel.kaufmann@unine.ch)
 #-------------------------------------------------------------------------------------
 # V 1.0
 #-------------------------------------------------------------------------------------
@@ -27,7 +26,8 @@ leadTS        <- 0.5    # Lead of term-spread on the business cycle (in years)
 
 # Choose Which indicators to use
 whichInd   <- c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12)
-indexDom   <- c(1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  1,  1)    # Don't do decomposition here (later)
+indexDom   <- c(1, 1, 1, 1, 1, 1, 0, 0, 0, 0,  0,  0)    
+indexDom   <- indexDom == 1  # Needs to be TRUE/FALSE
 
 #-------------------------------------------------------------------------------------
 # Get the data
@@ -37,11 +37,17 @@ load(file="../Data/IndicatorData.RData")
 # Estimate the factor
 Results <- computeFactors(Indicators, leadTS, noMANews, normStart, startDate, endDate, whichInd, indexDom)
 fc <- ts_xts(Results[[1]]$fc)
+fc_for <- ts_xts(Results[[1]]$fc_for)
+fc_dom <- ts_xts(Results[[1]]$fc_dom)
+fc_res <- ts_xts(Results[[1]]$fc_res)
 lastObsDate <- Results[[2]]
 
 # Make sure that counter-cyclical
 signInd   <- sign(as.numeric(fc["2009-01-20"])-as.numeric(fc["2007-12-13",]))
 fc        <- fc*signInd
+fc_dom    <- fc_dom*signInd
+fc_for    <- fc_for*signInd
+fc_res    <- fc_res*signInd
 
 # Smooth with moving average 
 fc_s  <- rollapply(fc, noMA, mean, na.rm = TRUE)
@@ -53,7 +59,7 @@ p <- ts_ggplot(
   # `Baseline, five-day moving-av., inv. scale`  = -fc_s ,
   `Baseline, inv. scale`                         = -fc,
   `GDP growth (ann.)`                           = ts_span(ts_pca(GDP), startDate),
-  title = paste("f-curve and GDP (last obs.:", lastObsDate, ")", sep = "")
+ title = paste("f-curve and GDP (last obs.:", lastObsDate, ")", sep = "")
 )
 p <- ggLayout(p)
 p <- ggColor2(p)
@@ -79,8 +85,31 @@ ggsave(filename = "../Results/MainGDPShort.pdf", width = figwidth, height = figh
 ggsave(filename = "../Results/MainGDPShort.png", width = figwidth, height = figheight)
 p
 
+
+DecompData = data.frame(as.Date(index(fc)), fc_dom, fc_for, fc_res)
+colnames(DecompData) = c("Date", "Domestic", "Foreign", "Rest")
+DecompData <- melt(DecompData,id.vars = "Date") 
+p <- ggplot(DecompData, aes(x = Date, y = value,fill=variable)) + geom_bar(stat='identity')
+p <- p + ggtitle(paste("f-curve decomposition (last obs.:", lastObsDate, ")", sep = ""))
+p <- ggLayout(p)
+p <- addLines(p, myLines, myLabels, 3)
+p
+ggsave(filename = "../Results/Decomposition.pdf", width = figwidth, height = figheight)
+ggsave(filename = "../Results/Decomposition.png", width = figwidth, height = figheight)
+
+p <- ggplot(subset(DecompData, Date>"2020-02-01"), aes(x = Date, y = value,fill=variable)) + geom_bar(stat='identity')
+p <- ggLayout(p)
+p <- p + ggtitle(paste("f-curve decomposition during Covid-19 lockdown (last obs.:", lastObsDate, ")", sep = ""))
+p <- addLines(p, ShortLines, ShortLabels, -8)
+p <- p + scale_x_date(labels =  date_format("%b %Y"))
+p
+ggsave(filename = "../Results/DecompositionShort.pdf", width = figwidth, height = figheight)
+ggsave(filename = "../Results/DecompositionShort.png", width = figwidth, height = figheight)
+
 # Save data for later analysis
 save(list = c("fc", "fc_s", "lastObsDate"), file = "../Data/f-curve.RData")
 toExport <- data.frame(fc, fc_s, lastObsDate)
 colnames(toExport) <- c("f-curve", "smoothed", "update")
 write.csv(toExport, file = "../Results/f-curve-data.csv")
+
+

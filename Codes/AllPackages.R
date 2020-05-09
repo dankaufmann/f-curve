@@ -45,6 +45,8 @@ myLabels <- c("9/11 attacks", "Collapse Lehman Brothers", "Barroso: Euro debt cr
 # Function for computing overall and (optional) domestic and foreign decomposition
 computeFactors <- function(Indicators, leadTS, noMANews, normStart, startDate, endDate, whichInd, indexDom) {
   
+  
+  
   # Shorten data to those indicators that should be used and to the sample for the normalization
   AllIndicators <- ts_span(Indicators, normStart, endDate)
   AllIndicators <- AllIndicators[,whichInd]
@@ -79,7 +81,7 @@ computeFactors <- function(Indicators, leadTS, noMANews, normStart, startDate, e
     }
   }
   if(sum(delIndex)>0){
-     AllIndicators <- AllIndicators[, -delIndex]
+    AllIndicators <- AllIndicators[, -delIndex]
     indexDom      <- indexDom[-delIndex]
   }
   
@@ -106,31 +108,60 @@ computeFactors <- function(Indicators, leadTS, noMANews, normStart, startDate, e
   # 0) Impute data matrix based on all observation
   X   <- na.locf(AllIndicators, maxgap = 3)
   X   <- AllIndicators
-  X   <- imputePCA(as.matrix(X), ncp=6)$completeObs
+  X   <- imputePCA(as.matrix(X), ncp=4)$completeObs
   
   # 1) Estimate only one commom factor
   PC   <- prcomp(X)
   fc  <- xts(PC$x[,"PC1"], order.by=as.Date(index(AllIndicators)))
   colnames(fc) <- "fc"
-  
+
   # 2) If there are foreign variables, compute the decomposition
   if(sum(!indexDom)>0) {
+    
     
     # 2) Estimate the foreign factor on foreign variables only
     PCfor   <- prcomp(X[, !indexDom])
     fc_for  <- -xts(PCfor$x[,"PC1"], order.by=as.Date(index(AllIndicators[, !indexDom])))
-
+    
     # 2) Remove what we explain by foreign factor
-    tempData <- data.frame(fc, fc_for)
-    tempPred <- lm(fc~fc_for, data = tempData, na.action="na.exclude")
-    summary(tempPred)
-    fc_dom <- tempPred$coefficients[1]/2+xts(residuals(tempPred), order.by=as.Date(index(AllIndicators[, !indexDom])))
+    PCdom   <- prcomp(X[, indexDom])
+    fc_dom  <- xts(PCdom$x[,"PC1"], order.by=as.Date(index(AllIndicators[, indexDom])))
+    
+    Xdom   <- X[, indexDom]
+    Xresid <- X[, indexDom]
+    
+    nrep = 50
+    for(n in 1:nrep){
+      for(i in 1:dim(Xdom)[2]){
+        # Estimate residuals in domestic variables
+        
+        tempData <- data.frame(Xdom[,i], fc_for, fc_dom)
+        colnames(tempData) <- c("x", "fc_for", "fc_dom")
+        tempPred <- lm(x~fc_for+fc_dom, data = tempData, na.action="na.exclude")
+        Xresid[,i] <- Xdom[,i] - tempPred$coefficients[1] - tempPred$coefficients[2]*fc_for
+        #tempPred <- lm(fc~fc_for, data = tempData, na.action="na.exclude")
+        #summary(tempPred)
+      }
+      PCdom   <- prcomp(Xresid)
+      fc_dom  <- xts(PCdom$x[,"PC1"], order.by=as.Date(index(AllIndicators[, indexDom])))
+    }
+    
+    tempData <- data.frame(fc, fc_for, fc_dom)
+    colnames(tempData) <- c("fc", "fc_for", "fc_dom")
+    tempPred <- lm(fc~fc_for+fc_dom, data = tempData, na.action="na.exclude")
+    
     fc_for <- tempPred$coefficients[1]/2+tempPred$coefficients[2]*fc_for
-
+    fc_dom <- tempPred$coefficients[1]/2+tempPred$coefficients[3]*fc_dom
+    fc_res <- xts(residuals(tempPred), order.by=as.Date(index(AllIndicators[, !indexDom])))
+    #tempData <- data.frame(fc, fc_for)
+    #tempPred <- lm(fc~fc_for, data = tempData, na.action="na.exclude")
+    #summary(tempPred)
+    #fc_dom <- tempPred$coefficients[1]/2+xts(residuals(tempPred), order.by=as.Date(index(AllIndicators[, !indexDom])))
+    #fc_for <- tempPred$coefficients[1]/2+tempPred$coefficients[2]*fc_for
   }
   
   if(sum(!indexDom)>0) {
-    Results <- list(ts_c(fc, fc_dom, fc_for), lastObsDate)
+    Results <- list(ts_c(fc, fc_dom, fc_for, fc_res), lastObsDate)
   }
   else{
     Results <- list(ts_c(fc), lastObsDate)
