@@ -14,7 +14,7 @@
 #-------------------------------------------------------------------------------------
 
 # Packages and settings
-# rm(list = ls())
+#rm(list = ls())
 source("AllPackages.R")
 normStart <- as.Date("1999-01-01")
 startDate <- as.Date("2000-01-01")
@@ -57,9 +57,9 @@ DataCor <- as.data.frame(ts_c(ts_pca(GDP), ts_frequency(fc, to = "quarter", aggr
 Correl  <- cor(DataCor, use = "na.or.complete")[1, 2]
 p <- ts_ggplot(
   # `Baseline, five-day moving-av., inv. scale`  = -fc_s ,
-  `Baseline, inv. scale`                         = -fc,
-  `GDP growth (ann.)`                           = ts_span(ts_pca(GDP), startDate),
- title = paste("f-curve and GDP (last obs.:", lastObsDate, ")", sep = "")
+  `f-curve, inverse scale`                         = -fc,
+  `GDP growth (annualized)`                           = ts_span(ts_pca(GDP), startDate),
+ title = paste("Last observation:", lastObsDate, "", sep = "")
 )
 p <- ggLayout(p)
 p <- ggColor2(p)
@@ -73,9 +73,9 @@ ggsave(filename = "../Results/MainGDP.png", width = figwidth, height = figheight
 ShortLines <- c("2020-03-16", "2020-03-25", "2020-04-03", "2020-04-16", "2020-04-30")
 ShortLabels <- c("Covid-19 lockdown", "Economic aid package (announced)", "Increase aid package (announced)", "Easing lockdown (phase I, announced)", "Easing lockdown (phase II, announced)")
 p <- ts_ggplot(
-  `Baseline, five-day moving-average`  = ts_span(fc_s, "2020-02-01"),
-  `Baseline, raw data`                         = ts_span(fc, "2020-02-01"),
-  title = paste("f-curve during Covid-19 lockdown (last obs.:", lastObsDate, ")", sep = "")
+  `f-curve, five-day moving-average`  = ts_span(fc_s, "2020-02-01"),
+  `f-curve, raw data`                         = ts_span(fc, "2020-02-01"),
+  title = paste("Last observation:", lastObsDate, "", sep = "")
 )
 p <- ggLayout(p)
 p <- ggColor3(p)
@@ -85,12 +85,11 @@ ggsave(filename = "../Results/MainGDPShort.pdf", width = figwidth, height = figh
 ggsave(filename = "../Results/MainGDPShort.png", width = figwidth, height = figheight)
 p
 
-
 DecompData = data.frame(as.Date(index(fc)), fc_dom, fc_for, fc_res)
 colnames(DecompData) = c("Date", "Domestic", "Foreign", "Rest")
 DecompData <- melt(DecompData,id.vars = "Date") 
 p <- ggplot(DecompData, aes(x = Date, y = value,fill=variable)) + geom_bar(stat='identity')
-p <- p + ggtitle(paste("f-curve decomposition (last obs.:", lastObsDate, ")", sep = ""))
+p <- p + ggtitle("f-curve decomposition")
 p <- ggLayout(p)
 p <- addLines(p, myLines, myLabels, 3)
 p
@@ -99,7 +98,7 @@ ggsave(filename = "../Results/Decomposition.png", width = figwidth, height = fig
 
 p <- ggplot(subset(DecompData, Date>"2020-02-01"), aes(x = Date, y = value,fill=variable)) + geom_bar(stat='identity')
 p <- ggLayout(p)
-p <- p + ggtitle(paste("f-curve decomposition during Covid-19 lockdown (last obs.:", lastObsDate, ")", sep = ""))
+p <- p + ggtitle("f-curve decomposition during Covid-19 lockdown")
 p <- addLines(p, ShortLines, ShortLabels, -8)
 p <- p + scale_x_date(labels =  date_format("%b %Y"))
 p
