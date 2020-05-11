@@ -285,9 +285,9 @@ library(rvest)
 
 
 update_ta <- function() {
-  load("./Data/News/ta.RData")
+  load("../Data/News/ta.RData")
   # Load german stopwords
-  stopw_de <- read.delim("News/Stopwords/stopwords_de.txt", fileEncoding = 'WINDOWS-1252', header=F, stringsAsFactors = F)
+  stopw_de <- read.delim("../Data/News/Stopwords/stopwords_de.txt", fileEncoding = 'WINDOWS-1252', header=F, stringsAsFactors = F)
   colnames(stopw_de) <- "words"
   
   senti <- read_sentiws()
@@ -300,13 +300,13 @@ update_ta <- function() {
     add_row("words" = "kurzarbeit", "value" = -0.0048, "class" = "NN", "pol" = "neg")
   
   # update domestic
-  path <- "./Data/News/TA/dom"
+  path <- "../Data/News/TA/dom"
   files <- list.files(path, pattern = ".xlsx")
   df <- tibble()
   for (file in files) {
     tmp <- read.xlsx(paste0(path, "/", file), sheetName = "Sheet1", encoding = "UTF-8")
     df <- bind_rows(df, tmp)
-    file.move(paste0(path, "/", file), "./Data/News/TA/dom/_archive")
+    file.move(paste0(path, "/", file), "../Data/News/TA/dom/_archive")
   }
   
   try({df <- df %>%
@@ -334,13 +334,13 @@ update_ta <- function() {
   
   
   # update foreign
-  path <- "./Data/News/TA/for"
+  path <- "../Data/News/TA/for"
   files <- list.files(path, pattern = ".xlsx")
   df <- tibble()
   for (file in files) {
     tmp <- read.xlsx(paste0(path, "/", file), sheetName = "Sheet1", encoding = "UTF-8")
     df <- bind_rows(df, tmp)
-    file.move(paste0(path, "/", file), "./Data/News/TA/for/_archive")
+    file.move(paste0(path, "/", file), "../Data/News/TA/for/_archive")
   }
   
   
@@ -366,15 +366,15 @@ update_ta <- function() {
   df_ta_int <- bind_rows(df_ta_int, df)},
   silent = T)
   
-  save(df_ta_ch, df_ta_int, file = "./Data/News/ta.RData")
+  save(df_ta_ch, df_ta_int, file = "../Data/News/ta.RData")
   
 }
 
 
 update_nzz <- function() {
-  load("./Data/News/nzz.RData")
+  load("../Data/News/nzz.RData")
   # Load german stopwords
-  stopw_de <- read.delim("News/Stopwords/stopwords_de.txt", fileEncoding = 'WINDOWS-1252', header=F, stringsAsFactors = F)
+  stopw_de <- read.delim("../Data/News/Stopwords/stopwords_de.txt", fileEncoding = 'WINDOWS-1252', header=F, stringsAsFactors = F)
   colnames(stopw_de) <- "words"
   
   senti <- read_sentiws()
@@ -387,13 +387,13 @@ update_nzz <- function() {
     add_row("words" = "kurzarbeit", "value" = -0.0048, "class" = "NN", "pol" = "neg")
   
   # update domestic
-  path <- "./Data/News/NZZ/dom"
+  path <- "../Data/News/NZZ/dom"
   files <- list.files(path, pattern = ".xlsx")
   df <- tibble()
   for (file in files) {
     tmp <- read.xlsx(paste0(path, "/", file), sheetName = "Sheet1", encoding = "UTF-8")
     df <- bind_rows(df, tmp)
-    file.move(paste0(path, "/", file), "./Data/News/NZZ/dom/_archive")
+    file.move(paste0(path, "/", file), "../Data/News/NZZ/dom/_archive")
   }
   
   try({df <- df %>%
@@ -421,13 +421,13 @@ update_nzz <- function() {
   
   
   # update foreign
-  path <- "./Data/News/NZZ/for"
+  path <- "../Data/News/NZZ/for"
   files <- list.files(path, pattern = ".xlsx")
   df <- tibble()
   for (file in files) {
     tmp <- read.xlsx(paste0(path, "/", file), sheetName = "Sheet1", encoding = "UTF-8")
     df <- bind_rows(df, tmp)
-    file.move(paste0(path, "/", file), "./Data/News/NZZ/for/_archive")
+    file.move(paste0(path, "/", file), "../Data/News/NZZ/for/_archive")
   }
   
   
@@ -453,13 +453,13 @@ update_nzz <- function() {
   df_nzz_int <- bind_rows(df_nzz_int, df)},
   silent = T)
   
-  save(df_nzz_ch, df_nzz_int, file = "./Data/News/nzz.RData")
+  save(df_nzz_ch, df_nzz_int, file = "../Data/News/nzz.RData")
   
 }
 
 update_fuw <- function(){
-  load("./Data/News/fuw.RData")
-  path <- "./Data/News/FUW"
+  load("../Data/News/fuw.RData")
+  path <- "../Data/News/FUW"
   enddate <- Sys.Date()-1
   startdate <- max(df_fuw_int$time)+1
   # Makro
@@ -472,7 +472,7 @@ update_fuw <- function(){
   Sys.sleep(3)
   
   # Load german stopwords
-  stopw_de <- read.delim("News/Stopwords/stopwords_de.txt", fileEncoding = 'WINDOWS-1252', header=F, stringsAsFactors = F)
+  stopw_de <- read.delim("../Data/News/Stopwords/stopwords_de.txt", fileEncoding = 'WINDOWS-1252', header=F, stringsAsFactors = F)
   colnames(stopw_de) <- "words"
   
   senti <- read_sentiws()
@@ -535,7 +535,7 @@ update_fuw <- function(){
       
       df <- bind_rows(df, row)
     }
-    file.move(paste0(path, "/", file), "./Data/News/FUW/_archive")
+    file.move(paste0(path, "/", file), "../Data/News/FUW/_archive")
   }
   
   df <- df %>% 
@@ -568,7 +568,7 @@ update_fuw <- function(){
   df_fuw_ch <- bind_rows(df_fuw_ch, df_fuw_ch_new)
   df_fuw_int <- bind_rows(df_fuw_int, df_fuw_int_new)
   
-  save(df_fuw_ch, df_fuw_int, file = "./Data/News/fuw.RData")
+  save(df_fuw_ch, df_fuw_int, file = "../Data/News/fuw.RData")
   
 }
 
@@ -607,9 +607,9 @@ cleanNZZ <- function(txt, stopwds) {
 }
 
 merge_news <- function() {
-  load("./Data/News/ta.RData")
-  load("./Data/News/nzz.RData")
-  load("./Data/News/fuw.RData")
+  load("../Data/News/ta.RData")
+  load("../Data/News/nzz.RData")
+  load("../Data/News/fuw.RData")
   
   
   df_all_ch <- full_join(df_fuw_ch, df_nzz_ch, by="time") %>%
@@ -636,7 +636,7 @@ merge_news <- function() {
   
   colnames(df_all_int) <- c("time", "mean", "sum")
   
-  save(df_all_ch, df_all_int, file =  "./Data/News/all.RData")
+  save(df_all_ch, df_all_int, file =  "../Data/News/all.RData")
   
 }
 
@@ -649,14 +649,14 @@ updateNewsIndicator <- function() {
   
   # TA
   enddate <- Sys.Date() -1
-  load("./Data/News/ta.RData")
+  load("../Data/News/ta.RData")
   
   # Domestic:
   startdate <- max(df_ta_ch$time)+1
   searchkeys_ta_ch <- c("wirtschaft schweiz", "konjunktur schweiz", "rezession schweiz")
   for (searchkey in searchkeys_ta_ch) {
     # Run Python Script with input arguments
-    system(paste0('Z:\\Codes\\web_scraping\\venv\\Scripts\\activate.bat &  Z:\\Codes\\web_scraping\\venv\\Scripts\\python.exe  C:\\Users\\burrim\\switchdrive\\CrisisIndicator\\Data\\News\\TA\\tagi_args.py -k "', searchkey,'" -s "',startdate , '" -e "', enddate , '"'))
+    system(paste0('Z:\\Codes\\web_scraping\\venv\\Scripts\\activate.bat &  Z:\\Codes\\web_scraping\\venv\\Scripts\\python.exe  ..\\Data\\News\\tagi_args.py -k "', searchkey,'" -s "',startdate , '" -e "', enddate , '"'))
   }
   
   #Foreign:
@@ -664,7 +664,7 @@ updateNewsIndicator <- function() {
   searchkeys_ta_for <- c("wirtschaft ausland", "wirtschaft eu", "wirtschaft euro" , "wirtschaft europa", "wirtschaft deutschland", "wirtschaft usa", "wirtschaft us", "wirtschaft amerika", "konjunktur ausland", "konjunktur eu", "konjunktur euro" , "konjunktur europa", "konjunktur deutschland", "konjunktur usa", "konjunktur us", "konjunktur amerika", "rezession ausland", "rezession eu", "rezession euro" , "rezession europa", "rezession deutschland", "rezession usa", "rezession us", "rezession amerika")
   for (searchkey in searchkeys_ta_for) {
     # Run Python Script with input arguments
-    system(paste0('Z:\\Codes\\web_scraping\\venv\\Scripts\\activate.bat &  Z:\\Codes\\web_scraping\\venv\\Scripts\\python.exe  C:\\Users\\burrim\\switchdrive\\CrisisIndicator\\Data\\News\\TA\\tagi_args.py -k "', searchkey,'" -s "',startdate , '" -e "', enddate , '"'))
+    system(paste0('Z:\\Codes\\web_scraping\\venv\\Scripts\\activate.bat &  Z:\\Codes\\web_scraping\\venv\\Scripts\\python.exe  ..\\Data\\News\\tagi_args.py -k "', searchkey,'" -s "',startdate , '" -e "', enddate , '"'))
   }
   
   # Update .RData files with recently downloaded News
@@ -674,14 +674,14 @@ updateNewsIndicator <- function() {
   
   # NZZ
   enddate <- Sys.Date() -1
-  load("./Data/News/nzz.RData")
+  load("../Data/News/nzz.RData")
   
   # Domestic:
   startdate <- max(df_nzz_ch$time)+1
   searchkeys_nzz_ch <- c("wirtschaft* schweiz*", "konjunktur* schweiz*", "rezession* schweiz*")
   for (searchkey in searchkeys_nzz_ch) {
     # Run Python Script with input arguments
-    system(paste0('Z:\\Codes\\web_scraping\\venv\\Scripts\\activate.bat &  Z:\\Codes\\web_scraping\\venv\\Scripts\\python.exe  C:\\Users\\burrim\\switchdrive\\CrisisIndicator\\Data\\News\\NZZ\\nzz_args.py -k "', searchkey,'" -s "',startdate , '" -e "', enddate , '"'))
+    system(paste0('Z:\\Codes\\web_scraping\\venv\\Scripts\\activate.bat &  Z:\\Codes\\web_scraping\\venv\\Scripts\\python.exe  ..\\Data\\News\\nzz_args.py -k "', searchkey,'" -s "',startdate , '" -e "', enddate , '"'))
   }
   
   #Foreign:
@@ -689,7 +689,7 @@ updateNewsIndicator <- function() {
   searchkeys_nzz_for <- c("wirtschaft* ausland", "wirtschaft* eu", "wirtschaft* euro*" , "wirtschaft* deutsch*", "wirtschaft* us*", "wirtschaft* amerika*", "konjunktur* ausland", "konjunktur* eu", "konjunktur* euro*" , "konjunktur* deutsch*", "konjunktur* us*", "konjunktur* amerika*", "rezession* ausland", "rezession* eu", "rezession* euro*" , "rezession* deutsch*", "rezession* us*", "rezession* amerika*")
   for (searchkey in searchkeys_nzz_for) {
     # Run Python Script with input arguments
-    system(paste0('Z:\\Codes\\web_scraping\\venv\\Scripts\\activate.bat &  Z:\\Codes\\web_scraping\\venv\\Scripts\\python.exe  C:\\Users\\burrim\\switchdrive\\CrisisIndicator\\Data\\News\\NZZ\\nzz_args.py -k "', searchkey,'" -s "',startdate , '" -e "', enddate , '"'))
+    system(paste0('Z:\\Codes\\web_scraping\\venv\\Scripts\\activate.bat &  Z:\\Codes\\web_scraping\\venv\\Scripts\\python.exe  ..\\Data\\News\\nzz_args.py -k "', searchkey,'" -s "',startdate , '" -e "', enddate , '"'))
   }
   
   # Update .RData files with recently downloaded News
@@ -709,7 +709,7 @@ read_sentiws <- function(){
   # Load Sentiment Lexicon
   
   #positive
-  df_pos <- readLines("News/SentiWS_v2.0/SentiWS_v2.0_Positive.txt",
+  df_pos <- readLines("../Data/News/SentiWS_v2.0/SentiWS_v2.0_Positive.txt",
                       encoding = "UTF-8") %>%
     stringi::stri_replace_all("ss", fixed = "\u00DF") %>% # Replace "Esszett" with ss
     lapply(
@@ -730,7 +730,7 @@ read_sentiws <- function(){
     mutate(value=as.numeric(value))
   
   #negative
-  df_neg <- readLines("News/SentiWS_v2.0/SentiWS_v2.0_Negative.txt",
+  df_neg <- readLines("../Data/News/SentiWS_v2.0/SentiWS_v2.0_Negative.txt",
                       encoding = "UTF-8") %>%
     stringi::stri_replace_all("ss", fixed = "\u00DF") %>% # Replace "Esszet"
     lapply(

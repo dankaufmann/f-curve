@@ -41,11 +41,11 @@ def main(argumentlist):
         sys.exit()
     
     if "schweiz" in searchkey.split()[1]:
-        print(searchkey.split()[1])
-        path = "C:\\Users\\burrim\\switchdrive\\CrisisIndicator\\Data\\News\\NZZ\\dom"
+        # print(searchkey.split()[1])
+        path = "C:\\Users\\burrim\\Documents\\GitHub\\f-curve\\Data\\News\\NZZ\\dom"
     else:
-        print(searchkey.split()[1])
-        path = "C:\\Users\\burrim\\switchdrive\\CrisisIndicator\\Data\\News\\NZZ\\for"
+        # print(searchkey.split()[1])
+        path = "C:\\Users\\burrim\\Documents\\GitHub\\f-curve\\Data\\News\\NZZ\\for"
 
     url = "https://zeitungsarchiv.nzz.ch/#archive"
 
@@ -73,19 +73,25 @@ def main(argumentlist):
         key = browser.find_element_by_class_name("fup-archive-query-input")
         key.clear()
         key.send_keys(searchkey)
+        
+        time.sleep(1)
 
         beg = browser.find_element_by_class_name("fup-s-date-start")
         beg.clear()
         beg.send_keys(datestr)
+        
+        time.sleep(1)
 
         end = browser.find_element_by_class_name("fup-s-date-end")
         end.clear()
         end.send_keys(datestr)
+        
+        time.sleep(1)
 
         such = browser.find_element_by_class_name("fup-s-exec-search")
         such.click()
         
-        time.sleep(8)
+        time.sleep(10)
 
         nr = browser.find_element_by_class_name("fup-archive-result-hits").text
         nr = int(nr.split()[0])
@@ -122,6 +128,7 @@ def main(argumentlist):
         list_date = []
         list_text = []
         list_title = []
+        time.sleep(2)
 
 
     browser.close()

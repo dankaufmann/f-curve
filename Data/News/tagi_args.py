@@ -31,11 +31,11 @@ def main(argumentlist):
         sys.exit()
     
     if "schweiz" in searchkey.split()[1]:
-        print(searchkey.split()[1])
-        path = "C:\\Users\\burrim\\switchdrive\\CrisisIndicator\\Data\\News\\TA\\dom"
+        # print(searchkey.split()[1])
+        path = "C:\\Users\\burrim\\Documents\\GitHub\\f-curve\\Data\\News\\TA\\dom"
     else:
-        print(searchkey.split()[1])
-        path = "C:\\Users\\burrim\\switchdrive\\CrisisIndicator\\Data\\News\\TA\\for"
+        # print(searchkey.split()[1])
+        path = "C:\\Users\\burrim\\Documents\\GitHub\\f-curve\\Data\\News\\TA\\for"
 
     url = "https://archive-search.takube.embrio.tech/?lang=de&tenant=TA"
 
