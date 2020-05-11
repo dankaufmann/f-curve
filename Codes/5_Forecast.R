@@ -14,7 +14,7 @@
 #-------------------------------------------------------------------------------------
 
 # Packages and settings
-rm(list = ls())
+# rm(list = ls())
 source("AllPackages.R")
 startDate <- as.Date("2000-01-01")
 endDate   <- Sys.Date()

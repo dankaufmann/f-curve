@@ -14,7 +14,7 @@
 #-------------------------------------------------------------------------------------
 
 # Packages and settings
-rm(list = ls())
+# rm(list = ls())
 source("AllPackages.R")
 normStart <- as.Date("1999-01-01")
 startDate <- as.Date("2000-01-01")

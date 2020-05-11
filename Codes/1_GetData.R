@@ -14,7 +14,7 @@
 #-------------------------------------------------------------------------------------
 
 # Packages and settings
-rm(list = ls())
+# rm(list = ls())
 source("AllPackages.R")
 endDate   <- Sys.Date()
 updateNews <- FALSE # Choose whether you want to update news (takes up to 20 min)
