@@ -85,7 +85,7 @@ def main(argumentlist):
         such = browser.find_element_by_class_name("fup-s-exec-search")
         such.click()
         
-        time.sleep(5)
+        time.sleep(8)
 
         nr = browser.find_element_by_class_name("fup-archive-result-hits").text
         nr = int(nr.split()[0])
