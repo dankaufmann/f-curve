@@ -183,7 +183,7 @@ write.table(Tab, sep = "&", eol = "\\\\ ", quote = FALSE,col.names = FALSE, row.
 colnames(Tab) <- c("Date", "Point forecast", "90% Interval forecast", "P[Growth<-1%]")
 
 # Export nice table for github as png
-kable(Tab, "html", caption=paste("f-curve forecast of GDP growth (last obs.:", lastObsDate, ")", sep = "")) %>%
+kable(Tab, "html", caption=paste("f-curve forecast of GDP growth (last obsservation: ", lastObsDate, ")", sep = "")) %>%
   kable_styling(full_width = FALSE, font_size = 22) %>%
   row_spec(1, color = "black") %>%
   row_spec(c(2:5), color = "blue") %>%
