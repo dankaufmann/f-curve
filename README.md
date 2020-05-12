@@ -10,7 +10,7 @@
 **Recommended citation:** [Burri](https://www.linkedin.com/in/marc-burri-a64628196/) Marc and Daniel [Kaufmann](https://dankaufmann.com): "A daily fever curve for the Swiss economy", IRENE Working Paper No., v1.0: [github.com/dankaufmann/f-curve](https://github.com/dankaufmann/f-curve)
 
 ## Download current data and installation instructions
-[f-curve data (csv)](./Results/f-curve-data.csv) | [Installation instructions](./WebScraping.md)
+[f-curve data (csv)](./Results/f-curve-data.csv) | [Working Paper](./WorkingPaper.pdf) | [Installation instructions](./WebScraping.md)
  
 ## Current f-curve:
 ![](./Results/MainGDPShort.png)
