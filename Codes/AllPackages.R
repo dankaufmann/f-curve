@@ -318,7 +318,7 @@ update_ta <- function() {
   for (file in files) {
     tmp <- read.xlsx(paste0(path, "/", file), sheetName = "Sheet1", encoding = "UTF-8")
     df <- bind_rows(df, tmp)
-    file.move(paste0(path, "/", file), "../Data/News/TA/dom/_archive")
+    file.move(paste0(path, "/", file), "../Data/News/TA/dom/_archive", overwrite = T)
   }
   
   try({df <- df %>%
@@ -352,7 +352,7 @@ update_ta <- function() {
   for (file in files) {
     tmp <- read.xlsx(paste0(path, "/", file), sheetName = "Sheet1", encoding = "UTF-8")
     df <- bind_rows(df, tmp)
-    file.move(paste0(path, "/", file), "../Data/News/TA/for/_archive")
+    file.move(paste0(path, "/", file), "../Data/News/TA/for/_archive", overwrite = T)
   }
   
   
@@ -405,7 +405,7 @@ update_nzz <- function() {
   for (file in files) {
     tmp <- read.xlsx(paste0(path, "/", file), sheetName = "Sheet1", encoding = "UTF-8")
     df <- bind_rows(df, tmp)
-    file.move(paste0(path, "/", file), "../Data/News/NZZ/dom/_archive")
+    file.move(paste0(path, "/", file), "../Data/News/NZZ/dom/_archive", overwrite = T)
   }
   
   try({df <- df %>%
@@ -439,7 +439,7 @@ update_nzz <- function() {
   for (file in files) {
     tmp <- read.xlsx(paste0(path, "/", file), sheetName = "Sheet1", encoding = "UTF-8")
     df <- bind_rows(df, tmp)
-    file.move(paste0(path, "/", file), "../Data/News/NZZ/for/_archive")
+    file.move(paste0(path, "/", file), "../Data/News/NZZ/for/_archive", overwrite = T)
   }
   
   
@@ -547,7 +547,7 @@ update_fuw <- function(){
       
       df <- bind_rows(df, row)
     }
-    file.move(paste0(path, "/", file), "../Data/News/FUW/_archive")
+    file.move(paste0(path, "/", file), "../Data/News/FUW/_archive", overwrite = T)
   }
   
   df <- df %>% 
