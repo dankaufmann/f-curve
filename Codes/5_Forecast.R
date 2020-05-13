@@ -1,12 +1,11 @@
 #-------------------------------------------------------------------------------------
 # A daily fever curve for the Swiss economy
 #-------------------------------------------------------------------------------------
-# Feel free to copy, adapt, and use this code for your own purposes at 
-# your own risk.
+# Feel free to copy, adapt, and use this code for your own purposes at your own risk.
 #
 # Please cite: 
 # Burri, Marc and Daniel Kaufmann (2020): "A daily fever curve for the
-# Swiss economy", IRENE Working Paper No., University of Neuchâtel,
+# Swiss economy", IRENE Working Paper No. 20-05, University of Neuchâtel,
 # https://github.com/dankaufmann/f-curve
 #
 #-------------------------------------------------------------------------------------
@@ -14,7 +13,7 @@
 #-------------------------------------------------------------------------------------
 
 # Packages and settings
-# rm(list = ls())
+#rm(list = ls())
 source("AllPackages.R")
 startDate <- as.Date("2000-01-01")
 endDate   <- Sys.Date()
@@ -140,7 +139,7 @@ for(h in 1:length(FcstDates)){
   }
 }
 
-Temp <- c(as.numeric(ts_pca(depVar)[ts_summary(depVar)$end]), as.numeric(Fcst[1]), as.numeric(Fcst[2]), as.numeric(Fcst[3]), as.numeric(Fcst[4]))
+Temp <- round(c(as.numeric(ts_pca(depVar)[ts_summary(depVar)$end]), as.numeric(Fcst[1]), as.numeric(Fcst[2]), as.numeric(Fcst[3]), as.numeric(Fcst[4])), 1)
 Temp <- round(Temp, 2)
 Intv <- c("-", paste("[", round(FcstCI$Lower90[1], 1), ", ", round(FcstCI$Upper90[1], 1), "]", sep = ""),
               paste("[", round(FcstCI$Lower90[2], 1), ", ", round(FcstCI$Upper90[2], 1), "]", sep = ""),
@@ -183,7 +182,7 @@ write.table(Tab, sep = "&", eol = "\\\\ ", quote = FALSE,col.names = FALSE, row.
 colnames(Tab) <- c("Date", "Point forecast", "90% Interval forecast", "P[Growth<-1%]")
 
 # Export nice table for github as png
-kable(Tab, "html", caption=paste("f-curve forecast of GDP growth (last obsservation: ", lastObsDate, ")", sep = "")) %>%
+kable(Tab, "html", caption=paste("f-curve forecast of ann. GDP growth (last observation: ", lastObsDate, ")", sep = "")) %>%
   kable_styling(full_width = FALSE, font_size = 22) %>%
   row_spec(1, color = "black") %>%
   row_spec(c(2:5), color = "blue") %>%

@@ -1,12 +1,11 @@
 #-------------------------------------------------------------------------------------
 # A daily fever curve for the Swiss economy
 #-------------------------------------------------------------------------------------
-# Feel free to copy, adapt, and use this code for your own purposes at 
-# your own risk.
+# Feel free to copy, adapt, and use this code for your own purposes at your own risk.
 #
 # Please cite: 
 # Burri, Marc and Daniel Kaufmann (2020): "A daily fever curve for the
-# Swiss economy", IRENE Working Paper No., University of Neuchâtel,
+# Swiss economy", IRENE Working Paper No. 20-05, University of Neuchâtel,
 # https://github.com/dankaufmann/f-curve
 #
 #-------------------------------------------------------------------------------------
@@ -16,7 +15,7 @@
 # Packages and settings
 #rm(list = ls())
 source("AllPackages.R")
-normStart <- as.Date("1999-01-01")
+normStart <- as.Date("1999-06-01")   # Use some data before because we shift term spread forward
 startDate <- as.Date("2000-01-01")
 
 endDate       <- Sys.Date()
@@ -59,7 +58,7 @@ p <- ts_ggplot(
   # `Baseline, five-day moving-av., inv. scale`  = -fc_s ,
   `f-curve, inverse scale`                         = -fc,
   `GDP growth (annualized)`                           = ts_span(ts_pca(GDP), startDate),
- title = paste("Last observation:", lastObsDate, "", sep = "")
+ title = paste("Last observation: ", lastObsDate, "", sep = "")
 )
 p <- ggLayout(p)
 p <- ggColor2(p)
@@ -75,7 +74,7 @@ ShortLabels <- c("Covid-19 lockdown", "Economic aid package (announced)", "Incre
 p <- ts_ggplot(
   `f-curve, five-day moving-average`  = ts_span(fc_s, "2020-02-01"),
   `f-curve, raw data`                         = ts_span(fc, "2020-02-01"),
-  title = paste("Last observation:", lastObsDate, "", sep = "")
+  title = paste("Last observation: ", lastObsDate, "", sep = "")
 )
 p <- ggLayout(p)
 p <- ggColor3(p)
