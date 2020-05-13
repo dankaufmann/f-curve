@@ -22,7 +22,7 @@ endDate   <- Sys.Date()
 # Get the data
 #-------------------------------------------------------------------------------------
 load(file="../Data/IndicatorData.RData")
-load(file="../Data/MacroData.RData")
+# load(file="../Data/MacroData.RData") # Not necessary in vintages
 load(file="../Data/f-curve.RData")
 
 #-------------------------------------------------------------------------------------
