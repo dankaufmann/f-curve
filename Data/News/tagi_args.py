@@ -3,6 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 import time
 import sys, getopt
+import os
 
 
 def main(argumentlist):
@@ -29,13 +30,15 @@ def main(argumentlist):
 
     if len(searchkey.split()) != 2:
         sys.exit()
+        
+    dirname = os.path.dirname(__file__)
     
     if "schweiz" in searchkey.split()[1]:
         # print(searchkey.split()[1])
-        path = "C:\\Users\\burrim\\Documents\\GitHub\\f-curve\\Data\\News\\TA\\dom"
+        path = os.path.join(dirname, 'TA\\dom')
     else:
         # print(searchkey.split()[1])
-        path = "C:\\Users\\burrim\\Documents\\GitHub\\f-curve\\Data\\News\\TA\\for"
+        path = os.path.join(dirname, 'TA\\for')
 
     url = "https://archive-search.takube.embrio.tech/?lang=de&tenant=TA"
 
@@ -44,7 +47,7 @@ def main(argumentlist):
     opts.headless = True
 
     # Start Browser and search for articles in German containing words: Inflation, Arbeitsmarkt, Konjunktur
-    browser = webdriver.Firefox(options=opts)
+    browser = webdriver.Firefox(options=opts, executable_path=os.path.join(dirname, "geckodriver.exe"))
     browser.get(url)
 
     daterange = pd.date_range(start=strt, end=end)

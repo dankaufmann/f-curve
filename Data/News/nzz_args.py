@@ -3,6 +3,7 @@ import sys
 import time
 import math
 import string
+import os
 
 import pandas as pd
 from selenium import webdriver
@@ -39,13 +40,15 @@ def main(argumentlist):
 
     if len(searchkey.split()) != 2:
         sys.exit()
+        
+    dirname = os.path.dirname(__file__)
     
     if "schweiz" in searchkey.split()[1]:
         # print(searchkey.split()[1])
-        path = "C:\\Users\\burrim\\Documents\\GitHub\\f-curve\\Data\\News\\NZZ\\dom"
+        path = os.path.join(dirname, 'NZZ\\dom')
     else:
         # print(searchkey.split()[1])
-        path = "C:\\Users\\burrim\\Documents\\GitHub\\f-curve\\Data\\News\\NZZ\\for"
+        path = os.path.join(dirname, 'NZZ\\for')
 
     url = "https://zeitungsarchiv.nzz.ch/#archive"
 
@@ -54,7 +57,7 @@ def main(argumentlist):
     opts.headless = True
 
     # Start Browser and search for articles in German containing words: Inflation, Arbeitsmarkt, Konjunktur
-    browser = webdriver.Firefox(options=opts)
+    browser = webdriver.Firefox(options=opts, executable_path=os.path.join(dirname, "geckodriver.exe"))
     browser.get(url)
     
     time.sleep(5)

@@ -668,7 +668,7 @@ updateNewsIndicator <- function() {
   searchkeys_ta_ch <- c("wirtschaft schweiz", "konjunktur schweiz", "rezession schweiz")
   for (searchkey in searchkeys_ta_ch) {
     # Run Python Script with input arguments
-    system(paste0('Z:\\Codes\\web_scraping\\venv\\Scripts\\activate.bat &  Z:\\Codes\\web_scraping\\venv\\Scripts\\python.exe  ..\\Data\\News\\tagi_args.py -k "', searchkey,'" -s "',startdate , '" -e "', enddate , '"'))
+    system(paste0('python  ..\\Data\\News\\tagi_args.py -k "', searchkey,'" -s "',startdate , '" -e "', enddate , '"'))
   }
   
   #Foreign:
@@ -676,7 +676,7 @@ updateNewsIndicator <- function() {
   searchkeys_ta_for <- c("wirtschaft ausland", "wirtschaft eu", "wirtschaft euro" , "wirtschaft europa", "wirtschaft deutschland", "wirtschaft usa", "wirtschaft us", "wirtschaft amerika", "konjunktur ausland", "konjunktur eu", "konjunktur euro" , "konjunktur europa", "konjunktur deutschland", "konjunktur usa", "konjunktur us", "konjunktur amerika", "rezession ausland", "rezession eu", "rezession euro" , "rezession europa", "rezession deutschland", "rezession usa", "rezession us", "rezession amerika")
   for (searchkey in searchkeys_ta_for) {
     # Run Python Script with input arguments
-    system(paste0('Z:\\Codes\\web_scraping\\venv\\Scripts\\activate.bat &  Z:\\Codes\\web_scraping\\venv\\Scripts\\python.exe  ..\\Data\\News\\tagi_args.py -k "', searchkey,'" -s "',startdate , '" -e "', enddate , '"'))
+    system(paste0('python  ..\\Data\\News\\tagi_args.py -k "', searchkey,'" -s "',startdate , '" -e "', enddate , '"'))
   }
   
   # Update .RData files with recently downloaded News
@@ -693,7 +693,7 @@ updateNewsIndicator <- function() {
   searchkeys_nzz_ch <- c("wirtschaft* schweiz*", "konjunktur* schweiz*", "rezession* schweiz*")
   for (searchkey in searchkeys_nzz_ch) {
     # Run Python Script with input arguments
-    system(paste0('Z:\\Codes\\web_scraping\\venv\\Scripts\\activate.bat &  Z:\\Codes\\web_scraping\\venv\\Scripts\\python.exe  ..\\Data\\News\\nzz_args.py -k "', searchkey,'" -s "',startdate , '" -e "', enddate , '"'))
+    system(paste0('python  ..\\Data\\News\\nzz_args.py -k "', searchkey,'" -s "',startdate , '" -e "', enddate , '"'))
   }
   
   #Foreign:
@@ -701,7 +701,7 @@ updateNewsIndicator <- function() {
   searchkeys_nzz_for <- c("wirtschaft* ausland", "wirtschaft* eu", "wirtschaft* euro*" , "wirtschaft* deutsch*", "wirtschaft* us*", "wirtschaft* amerika*", "konjunktur* ausland", "konjunktur* eu", "konjunktur* euro*" , "konjunktur* deutsch*", "konjunktur* us*", "konjunktur* amerika*", "rezession* ausland", "rezession* eu", "rezession* euro*" , "rezession* deutsch*", "rezession* us*", "rezession* amerika*")
   for (searchkey in searchkeys_nzz_for) {
     # Run Python Script with input arguments
-    system(paste0('Z:\\Codes\\web_scraping\\venv\\Scripts\\activate.bat &  Z:\\Codes\\web_scraping\\venv\\Scripts\\python.exe  ..\\Data\\News\\nzz_args.py -k "', searchkey,'" -s "',startdate , '" -e "', enddate , '"'))
+    system(paste0('python  ..\\Data\\News\\nzz_args.py -k "', searchkey,'" -s "',startdate , '" -e "', enddate , '"'))
   }
   
   # Update .RData files with recently downloaded News

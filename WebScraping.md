@@ -2,8 +2,8 @@
 
 The main scripts for the calculation of the f-curve are written in the programming language R. The necessary packages are listed in the file [AllPackages.R](./Codes/AllPackages.R) However, for the web scraping of the daily news articles (NZZ and TA) we switch to [Python](https://www.python.org) for technical reasons. Morover, for scraping the FuW we use [cURL](https://curl.haxx.se). This document explains the necessary steps to be able to run the web scraping scripts. The Python scripts and the curl command are designed to be executed by R. 
 
-Note: These are instructions for Windows Users (with administrator privileges). For other OS it may work a little differently.
-
+Notes: These are instructions for Windows Users (with administrator privileges). For other OS it may work a little differently.
+You may need to allow Python on the firewall if a pop-up window appears. 
 
 ## Installation
 ### Python
@@ -21,11 +21,13 @@ pip install selenium
 - Otherwise you may find useful information under [https://curl.haxx.se](https://curl.haxx.se)
 
 ## Execution
+If you set line 20 of `1_GetData.R` to `TRUE` web scraping is executed automatically.
+
 The scripts are executed in R with the `system()` command. 
 
 ###  Python
 The Python scripts use the following syntax:
-````
+````bash
 tagi_args.py -k <searchkey> -s <startdate %Y-%m-%d> -e <enddate %Y-%m-%d>
 nzz_args.py -k <searchkey> -s <startdate %Y-%m-%d> -e <enddate %Y-%m-%d>
 ````
