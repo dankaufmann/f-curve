@@ -2,23 +2,19 @@
 
 The main scripts for the calculation of the f-curve are written in the programming language R. The necessary packages are listed in the file [AllPackages.R](./Codes/AllPackages.R) However, for the web scraping of the daily news articles (NZZ and TA) we switch to [Python](https://www.python.org) for technical reasons. Morover, for scraping the FuW we use [cURL](https://curl.haxx.se). This document explains the necessary steps to be able to run the web scraping scripts. The Python scripts and the curl command are designed to be executed by R. 
 
-Note: It's very likely that various paths used in our programs will have to be adapted. 
+Note: These are instructions for Windows Users (with administrator privileges). For other OS it may work a little differently.
 
 
 ## Installation
 ### Python
 - To be able to run the python scripts you need a working installation of [Python 3](https://www.python.org)
-- With the packages [pandas](https://pandas.pydata.org/docs/) and [selenium](https://selenium-python.readthedocs.io/installation.html) installed (including dependencies). Those can be installed by typing the following in the command line:
+- With the packages [pandas](https://pandas.pydata.org/docs/), openpyxl and [selenium](https://selenium-python.readthedocs.io/installation.html) installed (including dependencies). Those can be installed by typing the following in the command line:
 ````bash
 pip install pandas
+pip install openpyxl
 pip install selenium
 ````
-- We use Firefox ( [Geckodriver](https://github.com/mozilla/geckodriver/releases)) as browser for scraping. Make sure to install the right [driver](https://selenium-python.readthedocs.io/installation.html#drivers)
-- The operating system must be able to find the driver. Either add it to the systems [PATH variable](https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/) or start the browser with the additional option "executable_path":
-
-```python
-browser = webdriver.Firefox(options=opts, executable_path=r'your\path\geckodriver.exe')
-```
+- Note: We use Firefox ( [Geckodriver](https://github.com/mozilla/geckodriver/releases)) as browser for scraping. 
 
 ### cURL
 - This command line tool should be installed by default on Windows 10 and other OS
@@ -35,9 +31,9 @@ nzz_args.py -k <searchkey> -s <startdate %Y-%m-%d> -e <enddate %Y-%m-%d>
 ````
 where searchkey is the word you want to search for in the respective archive. Start and end date must be in format  %Y-%m-%d. From R the scripts are executed as:
 ```R
-system(paste0('path\\to\\python.exe  ..\\Data\\News\\nzz_args.py -k "', searchkey,'" -s "',startdate , '" -e "', enddate , '"')
+system(paste0('python  ..\\Data\\News\\nzz_args.py -k "', searchkey,'" -s "',startdate , '" -e "', enddate , '"')
 ```
-The scripts then save an Excel file for each keyword and date (the destination folder must be created manually) which is in turn processed by R. 
+The scripts then save an Excel file for each keyword and date (the destination folder must be created manually) which is subsequently processed by R. 
 
 ###  cURL
 Since cUrl is a command line tool we simply run the following code snippet to save the most recent news in a text file. Again this text file is subsequently processed by R.
