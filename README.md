@@ -11,6 +11,8 @@
 
 ## Download current data and installation instructions
 [f-curve data (csv)](./Results/f-curve-data.csv) | [Working Paper](./f-curve_WP_20-05.pdf) | [Installation instructions](./WebScraping.md)
+
+The updated f-curve is available daily around 11 am.
  
 ## Current f-curve:
 ![](./Results/MainGDPShort.png)
