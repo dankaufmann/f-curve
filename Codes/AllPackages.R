@@ -41,6 +41,8 @@ figheight <- 5.5
 
 myLines  <- c("2001-09-11", "2008-09-16", "2011-08-04", "2015-01-15", "2020-03-16")
 myLabels <- c("9/11 attacks", "Collapse Lehman Brothers", "Barroso: Euro debt crisis spreads", "Removal exchange rate floor", "Covid-19 lockdown")
+myLabelsDE <- c("9/11 Attentate", "Insolvenz Lehman Brothers", "Barroso: Euro Schuldenkrise breitet sich aus", "Aufhebung Euro Mindestkurs", "Covid-19 lockdown")
+
 
 # Make output directory forder
 makeOutDir <- function(mainDir, outDir){
