@@ -97,7 +97,17 @@ def main(argumentlist):
         time.sleep(10)
 
         nr = browser.find_element_by_class_name("fup-archive-result-hits").text
-        nr = int(nr.split()[0])
+        try:
+            nr = int(nr.split()[0])
+        except Exception as e:
+             print(e)
+             such.click()
+        
+             time.sleep(10)
+
+             nr = browser.find_element_by_class_name("fup-archive-result-hits").text
+             nr = int(nr.split()[0])
+             
         nr_clicks = math.ceil(nr/50)
 
         for ii in range(nr_clicks):
