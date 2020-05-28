@@ -69,8 +69,8 @@ ggsave(filename = "../Results/MainGDP.pdf", width = figwidth, height = figheight
 ggsave(filename = "../Results/MainGDP.png", width = figwidth, height = figheight)
 
 # Main chart of curve
-ShortLines <- c("2020-03-16", "2020-03-25", "2020-04-03", "2020-04-16", "2020-04-30")
-ShortLabels <- c("Covid-19 lockdown", "Economic aid package (announced)", "Increase aid package (announced)", "Easing lockdown (phase I, announced)", "Easing lockdown (phase II, announced)")
+ShortLines <- c("2020-03-16", "2020-03-25", "2020-04-03", "2020-04-16", "2020-04-30", "2020-05-27")
+ShortLabels <- c("Covid-19 lockdown", "Economic aid package (announced)", "Increase aid package (announced)", "Easing lockdown (phase I, announced)", "Easing lockdown (phase II, announced)", "Easing lockdown (phase III, announced)")
 p <- ts_ggplot(
   `f-curve, five-day moving-average`  = ts_span(fc_s, "2020-02-01"),
   `f-curve, raw data`                         = ts_span(fc, "2020-02-01"),
