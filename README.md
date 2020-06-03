@@ -18,9 +18,6 @@ The updated f-curve is available daily around 11 am.
 ![](./Results/MainGDPShort.png)
 ![](./Results/DecompositionShort.png)
 
-## Current GDP growth forecast:
-![](./Results/Fcst_Table_GDP.png)
-
 ## Historical correlation with GDP growth
 ![](./Results/MainGDP.png)
 ![](./Results/Decomposition.png)
