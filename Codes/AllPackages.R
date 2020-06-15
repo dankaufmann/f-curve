@@ -661,30 +661,30 @@ updateNewsIndicator <- function() {
   # Update News via WebScarping (Slow and not very stable)
   # Works on Windows with Python and a set of installations
   
-  # TA
-  enddate <- Sys.Date() -1
-  load("../Data/News/ta.RData")
-  
-  # Domestic:
-  startdate <- max(df_ta_ch$time)+1
-  searchkeys_ta_ch <- c("wirtschaft schweiz", "konjunktur schweiz", "rezession schweiz")
-  for (searchkey in searchkeys_ta_ch) {
-    # Run Python Script with input arguments
-    system(paste0('python  ..\\Data\\News\\tagi_args.py -k "', searchkey,'" -s "',startdate , '" -e "', enddate , '"'))
-  }
-  
-  #Foreign:
-  startdate <- max(df_ta_int$time)+1
-  searchkeys_ta_for <- c("wirtschaft ausland", "wirtschaft eu", "wirtschaft euro" , "wirtschaft europa", "wirtschaft deutschland", "wirtschaft usa", "wirtschaft us", "wirtschaft amerika", "konjunktur ausland", "konjunktur eu", "konjunktur euro" , "konjunktur europa", "konjunktur deutschland", "konjunktur usa", "konjunktur us", "konjunktur amerika", "rezession ausland", "rezession eu", "rezession euro" , "rezession europa", "rezession deutschland", "rezession usa", "rezession us", "rezession amerika")
-  for (searchkey in searchkeys_ta_for) {
-    # Run Python Script with input arguments
-    system(paste0('python  ..\\Data\\News\\tagi_args.py -k "', searchkey,'" -s "',startdate , '" -e "', enddate , '"'))
-  }
-  
-  # Update .RData files with recently downloaded News
-  Sys.sleep(2)
-  update_ta()
-  Sys.sleep(2)
+  # # TA
+  # enddate <- Sys.Date() -1
+  # load("../Data/News/ta.RData")
+  # 
+  # # Domestic:
+  # startdate <- max(df_ta_ch$time)+1
+  # searchkeys_ta_ch <- c("wirtschaft schweiz", "konjunktur schweiz", "rezession schweiz")
+  # for (searchkey in searchkeys_ta_ch) {
+  #   # Run Python Script with input arguments
+  #   system(paste0('python  ..\\Data\\News\\tagi_args.py -k "', searchkey,'" -s "',startdate , '" -e "', enddate , '"'))
+  # }
+  # 
+  # #Foreign:
+  # startdate <- max(df_ta_int$time)+1
+  # searchkeys_ta_for <- c("wirtschaft ausland", "wirtschaft eu", "wirtschaft euro" , "wirtschaft europa", "wirtschaft deutschland", "wirtschaft usa", "wirtschaft us", "wirtschaft amerika", "konjunktur ausland", "konjunktur eu", "konjunktur euro" , "konjunktur europa", "konjunktur deutschland", "konjunktur usa", "konjunktur us", "konjunktur amerika", "rezession ausland", "rezession eu", "rezession euro" , "rezession europa", "rezession deutschland", "rezession usa", "rezession us", "rezession amerika")
+  # for (searchkey in searchkeys_ta_for) {
+  #   # Run Python Script with input arguments
+  #   system(paste0('python  ..\\Data\\News\\tagi_args.py -k "', searchkey,'" -s "',startdate , '" -e "', enddate , '"'))
+  # }
+  # 
+  # # Update .RData files with recently downloaded News
+  # Sys.sleep(2)
+  # update_ta()
+  # Sys.sleep(2)
   
   # NZZ
   enddate <- Sys.Date() -1
