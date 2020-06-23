@@ -475,7 +475,8 @@ update_fuw <- function(){
   load("../Data/News/fuw.RData")
   path <- "../Data/News/FUW"
   enddate <- Sys.Date()-1
-  startdate <- max(df_fuw_int$time)+1
+  startdate_int <- max(df_fuw_int$time)+1
+  startdate_ch <- max(df_fuw_ch$time)+1
   # Makro
   system(paste0('curl "https://www.fuw.ch/wp-content/plugins/fuw-list/api/ajax.php" -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:75.0) Gecko/20100101 Firefox/75.0" -H "Accept: */*" -H "Accept-Language: de,en-US;q=0.7,en;q=0.3" -H "Content-Type: application/x-www-form-urlencoded; charset=UTF-8" -H "X-Requested-With: XMLHttpRequest" -H "Origin: https://www.fuw.ch" -H "Connection: keep-alive" -H "Referer: https://www.fuw.ch/markte/makro/" -H "Cookie: __cfduid=d8695fc49dc4fa7cb3042d9e31b42d4ff1588857885; fuwStats2020=45A5QbY4rzxxU; POPUPCHECK=1588944296151; _ga=GA1.2.1748096360.1588857897; _gid=GA1.2.874599476.1588857897; _gat_main=1; _gat_g=1; _gat_h=1; _gcl_au=1.1.255979795.1588857898; _gat_UA-58327930-30=1; _fbp=fb.1.1588857898454.1896769323; _parsely_session={"%"22sid"%"22:1"%"2C"%"22surl"%"22:"%"22https://www.fuw.ch/"%"22"%"2C"%"22sref"%"22:"%"22https://www.google.com/"%"22"%"2C"%"22sts"%"22:1588857899212"%"2C"%"22slts"%"22:0}; dakt_2_uuid=71a0d9a81ee50f88734c66be98d23a1e; dakt_2_uuid_ts=1588857899328; dakt_2_session_id=367922baff27ee84ac6e40f4ce0ce5dc; _parsely_visitor={"%"22id"%"22:"%"22pid=8a2cb26c1f41d7b807d841ad77d88f9b"%"22"%"2C"%"22session_count"%"22:1"%"2C"%"22last_session_ts"%"22:1588857899212}; __gads=ID=64e2249ac7a0219b:T=1588857897:S=ALNI_Ma_DcuF0BRgdFUd9ot7LGh6ZZUpJg" -H "TE: Trailers" --data "query=category&id=33&offset=0&count=100&excludeCategory"%"5B"%"5D=1229&listId=list-5eb40c2a14444579&listStart=0&listOrderBy=date&listIncludeDraftsAsPreview=0&listTemplate=default&listPage=1&listPages=2&listMoreButton=1&listMoreAutoload=0&listMoreLink=&articleDate=1&articleTime=0&articleTimeTodayFormat=0&articleHighlightDate=0&articleCategories=1&articleCategoriesLinked=1&articleBookmark=1&articleImage=0&articleKicker=1&articleLead=1&articleAuthor=1&articleRanking=1&articleTeaserMarkerDisplay"%"5B"%"5D=7&articleTeaserMarkerDisplay"%"5B"%"5D=8&articleTeaserMarkerDisplay"%"5B"%"5D=9&articleTags=1&articleLinkToBlank=1&articleLinkFreeKey=0&amp=0&jsonLd=0&insertAds=0" -o ',path,'/makro_',enddate,'.txt'))
   Sys.sleep(3)
@@ -571,13 +572,13 @@ update_fuw <- function(){
     group_by(time) %>%
     dplyr::summarize(mean = mean(SentimentScore, na.rm=TRUE),
                      sum = sum(n())) %>%
-    filter(time >= startdate & time <= enddate)
+    filter(time >= as.Date(startdate_ch) & time <= as.Date(enddate))
   
   df_fuw_int_new <- df_fuw_int_new %>%
     group_by(time) %>%
     dplyr::summarize(mean = mean(SentimentScore, na.rm=TRUE),
                      sum = sum(n())) %>%
-    filter(time >= as.Date(startdate) & time <= as.Date(enddate))
+    filter(time >= as.Date(startdate_int) & time <= as.Date(enddate))
   
   df_fuw_ch <- bind_rows(df_fuw_ch, df_fuw_ch_new)
   df_fuw_int <- bind_rows(df_fuw_int, df_fuw_int_new)
