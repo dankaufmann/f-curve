@@ -13,7 +13,7 @@
 #-------------------------------------------------------------------------------------
 
 # Packages and settings
-rm(list = ls())
+#rm(list = ls())
 source("AllPackages.R")
 endDate   <- Sys.Date()
 
