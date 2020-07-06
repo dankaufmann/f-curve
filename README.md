@@ -19,6 +19,6 @@ The updated f-curve is available daily around 11 am.
 ![](./Results/DecompositionShort.png)
 ![](./Results/Covid-19.png)
 
-## Historical correlation with GDP growth
+## Historical f-curve
 ![](./Results/MainGDP.png)
 ![](./Results/Decomposition.png)
