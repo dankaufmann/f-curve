@@ -141,7 +141,6 @@ ggsave(filename = "../Results/DecompositionShort.pdf", width = figwidth, height 
 ggsave(filename = "../Results/DecompositionShort.png", width = figwidth, height = figheight)
 
 
-load(file="../Data/MacroData.RData")
 p <- ts_ggplot(
   `f-curve` = ts_span(fc, "2020-01-01"),
   ` f-curve (5-day moving average)` = ts_span(fc_s, "2020-01-01"),

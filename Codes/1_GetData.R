@@ -24,9 +24,11 @@ updateNews  <- F # Choose whether you want to update news (takes up to 20 min)
 #-------------------------------------------------------------------------------------
 # Download the data
 #-------------------------------------------------------------------------------------
-# Macro data (only GDP, rest loaded in separate file) and trendecon
+# Macro data (only GDP and Covid Cases, rest loaded in separate file) and trendecon
 download.file(url = "https://www.seco.admin.ch/dam/seco/en/dokumente/Wirtschaft/Wirtschaftslage/VIP%20Quartalssch%C3%A4tzungen/qna_p_csa.xls.download.xls/qna_p_csa.xls", destfile = "../Data/PIBSuisse.xls", mode="wb")
 download.file(url = "https://raw.githubusercontent.com/trendecon/data/master/daily/trendecon_sa.csv", destfile = "../Data/TrendEcon.csv", mode="wb")
+download.file(url = "https://www.bag.admin.ch/dam/bag/de/dokumente/mt/k-und-i/aktuelle-ausbrueche-pandemien/2019-nCoV/covid-19-datengrundlage-lagebericht.xlsx.download.xlsx/200325_Datengrundlage_Grafiken_COVID-19-Bericht.xlsx", destfile = "../Data/Covid19Cases.xlsx", mode="wb")
+download.file(url = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv", destfile = "../Data/Covid19CasesJH.xlsx", mode="wb")
 
 # Get news indicators
 if (updateNews) {
@@ -66,6 +68,19 @@ for (n in c("News.CH", "News.FOR")) {
   assign(n, myVar)
   
 }
+
+# Get Covid Cases
+Covid19     <- xlsx::read.xlsx("../Data/Covid19cases.xlsx", sheetName = "COVID19 Zahlen", as.data.frame = TRUE, startRow = 7)
+Cases    <- xts(Covid19[,2], order.by = Covid19[,1])
+Hospital <- xts(Covid19[,4], order.by = Covid19[,1])
+Deaths   <- xts(Covid19[,6], order.by = Covid19[,1])
+
+Covid19JH     <- read.csv("../Data/Covid19casesJH.xlsx", sep = ",")
+Covid19JH <- Covid19JH[Covid19JH[,2] == "Switzerland",]
+Covid19JH <- Covid19JH[,-c(1,2,3,4)]
+Dates     <- substring(colnames(Covid19JH), 2)
+Dates     <- as.Date(Dates, format = "%m.%d.%y")
+CasesJH   <- ts_diff(xts(t(Covid19JH[1,]), order.by = Dates))
 
 
 GDP         <- read.xlsx("../Data/PIBSuisse.xls", sheetName = "real_q", as.data.frame = TRUE, startRow = 11)
@@ -255,5 +270,5 @@ Indicators <- ts_c(TS.CH, RP.CH, RPShort.CH, VIX.CH, IRDIFF.CH, News.CH,
                    Tecon, SMI)
 
 # Save indicators for f-curve
-save(list = c("GDP", "NGDP", "GDPDefl", "Indicators"), file = "../Data/IndicatorData.RData")
+save(list = c("GDP", "NGDP", "GDPDefl", "Cases", "CasesJH", "Deaths", "Hospital", "Indicators"), file = "../Data/IndicatorData.RData")
 
