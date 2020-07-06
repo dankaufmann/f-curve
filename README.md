@@ -10,7 +10,7 @@
 **Recommended citation:** [Burri](https://www.linkedin.com/in/marc-burri-a64628196/) Marc and Daniel [Kaufmann](https://dankaufmann.com): "A daily fever curve for the Swiss economy", Swiss Journal of Economics and Statistics, accepted manuscript, [github.com/dankaufmann/f-curve](https://github.com/dankaufmann/f-curve)
 
 ## Download current data and installation instructions
-[f-curve data (csv)](./Results/f-curve-data.csv) | [Accepted Manuscript](./f-f-curve_Accepted_SJES.pdf) [Working Paper](./f-curve_WP_20-05.pdf) | [Installation instructions](./WebScraping.md) | [Revision log](./RevisionLog.md)
+[f-curve data (csv)](./Results/f-curve-data.csv) | [Accepted Manuscript](./f-curve_Accepted_SJES.pdf) | [Working Paper](./f-curve_WP_20-05.pdf) | [Installation instructions](./WebScraping.md) | [Revision log](./RevisionLog.md)
 
 The updated f-curve is available daily around 11 am.
  
