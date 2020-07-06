@@ -1,23 +1,25 @@
 #-------------------------------------------------------------------------------------
 # A daily fever curve for the Swiss economy
 #-------------------------------------------------------------------------------------
-# Feel free to copy, adapt, and use this code for your own purposes at 
-# your own risk.
+# Feel free to copy, adapt, and use this code for your own purposes at your own risk.
 #
 # Please cite: 
 # Burri, Marc and Daniel Kaufmann (2020): "A daily fever curve for the
-# Swiss economy", IRENE Working Paper No., University of Neuchâtel,
+# Swiss economy", IRENE Working Paper No. 20-05, University of Neuchâtel,
 # https://github.com/dankaufmann/f-curve
 #
 #-------------------------------------------------------------------------------------
-# V 1.0
+# V 2.0
+# - Outlier detection added for News
+# - We use archive and Web data for Tagi because archive missing for some parts of sample
 #-------------------------------------------------------------------------------------
 
 # Packages and settings
 #rm(list = ls())
 source("AllPackages.R")
-endDate   <- Sys.Date()
-updateNews <- FALSE # Choose whether you want to update news (takes up to 20 min)
+
+endDate     <- Sys.Date()
+updateNews  <- F # Choose whether you want to update news (takes up to 20 min)
 
 #-------------------------------------------------------------------------------------
 # Download the data
@@ -30,56 +32,41 @@ download.file(url = "https://raw.githubusercontent.com/trendecon/data/master/dai
 if (updateNews) {
   # Scrape News from Web and save in all.RData file
   # Note:
-  #  - can take up to 20 min.
+  #  - can take up to 30 min.
   #  - Depends on Python (including working selenium) and cURL
   updateNewsIndicator()
 }
 
-
 load(file="../Data/News/all.RData")
-load(file="../Data/News/nzz.RData")
-load(file="../Data/News/fuw.RData")
-load(file="../Data/News/ta.RData")
+
 
 News.CH <- df_all_ch %>%
   select("time", "mean") %>%
   ts_xts() %>%
   ts_span(start = "2000-01-01", end = endDate)
 
+
 News.FOR <- df_all_int %>%
   select("time", "mean") %>%
   ts_xts() %>%
   ts_span(start = "2000-01-01", end = endDate)
 
-News.NZZ.CH <- df_nzz_ch %>%
-  select("time", "mean") %>%
-  ts_xts() %>%
-  ts_span(start = "2000-01-01", end = endDate)
 
-News.NZZ.FOR <- df_nzz_int %>%
-  select("time", "mean") %>%
-  ts_xts() %>%
-  ts_span(start = "2000-01-01", end = endDate)
+# Clear outliers
+for (n in c("News.CH", "News.FOR")) {
+  myVar = get(n)
+  assign(paste(n, "_orig", sep = ""), myVar)
+  
+  myStd       <- sqrt(var(myVar, na.rm = TRUE))
+  myMean      <- mean(myVar, na.rm = TRUE)
+  outl1        <- myVar>as.numeric(myMean)+3*as.numeric(myStd)
+  outl2        <- myVar<as.numeric(myMean)-3*as.numeric(myStd)
+  myVar[(outl1|outl2)] <- NA
+  
+  assign(n, myVar)
+  
+}
 
-News.FUW.CH <- df_fuw_ch %>%
-  select("time", "mean") %>%
-  ts_xts() %>%
-  ts_span(start = "2000-01-01", end = endDate)
-
-News.FUW.FOR <- df_fuw_int %>%
-  select("time", "mean") %>%
-  ts_xts() %>%
-  ts_span(start = "2000-01-01", end = endDate)
-
-News.TA.CH <- df_ta_ch %>%
-  select("time", "mean") %>%
-  ts_xts() %>%
-  ts_span(start = "2000-01-01", end = endDate)
-
-News.TA.FOR <- df_ta_int %>%
-  select("time", "mean") %>%
-  ts_xts() %>%
-  ts_span(start = "2000-01-01", end = endDate)
 
 GDP         <- read.xlsx("../Data/PIBSuisse.xls", sheetName = "real_q", as.data.frame = TRUE, startRow = 11)
 GDP         <- (xts(GDP[,3], order.by = as.Date(paste(GDP[,1], GDP[,2]*3-2, "01", sep = "-"))))
@@ -99,6 +86,7 @@ download.file(url = "https://www.six-group.com/exchanges/downloads/indexdata/hsb
 download.file(url = "https://www.six-group.com/exchanges/downloads/indexdata/hsb_maturity_for_rating_sbi_y.csv", destfile = "../Data/ForShort.csv", mode="wb")
 download.file(url = "https://www.bundesbank.de/statistic-rmi/StatisticDownload?tsId=BBK01.WT1010&its_csvFormat=de&its_fileFormat=csv&mode=its", destfile = "../Data/GermanBondYield.csv", mode="wb")
 download.file(url = "http://sdw.ecb.europa.eu/quickviewexport.do;jsessionid=62044D6532AB70D16C184E5A8FFADEEC?SERIES_KEY=165.YC.B.U2.EUR.4F.G_N_A.SV_C_YM.SR_1Y&type=csv", destfile = "../Data/EuroShortRate.csv", mode="wb")
+download.file(url = "https://www.six-group.com/exchanges/downloads/indexdata/hsmi.csv", destfile = "../Data/SMI.csv", mode="wb")
 
 # German government bond yields
 Gov10.DEU     <- read.csv("../Data/GermanBondYield.csv", sep = ";", skip = 5,  na.strings = "Kein Wert vorhanden", stringsAsFactors = FALSE, )
@@ -127,6 +115,10 @@ Gov10.DEU.h <- xts(BondHistory$DEU10, order.by = as.Date(BondHistory$Date))
 ForA8.h     <- xts(BondHistory$FORA, order.by = as.Date(BondHistory$Date))
 ForAA8.h    <- xts(BondHistory$FORAA, order.by = as.Date(BondHistory$Date))
 ForAAA8.h  <- xts(BondHistory$FORAAA, order.by = as.Date(BondHistory$Date))
+
+# SMI
+SMI  <- read.csv("../Data/SMI.csv", sep = ";", skip = 4)
+SMI  <- xts(SMI[, 2], order.by = dmy(SMI[,1]))
 
 # Bonds raw data SIX
 Gov         <- read.csv("../Data/ObligationsConf.csv", sep = ";", skip = 4)
@@ -158,7 +150,7 @@ ForAAA_BBB2 <- xts(ForShort[,ForShortLab[2,] == "SBI For AAA-BBB 1-3 Y"], order.
 # Link 2Y history with 1-3 year current data
 Gov1.EUR.l <- ts_bind(ts_span(LIB1.EUR, ts_summary(LIB1.EUR)$start, ts_summary(Gov1.EUR)$start), Gov1.EUR)
 p <- ts_ggplot(
-  `Linked data`   = Gov1.EUR.l,
+  `Spliced data`   = Gov1.EUR.l,
   `ECB data`      = Gov1.EUR,
   `LIBOR data`    = LIB1.EUR,
   title = "Short-term euro bond yields"
@@ -170,7 +162,7 @@ ggsave(filename = "../Results/LinkedData/Short.EUR.pdf", width = figwidth, heigh
 # Link 2Y history with 1-3 year current data
 Gov2.CH.l <- ts_bind(ts_span(Gov2.CH.h, ts_summary(Gov2.CH.h)$start, ts_summary(Gov2.CH)$start), Gov2.CH)
 p <- ts_ggplot(
-  `Linked data`   = Gov2.CH.l,
+  `Spliced data`   = Gov2.CH.l,
   `SIX Data (1-3Y)` = Gov2.CH,
   `SNB Data (2Y)`   = Gov2.CH.h,
   title = "Short-term confederation bond yields"
@@ -181,7 +173,7 @@ ggsave(filename = "../Results/LinkedData/GovShort.CH.pdf", width = figwidth, hei
 # Link 8Y history with 7-10 year current data
 Gov8.CH.l <- ts_bind(ts_span(Gov8.CH.h, ts_summary(Gov8.CH.h)$start, ts_summary(Gov8.CH)$start), Gov8.CH)
 p <- ts_ggplot(
-  `Linked data`      = Gov8.CH.l,
+  `Spliced data`      = Gov8.CH.l,
   `SIX Data (7-10Y)` = Gov8.CH,
   `SNB Data (8Y)`    = Gov8.CH.h,
   title = "Long-term confederation bond yields"
@@ -192,7 +184,7 @@ ggsave(filename = "../Results/LinkedData/GovLong.CH.pdf", width = figwidth, heig
 # Link 8Y history banks with average between AA-AAA and A-AAA corporate bonds
 AAA8.CH.l <- ts_bind(ts_span(Bank8.CH.h, ts_summary(Bank8.CH.h)$start, ts_summary(AAA_AA8.CH)$start), (AAA_AA8.CH+AAA_A8.CH)/2)
 p <- ts_ggplot(
-  `Linked data`                 = AAA8.CH.l,
+  `Spliced data`                 = AAA8.CH.l,
   `SIX Data (incl. A 7-10Y)`    = AAA_A8.CH,
   `SIX Data (incl. AA 7-10Y)`   = AAA_AA8.CH,
   `SNB Data Banks (8Y)`         = Bank8.CH.h,
@@ -206,7 +198,7 @@ Ind8.CH.h.adj <- (Ind8.CH.h-mean(ts_span(Ind8.CH.h, ts_summary(AAA_BBB8.CH)$star
 Ind8.CH.h.adj <- Ind8.CH.h.adj*sqrt(var(AAA_BBB8.CH, na.rm=TRUE))[1] + mean(AAA_BBB8.CH, na.rm = TRUE)[1]
 BBB8.CH.l <- ts_bind(ts_span(Ind8.CH.h.adj, ts_summary(Ind8.CH.h.adj)$start, ts_summary(AAA_BBB8.CH)$start), AAA_BBB8.CH)
 p <- ts_ggplot(
-  `Linked data`                 = BBB8.CH.l,
+  `Spliced data`                 = BBB8.CH.l,
   `SIX Data (incl. BBB 7-10Y)`   = AAA_BBB8.CH,
   `SNB Data Manufact (adj. 8Y)`      = Ind8.CH.h.adj ,
   title = "Long-term corporate bond yields"
@@ -219,14 +211,15 @@ ggsave(filename = "../Results/LinkedData/CorpLong2.CH.pdf", width = figwidth, he
 # Not clear that same credit rating and/or maturity
 ForCorp.l <- ts_bind(ts_span(ForAAA8.h, ts_summary(ForAAA8.h)$start, ts_summary(ForAAA_A)$start), (ForAAA_A+ForAAA_AA+ForAAA_BBB)/3)
 p <- ts_ggplot(
-  `Linked data`                 = ForCorp.l,
-  `SIX Data (incl. A 7-10Y)`    = ForAAA_A,
-  `SIX Data (incl. AA 7-10Y)`   = ForAAA_AA,
-  `SIX Data (incl. BBB 7-10Y)`  = ForAAA_BBB,
-  `SNB Data AAA (8Y)`           = ForAAA8.h,
+  `Spliced data`   = ForCorp.l,
+  `SIX (AAA-A)`    = ForAAA_A,
+  `SIX (AAA-AA)`   = ForAAA_AA,
+  `SIX (AAA-BBB)`  = ForAAA_BBB,
+  `SNB (AAA 8Y)`           = ForAAA8.h,
   title = "Long-term foreign corporate bond yields"
 )
 p <- ggLayout(p)
+p
 ggsave(filename = "../Results/LinkedData/ForCorpLong.CH.pdf", width = figwidth, height = figheight)
 
 # Construct final data set
@@ -253,10 +246,13 @@ ts_summary(TS.US)
 ts_summary(VIX.US)
 ts_summary(VIX.CH)
 
+ts_summary(News.FOR)
+ts_summary(News.CH)
+
 # Export the data (only those series that work well!)
-Indicators <- ts_c(TS.CH, RP.CH, RPShort.CH, VIX.CH, IRDIFF.CH, News.CH, 
-                   News.FOR, RPShort.FOR, RP.FOR, TS.US, VIX.US, TS.EUR, 
-                   Tecon, News.NZZ.CH, News.FUW.CH, News.TA.CH, News.NZZ.FOR, News.FUW.FOR, News.TA.FOR)
+Indicators <- ts_c(TS.CH, RP.CH, RPShort.CH, VIX.CH, IRDIFF.CH, News.CH,
+                   News.FOR, RP.FOR, RPShort.FOR, TS.US, VIX.US, TS.EUR,
+                   Tecon, SMI)
 
 # Save indicators for f-curve
 save(list = c("GDP", "NGDP", "GDPDefl", "Indicators"), file = "../Data/IndicatorData.RData")

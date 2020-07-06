@@ -9,7 +9,8 @@
 # https://github.com/dankaufmann/f-curve
 #
 #-------------------------------------------------------------------------------------
-# V 1.0
+# V 2.0
+# - Non-annualized growth rates
 #-------------------------------------------------------------------------------------
 
 # Packages and settings
@@ -24,7 +25,7 @@ endDate   <- Sys.Date()
 load(file="../Data/IndicatorData.RData")
 load(file="../Data/f-curve.RData")
 
-# Will be transformed to ann. growth rates for forecast and evaluation!
+# Will be transformed to growth rates for forecast and evaluation!
 # Either NGDP/GDP or RealTimeNom/Realtime
 depVar    <- GDP
 depVarLab <- "GDP"
@@ -60,7 +61,7 @@ for(h in 1:length(FcstDates)){
   if(lastObsDate >= FcstDates[h]){
     
     # construct data set
-    Y.h0  <- ts_pca(depVar)
+    Y.h0  <- ts_pc(depVar)
     
     # Remove observations that were not observed in the past
     if(lastObsDate < FcstDates[h+1]){
@@ -110,7 +111,7 @@ for(h in 1:length(FcstDates)){
     #to_include <- (allMonths-allQuarters*3+3 <=  currMonth-currQuart*3+3 & allDays <= currDay)
     
     # construct data set
-    Y.h   <- L.op(ts_pca(depVar), -(h-offs))
+    Y.h   <- L.op(ts_pc(depVar), -(h-offs))
     X.l0  <- ts_frequency(Ind, to = "quarter", aggregate = "mean", na.rm = TRUE)
     #X.l0  <- ts_frequency(Ind[to_include,], to = "quarter", aggregate = "mean", na.rm = TRUE)
     
@@ -139,16 +140,16 @@ for(h in 1:length(FcstDates)){
   }
 }
 
-Temp <- round(c(as.numeric(ts_pca(depVar)[ts_summary(depVar)$end]), as.numeric(Fcst[1]), as.numeric(Fcst[2]), as.numeric(Fcst[3]), as.numeric(Fcst[4])), 1)
+Temp <- round(c(as.numeric(ts_pc(depVar)[ts_summary(depVar)$end]), as.numeric(Fcst[1]), as.numeric(Fcst[2]), as.numeric(Fcst[3]), as.numeric(Fcst[4])), 1)
 Temp <- round(Temp, 2)
 Intv <- c("-", paste("[", round(FcstCI$Lower90[1], 1), ", ", round(FcstCI$Upper90[1], 1), "]", sep = ""),
               paste("[", round(FcstCI$Lower90[2], 1), ", ", round(FcstCI$Upper90[2], 1), "]", sep = ""),
               paste("[", round(FcstCI$Lower90[3], 1), ", ", round(FcstCI$Upper90[3], 1), "]", sep = ""),
               paste("[", round(FcstCI$Lower90[4], 1), ", ", round(FcstCI$Upper90[4], 1), "]", sep = ""))
           
-Dates <- c("2019 Q4", "2020 Q1", "2020 Q2", "2020 Q3", "2020 Q4")
+Dates <- seq.Date(lastObsDep, length.out = (H+1), by = "quarter")[1:(H+1)]
 Tab  <- rbind(t(Temp), t(Intv))
-Tab  <- rbind(Dates, Tab)
+Tab  <- rbind(paste(year(Dates), " Q", quarter(Dates), sep = ""), Tab)
 
 #-------------------------------------------------------------------------------------
 # Simulate forecast density for probability of large downturn
@@ -182,7 +183,7 @@ write.table(Tab, sep = "&", eol = "\\\\ ", quote = FALSE,col.names = FALSE, row.
 colnames(Tab) <- c("Date", "Point forecast", "90% Interval forecast", "P[Growth<-1%]")
 
 # Export nice table for github as png
-kable(Tab, "html", caption=paste("f-curve forecast of ann. GDP growth (last observation: ", lastObsDate, ")", sep = "")) %>%
+kable(Tab, "html", caption=paste("f-curve forecast of GDP growth (last observation: ", lastObsDate, ")", sep = "")) %>%
   kable_styling(full_width = FALSE, font_size = 22) %>%
   row_spec(1, color = "black") %>%
   row_spec(c(2:5), color = "blue") %>%

@@ -1,17 +1,17 @@
 #-------------------------------------------------------------------------------------
 # A daily fever curve for the Swiss economy
 #-------------------------------------------------------------------------------------
-# Feel free to copy, adapt, and use this code for your own purposes at 
-# your own risk.
+# Feel free to copy, adapt, and use this code for your own purposes at your own risk.
 #
 # Please cite: 
 # Burri, Marc and Daniel Kaufmann (2020): "A daily fever curve for the
-# Swiss economy", IRENE Working Paper No., University of Neuchâtel,
+# Swiss economy", IRENE Working Paper No. 20-05, University of Neuchâtel,
 # https://github.com/dankaufmann/f-curve
 #
-# Marc Burri and Daniel Kaufmann, 2020 (daniel.kaufmann@unine.ch)
 #-------------------------------------------------------------------------------------
-# V 1.0
+# V 2.0
+# - Outlier detection added for News
+# - We use archive and Web data for Tagi because archive missing for some parts of sample
 #-------------------------------------------------------------------------------------
 
 library(tsbox)
@@ -33,6 +33,7 @@ library(stringr)
 library(kableExtra)
 library(magick)
 library(webshot)
+
 webshot::install_phantomjs()
 
 # SEttings for all scripts
@@ -41,7 +42,7 @@ figheight <- 5.5
 
 myLines  <- c("2001-09-11", "2008-09-16", "2011-08-04", "2015-01-15", "2020-03-16")
 myLabels <- c("9/11 attacks", "Collapse Lehman Brothers", "Barroso: Euro debt crisis spreads", "Removal exchange rate floor", "Covid-19 lockdown")
-myLabelsDE <- c("9/11 Attentate", "Insolvenz Lehman Brothers", "Barroso: Euro Schuldenkrise breitet sich aus", "Aufhebung Euro Mindestkurs", "Covid-19 lockdown")
+myLabelsDE <- c("9/11 Attentate", "Kollaps Lehman Brothers", "Ausbreitung Euro Schuldenkrise", "Aufhebung Euro Mindestkurs", "Covid-19 lockdown")
 
 
 # Make output directory forder
@@ -56,8 +57,9 @@ makeOutDir <- function(mainDir, outDir){
 }
 
 
+
 # Function for computing overall and (optional) domestic and foreign decomposition
-computeFactors <- function(Indicators, leadTS, noMANews, normStart, startDate, endDate, whichInd, indexDom) {
+computeFactors <- function(Indicators, leadTS, noMANews, normStart, startDate, endDate, whichInd, indexDom, minObs) {
   
   
   
@@ -65,12 +67,12 @@ computeFactors <- function(Indicators, leadTS, noMANews, normStart, startDate, e
   AllIndicators <- ts_span(Indicators, normStart, endDate)
   AllIndicators <- AllIndicators[,whichInd]
   
-  # Remove all observation if not at least 4 indicators available (on these dates, there is no update of indicator)
+  # Remove all observation if not at least 3 indicators available (on these dates, there is no update of indicator)
   toDelete <- FALSE
   delIndex <- c()
   for(t in 1:dim(AllIndicators)[1]){
     thisObs <- AllIndicators[t,]
-    toDelete <- sum(!is.na(thisObs))<4
+    toDelete <- sum(!is.na(thisObs))<minObs
     if(toDelete){
       delIndex <- c(delIndex, t)
     }
@@ -120,9 +122,8 @@ computeFactors <- function(Indicators, leadTS, noMANews, normStart, startDate, e
   
   # Estimate factor model all variables
   # 0) Impute data matrix based on all observation
-  X   <- na.locf(AllIndicators, maxgap = 3)
   X   <- AllIndicators
-  X   <- imputePCA(as.matrix(X), ncp=4)$completeObs
+  X   <- imputePCA(as.matrix(X), ncp=min(c(4, minObs)))$completeObs
   
   # 1) Estimate only one commom factor
   PC   <- prcomp(X)
@@ -185,24 +186,22 @@ computeFactors <- function(Indicators, leadTS, noMANews, normStart, startDate, e
   
 }
 
-
 L.op <- function(ts, p) {
   # Lead/lag operator
-  
+  myDate <- index(ts)
   if(p<0){
-    ts <- ts_xts(dplyr::lead(ts_ts(ts), abs(p)))
+    ts <- xts(dplyr::lead(as.matrix(ts), abs(p)), order.by=myDate)
   }
   else{
-    ts <- dplyr::lag(ts, p)
+    ts <- xts(dplyr::lag(as.matrix(ts), abs(p)), order.by=myDate)
   }
   return(ts)
 }
 
-
 ggLayout <- function(p) {
   p <- p + theme_minimal() + ylab("")+xlab("")+
     ggplot2::scale_color_brewer(palette = "Dark2")+
-    theme(legend.position="bottom",legend.margin=margin(0,0,0,0),legend.box.margin=margin(-20,-5,0,-5))+ggplot2::guides(col=guide_legend(byrow=TRUE))+ggplot2::theme(legend.title = element_blank())+
+    theme(legend.position="bottom",legend.margin=margin(0,0,0,0),legend.box.margin=margin(-20,-5,0,-5))+ggplot2::guides(fill=guide_legend(nrow=2,byrow=TRUE))+ggplot2::theme(legend.title = element_blank())+
     theme(axis.line = element_line(colour = "black", size = 0.1))+ theme(panel.background = element_blank())+
     theme(panel.border = element_rect(linetype = "solid", colour = "black", fill = NA))+theme(text = element_text(family = "Palatino"))+
     theme(panel.grid.major = element_line(colour = "black",size=0.1,linetype="dotted"), panel.grid.minor = element_blank()) 
@@ -221,6 +220,12 @@ ggColor3 <- function(p) {
   p <- p + ggplot2::geom_line(aes(),size=1)+ggplot2::scale_color_brewer(palette = "Dark2")+
     scale_color_manual(values = c("tomato1", "firebrick4", "blue4"))+ 
     scale_alpha_manual(values = c(0.5, 0.5, 1))
+  return(p)
+}
+
+ggColorMany <- function(p) {
+  p <- p + ggplot2::geom_line(aes(),size=1) + scale_color_grey(start = 0.8, end = 0.2) +
+           theme(legend.position = "none")
   return(p)
 }
 
@@ -291,7 +296,8 @@ timebased_ma <- function(df, days) {
 
 
 # Functions and packages for News Indicator
-library(rjson)
+#library(rjson)
+library(jsonlite)
 library(tm)
 library(filesstrings)
 library(dplyr)
@@ -471,12 +477,219 @@ update_nzz <- function() {
   
 }
 
+update_tawww <- function(){
+  
+  today <- Sys.Date()
+  
+  load("../Data/News/tawww_nt.Rdata")
+  
+  
+  # Load german stopwords
+  stopw_de <- read.delim("../Data/News/Stopwords/stopwords_de.txt", fileEncoding = 'WINDOWS-1252', header=F, stringsAsFactors = F)
+  colnames(stopw_de) <- "words"
+  
+  senti <- read_sentiws()
+  # get positive and negative words of lexicon
+  pos_w <-  filter(senti, value >= 0)
+  neg_w <-  filter(senti, value <= 0)
+  neg_w <- neg_w %>% # add some custom negative words, set value to same as e.g epidemie or krise
+    add_row("words" = "corona", "value" = -0.0048, "class" = "NN", "pol" = "neg") %>% 
+    add_row("words" = "pandemie", "value" = -0.0048, "class" = "NN", "pol" = "neg") %>% 
+    add_row("words" = "kurzarbeit", "value" = -0.0048, "class" = "NN", "pol" = "neg")
+  
+  
+  # Scrape News and Read Data
+  # Domestic
+  searchkeys_ta_ch <- c("wirtschaft schweiz", "konjunktur schweiz", "rezession schweiz")
+  for (key in searchkeys_ta_ch) {
+    ksplit <- str_split(key, " ")
+    strt <- 0
+    while (strt < 60) {
+      system(paste0('curl "https://feed-prod.unitycms.io/2/search?q=',ksplit[[1]][1],'%"20"',ksplit[[1]][2],'&start=',strt,'&count=0"  -H "Accept: */*" -H "Accept-Language: de,en-US;q=0.7,en;q=0.3" -H "Referer: https://www.tagesanzeiger.ch/search?q=',ksplit[[1]][1],'%"20"',ksplit[[1]][2],'&page=2" -H "Origin: https://www.tagesanzeiger.ch" -H "Connection: keep-alive" -o ../Data/News/TAWWW/dom/',ksplit[[1]][1],"_",ksplit[[1]][2],"_",today,"_",strt,'.txt'))
+      strt <- strt + 20
+      Sys.sleep(1)
+    }
+  }
+  
+  path <- "../Data/News/TAWWW/dom/"
+  
+  files <- list.files(path, pattern=".txt")
+
+  
+  df_n_dom <- tibble()
+    for (file in files) {
+      xx <- fromJSON(paste0(path,"/",file))$content
+      if (length(xx) == 0){next}
+      xx <- xx %>% 
+        flatten
+      
+      df_n_dom <- bind_rows(df_n_dom,as_tibble(xx))
+      file.move(paste0(path, file), paste0(path, "_archive"), overwrite = T)
+    }
+
+  
+  df_n_dom <- df_n_dom[!duplicated(df_n_dom),]
+  load(paste0(path,"/","raw_data_dom.Rdata"))
+  ld <- max(as.Date(df$content.published))
+  df_n_dom_2 <- filter(df_n_dom, content.published > ld & content.published < today)
+  df <- bind_rows(df, df_n_dom_2)
+  df <- df[!duplicated(df$id),]
+  
+  save(df, file=paste0(path,"/","raw_data_dom.Rdata"))
+  
+  df_n_dom <- df_n_dom %>%
+    select(content.published, 
+           content.mainCategoryFullUrlPath,
+           content.titleHeader,
+           content.title,
+           content.lead)
+  
+  df_n_dom <- df_n_dom[!duplicated(df_n_dom),]
+  load(paste0(path,"/","data_dom.Rdata"))
+  ld <- max(as.Date(df$content.published))
+  df_n_dom_2 <- filter(df_n_dom, content.published > ld  & content.published < today)
+  df <- bind_rows(df, df_n_dom_2)
+  df <- df[!duplicated(df),]
+
+  save(df, file=paste0(path,"/","data_dom.Rdata"))
+  
+  load(paste0(path,"/","data_clean_dom.Rdata"))
+  dfWebDom_n <- df_n_dom_2 %>%
+    mutate(text_field = paste0(content.titleHeader, " ", content.title, " ", content.lead)) %>%
+    mutate(time = as.Date(content.published)) %>%
+    select(text_field, time) 
+  
+  dfWebDom_n <- dfWebDom_n[!duplicated(dfWebDom_n),]
+  
+  if (nrow(dfWebDom_n) > 1) {
+  cleanDfWebDom_n <- dfWebDom_n %>%
+    arrange(time) %>%
+    rowwise() %>%
+    mutate(cleanText = cleanTaWWW(text_field, stopwds = stopw_de)) %>%
+    mutate(pos_n = sum(!is.na(match(pos_w$words, str_split(cleanText, pattern = "\\s+")[[1]]))))  %>%
+    mutate(neg_n = sum(!is.na(match(neg_w$words, str_split(cleanText, pattern = "\\s+")[[1]])))) %>%
+    mutate(n_w = length(str_split(cleanText, pattern = "\\s+")[[1]])) %>%
+    mutate(SentimentScore = (pos_n-neg_n)/n_w) %>%
+    as_tibble() 
+  
+  cleanDfWebDom_n <- cleanDfWebDom_n[!duplicated(cleanDfWebDom_n),]
+  
+  cleanDfWebDom <- bind_rows(cleanDfWebDom, cleanDfWebDom_n)
+  
+  save(cleanDfWebDom, file=paste0(path,"/","data_clean_dom.Rdata"))
+  
+  
+  }
+  
+  df_tawww_ch_nt <- cleanDfWebDom %>%
+    select(-c("text_field", "cleanText"))
+  
+  
+  # foreign
+  searchkeys_ta_for <- c("wirtschaft ausland", "wirtschaft eu", "wirtschaft euro" , "wirtschaft europa", "wirtschaft deutschland", "wirtschaft usa", "wirtschaft us", "wirtschaft amerika", "konjunktur ausland", "konjunktur eu", "konjunktur euro" , "konjunktur europa", "konjunktur deutschland", "konjunktur usa", "konjunktur us", "konjunktur amerika", "rezession ausland", "rezession eu", "rezession euro" , "rezession europa", "rezession deutschland", "rezession usa", "rezession us", "rezession amerika")
+  for (key in searchkeys_ta_for) {
+    ksplit <- str_split(key, " ")
+    strt <- 0
+    while (strt < 40) {
+      system(paste0('curl "https://feed-prod.unitycms.io/2/search?q=',ksplit[[1]][1],'%"20"',ksplit[[1]][2],'&start=',strt,'&count=0"  -H "Accept: */*" -H "Accept-Language: de,en-US;q=0.7,en;q=0.3" -H "Referer: https://www.tagesanzeiger.ch/search?q=',ksplit[[1]][1],'%"20"',ksplit[[1]][2],'&page=2" -H "Origin: https://www.tagesanzeiger.ch" -H "Connection: keep-alive" -o ../Data/News/TAWWW/for/',ksplit[[1]][1],"_",ksplit[[1]][2],today,"_",strt,'.txt'))
+      strt <- strt + 20
+      Sys.sleep(1)
+    }
+  }
+  
+  path <- "../Data/News/TAWWW/for/"
+  
+  df_n_for <- tibble()
+    files <- list.files(path, pattern = ".txt")
+    for (file in files) {
+      xx <- fromJSON(paste0(path,file), flatten = TRUE)$content
+      if (length(xx) == 0){next}
+      xx <- xx %>% 
+        flatten
+      
+      df_n_for <- bind_rows(df_n_for,as_tibble(xx))
+      file.move(paste0(path, file), paste0(path, "_archive"), overwrite = T)
+    }
+  
+  df_n_for <- df_n_for[!duplicated(df_n_for),]
+  load(paste0(path,"/","raw_data_for.Rdata"))
+  ld <- max(as.Date(df$content.published))
+  df_n_for_2 <- filter(df_n_for, content.published > ld & content.published < today)
+  df <- bind_rows(df, df_n_for_2)
+  df <- df[!duplicated(df),]
+  
+  save(df, file=paste0(path,"/","raw_data_for.Rdata"))
+  
+  df_n_for <- df_n_for %>%
+    select(content.published, 
+           content.mainCategoryFullUrlPath,
+           content.titleHeader,
+           content.title,
+           content.lead)
+  
+  df_n_for <- df_n_for[!duplicated(df_n_for),]
+  load(paste0(path,"data_for.Rdata"))
+  ld <- max(as.Date(df$content.published))
+  df_n_for_2 <- filter(df_n_for, content.published > ld  & content.published < today)
+  df <- bind_rows(df, df_n_for_2)
+  df <- df[!duplicated(df),]
+  
+  save(df, file=paste0(path,"/","data_for.Rdata"))
+  
+  load(paste0(path,"/","data_clean_for.Rdata"))
+  dfWebFor_n <- df_n_for_2 %>%
+    mutate(text_field = paste0(content.titleHeader, " ", content.title, " ", content.lead)) %>%
+    mutate(time = as.Date(content.published)) %>%
+    select(text_field, time) 
+  
+  dfWebFor_n <- dfWebFor_n[!duplicated(dfWebFor_n),]
+  
+  if (nrow(dfWebFor_n) > 1) {
+  cleanDfWebFor_n <- dfWebFor_n %>%
+    arrange(time) %>%
+    rowwise() %>%
+    mutate(cleanText = cleanTaWWW(text_field, stopwds = stopw_de)) %>%
+    mutate(pos_n = sum(!is.na(match(pos_w$words, str_split(cleanText, pattern = "\\s+")[[1]]))))  %>%
+    mutate(neg_n = sum(!is.na(match(neg_w$words, str_split(cleanText, pattern = "\\s+")[[1]])))) %>%
+    mutate(n_w = length(str_split(cleanText, pattern = "\\s+")[[1]])) %>%
+    mutate(SentimentScore = (pos_n-neg_n)/n_w) %>%
+    as_tibble() 
+  
+  cleanDfWebFor_n <- cleanDfWebFor_n[!duplicated(cleanDfWebFor_n),]
+    
+    cleanDfWebFor <- bind_rows(cleanDfWebFor, cleanDfWebFor_n)
+    
+    save(cleanDfWebFor, file=paste0(path,"/","data_clean_for.Rdata"))
+    
+    
+  }
+  
+  df_tawww_int_nt <- cleanDfWebFor %>%
+    select(-c("text_field", "cleanText"))
+  
+  save(df_tawww_ch_nt, df_tawww_int_nt, file=paste0("../Data/News/tawww_nt.Rdata"))
+  
+  df_tawww_ch <- df_tawww_ch_nt %>%
+    arrange(time) %>%
+    group_by(time) %>%
+    summarize(mean = mean(SentimentScore, na.rm=TRUE),
+              sum = sum(n())) %>% filter(time != "2020-01-01")
+  
+  df_tawww_int <- df_tawww_int_nt %>%
+    arrange(time) %>%
+    group_by(time) %>%
+    summarize(mean = mean(SentimentScore, na.rm=TRUE),
+              sum = sum(n())) %>% filter(time != "2020-01-01")
+  
+  save(df_tawww_ch, df_tawww_int, file=paste0("../Data/News/tawww.Rdata"))
+}
+
 update_fuw <- function(){
   load("../Data/News/fuw.RData")
   path <- "../Data/News/FUW"
   enddate <- Sys.Date()-1
-  startdate_int <- max(df_fuw_int$time)+1
   startdate_ch <- max(df_fuw_ch$time)+1
+  startdate_int <- max(df_fuw_int$time)+1
   # Makro
   system(paste0('curl "https://www.fuw.ch/wp-content/plugins/fuw-list/api/ajax.php" -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:75.0) Gecko/20100101 Firefox/75.0" -H "Accept: */*" -H "Accept-Language: de,en-US;q=0.7,en;q=0.3" -H "Content-Type: application/x-www-form-urlencoded; charset=UTF-8" -H "X-Requested-With: XMLHttpRequest" -H "Origin: https://www.fuw.ch" -H "Connection: keep-alive" -H "Referer: https://www.fuw.ch/markte/makro/" -H "Cookie: __cfduid=d8695fc49dc4fa7cb3042d9e31b42d4ff1588857885; fuwStats2020=45A5QbY4rzxxU; POPUPCHECK=1588944296151; _ga=GA1.2.1748096360.1588857897; _gid=GA1.2.874599476.1588857897; _gat_main=1; _gat_g=1; _gat_h=1; _gcl_au=1.1.255979795.1588857898; _gat_UA-58327930-30=1; _fbp=fb.1.1588857898454.1896769323; _parsely_session={"%"22sid"%"22:1"%"2C"%"22surl"%"22:"%"22https://www.fuw.ch/"%"22"%"2C"%"22sref"%"22:"%"22https://www.google.com/"%"22"%"2C"%"22sts"%"22:1588857899212"%"2C"%"22slts"%"22:0}; dakt_2_uuid=71a0d9a81ee50f88734c66be98d23a1e; dakt_2_uuid_ts=1588857899328; dakt_2_session_id=367922baff27ee84ac6e40f4ce0ce5dc; _parsely_visitor={"%"22id"%"22:"%"22pid=8a2cb26c1f41d7b807d841ad77d88f9b"%"22"%"2C"%"22session_count"%"22:1"%"2C"%"22last_session_ts"%"22:1588857899212}; __gads=ID=64e2249ac7a0219b:T=1588857897:S=ALNI_Ma_DcuF0BRgdFUd9ot7LGh6ZZUpJg" -H "TE: Trailers" --data "query=category&id=33&offset=0&count=100&excludeCategory"%"5B"%"5D=1229&listId=list-5eb40c2a14444579&listStart=0&listOrderBy=date&listIncludeDraftsAsPreview=0&listTemplate=default&listPage=1&listPages=2&listMoreButton=1&listMoreAutoload=0&listMoreLink=&articleDate=1&articleTime=0&articleTimeTodayFormat=0&articleHighlightDate=0&articleCategories=1&articleCategoriesLinked=1&articleBookmark=1&articleImage=0&articleKicker=1&articleLead=1&articleAuthor=1&articleRanking=1&articleTeaserMarkerDisplay"%"5B"%"5D=7&articleTeaserMarkerDisplay"%"5B"%"5D=8&articleTeaserMarkerDisplay"%"5B"%"5D=9&articleTags=1&articleLinkToBlank=1&articleLinkFreeKey=0&amp=0&jsonLd=0&insertAds=0" -o ',path,'/makro_',enddate,'.txt'))
   Sys.sleep(3)
@@ -607,6 +820,20 @@ cleanTA <- function(title, txt, stopwds) {
   txt # append clean text to main df
 }
 
+cleanTaWWW <- function(txt, stopwds) {
+  # Clean the text
+  txt <- gsub("</?[^>]+>", " ", txt) # remove html tags
+  txt <- gsub("[[:punct:]]", " ", txt) #remove puctuation
+  txt <- gsub("-", " ", txt)
+  txt <- gsub("[0-9]", " ", txt) # remove numbers
+  #txt <- str_split(txt, pattern = "\\s+")
+  txt <- tolower(txt) # set to lower case
+  txt <- removeWords(txt, c(stopwds$words, stopwords("deu"))) # remove stopwords
+  # txt <- gsub(pattern = "\\b[A-Za-z]\\b{1}", replace = " ", txt)
+  txt <- stripWhitespace(txt) # remove whitespace > 1
+  txt # append clean text to main df
+}
+
 cleanNZZ <- function(txt, stopwds) {
   # Clean the text
   txt <- gsub("</?[^>]+>", " ", txt) # remove html tags
@@ -625,29 +852,41 @@ merge_news <- function() {
   load("../Data/News/ta.RData")
   load("../Data/News/nzz.RData")
   load("../Data/News/fuw.RData")
+  load("../Data/News/tawww.RData")
   
   
   df_all_ch <- full_join(df_fuw_ch, df_nzz_ch, by="time") %>%
     full_join(df_ta_ch, by="time") %>%
-    mutate(tSum = rowSums(.[names(.)[c(3,5,7)]], na.rm = TRUE))  %>%
-    mutate(tM1 = mean*sum) %>%
-    mutate(tM2 = mean.x*sum.x) %>%
-    mutate(tM3 = mean.y*sum.y)  %>%
-    mutate(tMeanS = rowSums(.[names(.)[c(9,10,11)]], na.rm = TRUE)) %>%
+    full_join(df_tawww_ch, by="time") %>%
+    mutate(tSum = rowSums(.[names(.)[c(3,5,7,9)]], na.rm = TRUE))  %>%
+    mutate(tM1 = mean.x*sum.x) %>%
+    mutate(tM2 = mean.y*sum.y) %>%
+    mutate(tM3 = mean.x.x*sum.x.x)  %>%
+    mutate(tM4 = mean.y.y*sum.y.y)  %>%
+    mutate(tMeanS = rowSums(.[names(.)[c(11,12,13,14)]], na.rm = TRUE)) %>%
     mutate(tMean = tMeanS/tSum ) %>%
-    select(time, tMean, tSum)
+    select(time, tMean, tSum) %>%
+    arrange(time) %>%
+    filter(time>"1999-12-31")  %>%
+    arrange(time)
+    
+    
   
   colnames(df_all_ch) <- c("time", "mean", "sum")
   
   df_all_int <- full_join(df_fuw_int, df_nzz_int, by="time") %>%
     full_join(df_ta_int, by="time") %>%
-    mutate(tSum = rowSums(.[names(.)[c(3,5,7)]], na.rm = TRUE))  %>%
-    mutate(tM1 = mean*sum) %>%
-    mutate(tM2 = mean.x*sum.x) %>%
-    mutate(tM3 = mean.y*sum.y)  %>%
-    mutate(tMeanS = rowSums(.[names(.)[c(9,10,11)]], na.rm = TRUE)) %>%
+    full_join(df_tawww_int, by="time") %>%
+    mutate(tSum = rowSums(.[names(.)[c(3,5,7,9)]], na.rm = TRUE))  %>%
+    mutate(tM1 = mean.x*sum.x) %>%
+    mutate(tM2 = mean.y*sum.y) %>%
+    mutate(tM3 = mean.x.x*sum.x.x)  %>%
+    mutate(tM4 = mean.y.y*sum.y.y)  %>%
+    mutate(tMeanS = rowSums(.[names(.)[c(11,12,13,14)]], na.rm = TRUE)) %>%
     mutate(tMean = tMeanS/tSum ) %>%
-    select(time, tMean, tSum)
+    select(time, tMean, tSum) %>%
+    filter(time>"1999-12-31")  %>%
+    arrange(time)
   
   colnames(df_all_int) <- c("time", "mean", "sum")
   
@@ -659,33 +898,39 @@ merge_news <- function() {
 updateNewsIndicator <- function() {
   # Update News
   
-  # Update News via WebScarping (Slow and not very stable)
+  # Update News via WebScarping (Slow)
   # Works on Windows with Python and a set of installations
   
-  # # TA
-  # enddate <- Sys.Date() -1
-  # load("../Data/News/ta.RData")
-  # 
-  # # Domestic:
-  # startdate <- max(df_ta_ch$time)+1
-  # searchkeys_ta_ch <- c("wirtschaft schweiz", "konjunktur schweiz", "rezession schweiz")
-  # for (searchkey in searchkeys_ta_ch) {
-  #   # Run Python Script with input arguments
-  #   system(paste0('python  ..\\Data\\News\\tagi_args.py -k "', searchkey,'" -s "',startdate , '" -e "', enddate , '"'))
-  # }
-  # 
-  # #Foreign:
-  # startdate <- max(df_ta_int$time)+1
-  # searchkeys_ta_for <- c("wirtschaft ausland", "wirtschaft eu", "wirtschaft euro" , "wirtschaft europa", "wirtschaft deutschland", "wirtschaft usa", "wirtschaft us", "wirtschaft amerika", "konjunktur ausland", "konjunktur eu", "konjunktur euro" , "konjunktur europa", "konjunktur deutschland", "konjunktur usa", "konjunktur us", "konjunktur amerika", "rezession ausland", "rezession eu", "rezession euro" , "rezession europa", "rezession deutschland", "rezession usa", "rezession us", "rezession amerika")
-  # for (searchkey in searchkeys_ta_for) {
-  #   # Run Python Script with input arguments
-  #   system(paste0('python  ..\\Data\\News\\tagi_args.py -k "', searchkey,'" -s "',startdate , '" -e "', enddate , '"'))
-  # }
-  # 
-  # # Update .RData files with recently downloaded News
-  # Sys.sleep(2)
-  # update_ta()
-  # Sys.sleep(2)
+  # TA
+  enddate <- Sys.Date() -1
+  load("../Data/News/ta.RData")
+
+  # Domestic:
+  startdate <- max(df_ta_ch$time)+1
+  searchkeys_ta_ch <- c("wirtschaft schweiz", "konjunktur schweiz", "rezession schweiz")
+  for (searchkey in searchkeys_ta_ch) {
+    # Run Python Script with input arguments
+    if (enddate<startdate){next}
+    else{
+    system(paste0('python ..\\Data\\News\\tagi_args.py -k "', searchkey,'" -s "',startdate , '" -e "', enddate , '"'))
+    }
+      }
+
+  #Foreign:
+  startdate <- max(df_ta_int$time)+1
+  searchkeys_ta_for <- c("wirtschaft ausland", "wirtschaft eu", "wirtschaft euro" , "wirtschaft europa", "wirtschaft deutschland", "wirtschaft usa", "wirtschaft us", "wirtschaft amerika", "konjunktur ausland", "konjunktur eu", "konjunktur euro" , "konjunktur europa", "konjunktur deutschland", "konjunktur usa", "konjunktur us", "konjunktur amerika", "rezession ausland", "rezession eu", "rezession euro" , "rezession europa", "rezession deutschland", "rezession usa", "rezession us", "rezession amerika")
+  for (searchkey in searchkeys_ta_for) {
+    # Run Python Script with input arguments
+    if (enddate<startdate){next}
+    else{
+    system(paste0('python  ..\\Data\\News\\tagi_args.py -k "', searchkey,'" -s "',startdate , '" -e "', enddate , '"'))
+    }
+      }
+
+  # Update .RData files with recently downloaded News
+  Sys.sleep(2)
+  update_ta()
+  Sys.sleep(2)
   
   # NZZ
   enddate <- Sys.Date() -1
@@ -696,17 +941,22 @@ updateNewsIndicator <- function() {
   searchkeys_nzz_ch <- c("wirtschaft* schweiz*", "konjunktur* schweiz*", "rezession* schweiz*")
   for (searchkey in searchkeys_nzz_ch) {
     # Run Python Script with input arguments
+    if (enddate<startdate){next}
+    else{
     system(paste0('python  ..\\Data\\News\\nzz_args.py -k "', searchkey,'" -s "',startdate , '" -e "', enddate , '"'))
-  }
+    } 
+   }
   
   #Foreign:
   startdate <- max(df_nzz_int$time)+1
   searchkeys_nzz_for <- c("wirtschaft* ausland", "wirtschaft* eu", "wirtschaft* euro*" , "wirtschaft* deutsch*", "wirtschaft* us*", "wirtschaft* amerika*", "konjunktur* ausland", "konjunktur* eu", "konjunktur* euro*" , "konjunktur* deutsch*", "konjunktur* us*", "konjunktur* amerika*", "rezession* ausland", "rezession* eu", "rezession* euro*" , "rezession* deutsch*", "rezession* us*", "rezession* amerika*")
   for (searchkey in searchkeys_nzz_for) {
     # Run Python Script with input arguments
+    if (enddate<startdate){next}
+    else{
     system(paste0('python  ..\\Data\\News\\nzz_args.py -k "', searchkey,'" -s "',startdate , '" -e "', enddate , '"'))
   }
-  
+  }
   # Update .RData files with recently downloaded News
   Sys.sleep(2)
   update_nzz()
@@ -714,6 +964,10 @@ updateNewsIndicator <- function() {
   
   # FUW
   update_fuw()
+  Sys.sleep(2)
+  
+  # TA Web
+  update_tawww()
   Sys.sleep(2)
   
   # Merge to ALL

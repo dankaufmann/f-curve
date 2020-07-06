@@ -1,20 +1,19 @@
 #-------------------------------------------------------------------------------------
 # A daily fever curve for the Swiss economy
 #-------------------------------------------------------------------------------------
-# Feel free to copy, adapt, and use this code for your own purposes at 
-# your own risk.
+# Feel free to copy, adapt, and use this code for your own purposes at your own risk.
 #
 # Please cite: 
 # Burri, Marc and Daniel Kaufmann (2020): "A daily fever curve for the
-# Swiss economy", IRENE Working Paper No., University of Neuchâtel,
+# Swiss economy", IRENE Working Paper No. 20-05, University of Neuchâtel,
 # https://github.com/dankaufmann/f-curve
 #
 #-------------------------------------------------------------------------------------
-# V 1.0
+# V 2.0
 #-------------------------------------------------------------------------------------
 
 # Packages and settings
-#rm(list = ls())
+rm(list = ls())
 source("AllPackages.R")
 endDate   <- Sys.Date()
 
