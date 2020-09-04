@@ -3,6 +3,7 @@ Data Source in SDW: null
 ,"Euro area (changing composition) - Government bond, nominal, all issuers whose rating is triple A - Svensson model - continuous compounding - yield error minimisation - Yield curve spot rate, 1-year maturity - Euro, provided by ECB"
 Collection:,End of period (E)
 Period\Unit:,[Percent per annum ]
+2020-09-02,-0.640062
 2020-09-01,-0.631165
 2020-08-31,-0.624605
 2020-08-28,-0.637480
