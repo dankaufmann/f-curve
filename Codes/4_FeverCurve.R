@@ -141,10 +141,15 @@ ggsave(filename = "../Results/DecompositionShort.pdf", width = figwidth, height 
 ggsave(filename = "../Results/DecompositionShort.png", width = figwidth, height = figheight)
 
 
+# Remove last observation if it is zero (somehow, FOPH reports a zero case number temporarily)
+# But keep it later on if it is confirmed
+if(Cases[ts_summary(Cases)$end] == 0){
+  Cases[ts_summary(Cases)$end] = NA
+}
 p <- ts_ggplot(
   `f-curve` = ts_span(fc, "2020-01-01"),
-  ` f-curve (5-day moving average)` = ts_span(fc_s, "2020-01-01"),
-  `New Covid-19 cases (in 100, 5-day moving average, FOPH)` = rollapply(Cases, noMA, mean, na.rm = TRUE)/100,
+  ` f-curve (5-day ma)` = ts_span(fc_s, "2020-01-01"),
+  `Covid-19 cases (in 100, 5-day ma, FOPH)` = rollapply(Cases, noMA, mean, na.rm = TRUE)/100,
   title = "Comparison with health crisis"
 )
 p <- ggLayout(p)
