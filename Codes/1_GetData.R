@@ -84,7 +84,7 @@ CasesJH   <- ts_diff(xts(t(Covid19JH[1,]), order.by = Dates))
 
 
 GDP         <- read.xlsx("../Data/PIBSuisse.xls", sheetName = "real_q", as.data.frame = TRUE, startRow = 11)
-GDP         <- (xts(GDP[,3], order.by = as.Date(paste(GDP[,1], GDP[,2]*3-2, "01", sep = "-"))))
+GDP         <- (xts(GDP[!is.na(GDP[,3]),3], order.by = as.Date(paste(GDP[!is.na(GDP[,1]),1], GDP[!is.na(GDP[,2]),2]*3-2, "01", sep = "-"))))
 GDPDefl     <- read.xlsx("../Data/PIBSuisse.xls", sheetName = "defl_q", as.data.frame = TRUE, startRow = 11)
 GDPDefl     <- (xts(GDPDefl[,3], order.by = as.Date(paste(GDPDefl[,1], GDPDefl[,2]*3-2, "01", sep = "-"))))
 NGDP        <- GDP*GDPDefl
