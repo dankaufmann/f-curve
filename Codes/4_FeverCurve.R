@@ -149,7 +149,7 @@ if(Cases[ts_summary(Cases)$end] == 0){
 p <- ts_ggplot(
   `f-curve` = ts_span(fc, "2020-01-01"),
   ` f-curve (5-day ma)` = ts_span(fc_s, "2020-01-01"),
-  `Covid-19 cases (in 100, 5-day ma, FOPH)` = rollapply(Cases, noMA, mean, na.rm = TRUE)/100,
+  `New Covid-19 cases (in 100, 5-day ma, FOPH)` = rollapply(Cases, noMA, mean, na.rm = TRUE)/100,
   title = "Comparison with health crisis"
 )
 p <- ggLayout(p)
