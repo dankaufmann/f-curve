@@ -22,7 +22,7 @@ startDate <- as.Date("2000-01-01")
 
 endDate     <- Sys.Date()
 noMANews      <- 2      # Number of days uncentered moving average for news (otherwise very volatile) do that in second step...
-noMA          <- 5      # Working days for moving average
+noMA          <- 7      # Working days for moving average
 leadTS        <- 0.5    # Lead of term-spread on the business cycle (in years)
 minObs        <- 5      # Min. number of observations
 
@@ -79,7 +79,7 @@ p <- ts_ggplot(
   # `Baseline, five-day moving-av., inv. scale`  = -fc_s ,
   `f-curve, inverse, rescaled`                         = -fc/3+.4,
   `GDP growth`                           = ts_span(ts_pc(GDP), startDate),
- title = paste("Last observation: ", lastObsDate, "", sep = "")
+  title = paste("Last observation: ", lastObsDate, "", sep = "")
 )
 p <- ggLayout(p)
 p <- ggColor2(p)
@@ -110,7 +110,7 @@ ggsave(filename = "../Results/GDPAnnual.png", width = figwidth, height = figheig
 ShortLines <- c("2020-03-16", "2020-03-25", "2020-04-03", "2020-04-16", "2020-04-30", "2020-05-27")
 ShortLabels <- c("Covid-19 lockdown", "Economic aid package (announced)", "Increase aid package (announced)", "Easing lockdown (phase I, announced)", "Easing lockdown (phase II, announced)", "Easing lockdown (phase III, announced)")
 p <- ts_ggplot(
-  ` f-curve, five-day moving-average`  = ts_span(fc_s, "2020-02-01"),
+  ` f-curve, seven-day moving-average`  = ts_span(fc_s, "2020-02-01"),
   `f-curve`                         = ts_span(fc, "2020-02-01"),
   title = paste("Last observation: ", lastObsDate, "", sep = "")
 )
@@ -140,6 +140,7 @@ p
 ggsave(filename = "../Results/DecompositionShort.pdf", width = figwidth, height = figheight)
 ggsave(filename = "../Results/DecompositionShort.png", width = figwidth, height = figheight)
 
+load(file="../Data/MacroData.RData")
 
 # Remove last observation if it is zero (somehow, FOPH reports a zero case number temporarily)
 # But keep it later on if it is confirmed
@@ -148,8 +149,8 @@ if(Cases[ts_summary(Cases)$end] == 0){
 }
 p <- ts_ggplot(
   `f-curve` = ts_span(fc, "2020-01-01"),
-  ` f-curve (5-day ma)` = ts_span(fc_s, "2020-01-01"),
-  `New Covid-19 cases (in 100, 5-day ma, FOPH)` = rollapply(Cases, noMA, mean, na.rm = TRUE)/100,
+  ` f-curve (seven-day ma)` = ts_span(fc_s, "2020-01-01"),
+  `New Covid-19 cases (in 100, seven-day ma, FOPH)` = rollapply(Cases, noMA, mean, na.rm = TRUE)/100,
   title = "Comparison with health crisis"
 )
 p <- ggLayout(p)
