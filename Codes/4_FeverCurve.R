@@ -140,7 +140,7 @@ p
 ggsave(filename = "../Results/DecompositionShort.pdf", width = figwidth, height = figheight)
 ggsave(filename = "../Results/DecompositionShort.png", width = figwidth, height = figheight)
 
-load(file="../Data/MacroData.RData")
+#load(file="../Data/MacroData.RData")
 
 # Remove last observation if it is zero (somehow, FOPH reports a zero case number temporarily)
 # But keep it later on if it is confirmed
