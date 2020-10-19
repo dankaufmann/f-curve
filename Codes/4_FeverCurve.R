@@ -147,6 +147,7 @@ ggsave(filename = "../Results/DecompositionShort.png", width = figwidth, height 
 if(Cases[ts_summary(Cases)$end] == 0){
   Cases[ts_summary(Cases)$end] = NA
 }
+Cases <- na.omit(Cases)
 p <- ts_ggplot(
   `f-curve` = ts_span(fc, "2020-01-01"),
   ` f-curve (seven-day ma)` = ts_span(fc_s, "2020-01-01"),
