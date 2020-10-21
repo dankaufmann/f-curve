@@ -142,11 +142,9 @@ ggsave(filename = "../Results/DecompositionShort.png", width = figwidth, height 
 
 #load(file="../Data/MacroData.RData")
 
-# Remove last observation if it is zero (somehow, FOPH reports a zero case number temporarily)
+# Remove last observation (somehow, FOPH does not report all cases and revises later on)
 # But keep it later on if it is confirmed
-if(Cases[ts_summary(Cases)$end] == 0){
-  Cases[ts_summary(Cases)$end] = NA
-}
+Cases[ts_summary(Cases)$end] = NA
 Cases <- na.omit(Cases)
 p <- ts_ggplot(
   `f-curve` = ts_span(fc, "2020-01-01"),
