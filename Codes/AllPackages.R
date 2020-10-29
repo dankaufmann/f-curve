@@ -937,7 +937,7 @@ merge_news <- function() {
 updateNewsIndicator <- function() {
   # Update News
   
-  # Update News via WebScarping (Slow and not very stable)
+  # Update News via WebScarping (Slow)
   # Works on Windows with Python and a set of installations
   
   # TA
