@@ -278,22 +278,6 @@ getForecastVariance <- function(fcst){
 }
 
 
-timebased_ma <- function(df, days) {
-  # Efficient function to calculate time based moving average per observation
-  # Input: 
-  # df = DataFrame
-  # days: number of days for ma
-  
-  # aggregate in sliding window by a non-equi join
-  ma <- data.table::setDT(df)[.(ud = time, ld = time -days), on = .(time <= ud,time >= ld), 
-                              mean(as.double(SentimentScore)), by = .EACHI]
-  colnames(ma) <- c("time", "timel", "ma")
-  ma <- select(ma, c("time", "ma")) %>% na.omit() %>% tibble::as_tibble()
-  df <- tibble::add_column(df, !!(paste0("ma",days)) := ma$ma)
-  
-}
-
-
 
 # Functions and packages for News Indicator
 #library(rjson)
@@ -342,6 +326,13 @@ update_ta <- function() {
   
   df <- df[!duplicated(df),]
   
+  load(paste0(path,"/","cleanTaDomTxt.RData"))
+  cleanTaDomTxt <- bind_rows(cleanTaDomTxt, 
+                             df %>% mutate(text = paste0(title, " ", text)) %>%
+                               select(time, text, cleanText, pos_n, neg_n, n_w, SentimentScore))
+  cleanTaDomTxt <- cleanTaDomTxt[!duplicated(cleanTaDomTxt$cleanText),]
+  save(cleanTaDomTxt, file = paste0(path,"/","cleanTaDomTxt.RData"))
+  
   df <- df %>% 
     group_by(time) %>%
     dplyr::summarize(mean = mean(SentimentScore, na.rm=TRUE),
@@ -376,6 +367,13 @@ update_ta <- function() {
     as_tibble()
   
   df <- df[!duplicated(df),]
+  
+  load(paste0(path,"/","cleanTaForTxt.RData"))
+  cleanTaForTxt <- bind_rows(cleanTaForTxt, 
+                             df %>% mutate(text = paste0(title, " ", text)) %>%
+                               select(time, text, cleanText, pos_n, neg_n, n_w, SentimentScore))
+  cleanTaForTxt <- cleanTaForTxt[!duplicated(cleanTaForTxt$cleanText),]
+  save(cleanTaForTxt, file = paste0(path,"/","cleanTaForTxt.RData"))
   
   df <- df %>% 
     group_by(time) %>%
@@ -429,6 +427,13 @@ update_nzz <- function() {
   
   df <- df[!duplicated(df),]
   
+  load(paste0(path,"/","cleanNzzDomTxt.RData"))
+  cleanNzzDomTxt <- bind_rows(cleanNzzDomTxt, 
+                              df %>% 
+                                select(time, text, cleanText, pos_n, neg_n, n_w, SentimentScore))
+  cleanNzzDomTxt <- cleanNzzDomTxt[!duplicated(cleanNzzDomTxt$cleanText),]
+  save(cleanNzzDomTxt, file = paste0(path,"/","cleanNzzDomTxt.RData"))
+  
   df <- df %>% 
     group_by(time) %>%
     dplyr::summarize(mean = mean(SentimentScore, na.rm=TRUE),
@@ -463,6 +468,13 @@ update_nzz <- function() {
     as_tibble()
   
   df <- df[!duplicated(df),]
+  
+  load(paste0(path,"/","cleanNzzForTxt.RData"))
+  cleanNzzForTxt <- bind_rows(cleanNzzForTxt, 
+                              df %>% 
+                                select(time, text, cleanText, pos_n, neg_n, n_w, SentimentScore))
+  cleanNzzForTxt <- cleanNzzForTxt[!duplicated(cleanNzzForTxt$cleanText),]
+  save(cleanNzzForTxt, file = paste0(path,"/","cleanNzzForTxt.RData"))
   
   df <- df %>% 
     group_by(time) %>%
@@ -553,7 +565,7 @@ update_tawww <- function(){
 
   save(df, file=paste0(path,"/","data_dom.Rdata"))
   
-  load(paste0(path,"/","data_clean_dom.Rdata"))
+  load(paste0(path,"/","cleanTawwwDomTxt.Rdata"))
   dfWebDom_n <- df_n_dom_2 %>%
     mutate(text_field = paste0(content.titleHeader, " ", content.title, " ", content.lead)) %>%
     mutate(time = as.Date(content.published)) %>%
@@ -562,7 +574,7 @@ update_tawww <- function(){
   dfWebDom_n <- dfWebDom_n[!duplicated(dfWebDom_n),]
   
   if (nrow(dfWebDom_n) > 1) {
-  cleanDfWebDom_n <- dfWebDom_n %>%
+  cleanTawwwDomTxt_n <- dfWebDom_n %>%
     arrange(time) %>%
     rowwise() %>%
     mutate(cleanText = cleanTaWWW(text_field, stopwds = stopw_de)) %>%
@@ -572,18 +584,16 @@ update_tawww <- function(){
     mutate(SentimentScore = (pos_n-neg_n)/n_w) %>%
     as_tibble() 
   
-  cleanDfWebDom_n <- cleanDfWebDom_n[!duplicated(cleanDfWebDom_n),]
+  cleanTawwwDomTxt_n <- cleanTawwwDomTxt_n[!duplicated(cleanTawwwDomTxt_n),]
   
-  cleanDfWebDom <- bind_rows(cleanDfWebDom, cleanDfWebDom_n)
+  cleanTawwwDomTxt <- bind_rows(cleanTawwwDomTxt, cleanTawwwDomTxt_n)
   
-  save(cleanDfWebDom, file=paste0(path,"/","data_clean_dom.Rdata"))
-  
+  save(cleanTawwwDomTxt, file=paste0(path,"/","cleanTawwwDomTxt.Rdata"))
   
   }
   
-  df_tawww_ch_nt <- cleanDfWebDom %>%
+  df_tawww_ch_nt <- cleanTawwwDomTxt %>%
     select(-c("text_field", "cleanText"))
-  
   
   # foreign
   searchkeys_ta_for <- c("wirtschaft ausland", "wirtschaft eu", "wirtschaft euro" , "wirtschaft europa", "wirtschaft deutschland", "wirtschaft usa", "wirtschaft us", "wirtschaft amerika", "konjunktur ausland", "konjunktur eu", "konjunktur euro" , "konjunktur europa", "konjunktur deutschland", "konjunktur usa", "konjunktur us", "konjunktur amerika", "rezession ausland", "rezession eu", "rezession euro" , "rezession europa", "rezession deutschland", "rezession usa", "rezession us", "rezession amerika")
@@ -636,7 +646,7 @@ update_tawww <- function(){
   
   save(df, file=paste0(path,"/","data_for.Rdata"))
   
-  load(paste0(path,"/","data_clean_for.Rdata"))
+  load(paste0(path,"/","cleanTawwwForTxt.Rdata"))
   dfWebFor_n <- df_n_for_2 %>%
     mutate(text_field = paste0(content.titleHeader, " ", content.title, " ", content.lead)) %>%
     mutate(time = as.Date(content.published)) %>%
@@ -645,7 +655,7 @@ update_tawww <- function(){
   dfWebFor_n <- dfWebFor_n[!duplicated(dfWebFor_n),]
   
   if (nrow(dfWebFor_n) > 1) {
-  cleanDfWebFor_n <- dfWebFor_n %>%
+  cleanTawwwForTxt_n <- dfWebFor_n %>%
     arrange(time) %>%
     rowwise() %>%
     mutate(cleanText = cleanTaWWW(text_field, stopwds = stopw_de)) %>%
@@ -655,16 +665,16 @@ update_tawww <- function(){
     mutate(SentimentScore = (pos_n-neg_n)/n_w) %>%
     as_tibble() 
   
-  cleanDfWebFor_n <- cleanDfWebFor_n[!duplicated(cleanDfWebFor_n),]
+  cleanTawwwForTxt_n <- cleanTawwwForTxt_n[!duplicated(cleanTawwwForTxt_n),]
     
-    cleanDfWebFor <- bind_rows(cleanDfWebFor, cleanDfWebFor_n)
+    cleanTawwwForTxt <- bind_rows(cleanTawwwForTxt, cleanTawwwForTxt_n)
     
-    save(cleanDfWebFor, file=paste0(path,"/","data_clean_for.Rdata"))
+    save(cleanTawwwForTxt, file=paste0(path,"/","cleanTawwwForTxt.Rdata"))
     
     
   }
   
-  df_tawww_int_nt <- cleanDfWebFor %>%
+  df_tawww_int_nt <- cleanTawwwForTxt %>%
     select(-c("text_field", "cleanText"))
   
   save(df_tawww_ch_nt, df_tawww_int_nt, file=paste0("../Data/News/tawww_nt.Rdata"))
@@ -673,7 +683,7 @@ update_tawww <- function(){
     arrange(time) %>%
     group_by(time) %>%
     summarize(mean = mean(SentimentScore, na.rm=TRUE),
-              sum = sum(n())) %>% filter(time != "2020-01-01")
+              sum = sum(n()))
   
   df_tawww_int <- df_tawww_int_nt %>%
     arrange(time) %>%
@@ -766,6 +776,35 @@ update_fuw <- function(){
     file.move(paste0(path, "/", file), "../Data/News/FUW/_archive", overwrite = T)
   }
   
+  # Save Txt
+  df_txt <- df %>% 
+    mutate(text = paste0(title, " ", text)) %>%
+    select(c(time, text, category, tags, cleanText, NumPosW, NumNegW, NumW, SentimentScore)) %>%
+    rename(pos_n = NumPosW, neg_n = NumNegW, n_w = NumW) %>%
+    mutate(time = as.Date(time, "%d.%m.%Y")) %>% arrange(time)
+  
+  df11 <- df_txt %>% 
+    filter((grepl("schweiz", tolower(category))  | grepl("schweiz", tolower(tags)) | grepl("schweiz", cleanText)))  
+  df11 <- df11[!duplicated(df11$cleanText),] %>%
+    select(c(time, text, cleanText, pos_n, neg_n, n_w, SentimentScore)) %>% na.omit()
+  
+  
+  df12 <- df_txt %>% 
+    filter((grepl("ausland", tolower(category)) | grepl("ausland|\\beu\\b|euro|usa|amerika|deutsch", tolower(tags)) | grepl("ausland|\\beu\\b|euro|usa|amerika|deutsch", cleanText)))   
+  df12 <- df12[!duplicated(df12$cleanText),] %>%
+    select(c(time, text, cleanText, pos_n, neg_n, n_w, SentimentScore)) %>% na.omit()
+  
+  load(paste0(path,"/","cleanFuwDomTxt.RData"))
+  cleanFuwDomTxt <- bind_rows(cleanFuwDomTxt, df11)
+  cleanFuwDomTxt <- cleanFuwDomTxt[!duplicated(cleanFuwDomTxt$cleanText),]
+  save(cleanFuwDomTxt, file = paste0(path,"/","cleanFuwDomTxt.RData"))
+  
+  load(paste0(path,"/","cleanFuwForTxt.RData"))
+  cleanFuwForTxt <- bind_rows(cleanFuwForTxt, df11)
+  cleanFuwForTxt <- cleanFuwForTxt[!duplicated(cleanFuwForTxt$cleanText),]
+  save(cleanFuwForTxt, file = paste0(path,"/","cleanFuwForTxt.RData"))
+  
+  # Sentiment Aggr.
   df <- df %>% 
     select(c(time, category, tags, cleanText, SentimentScore)) %>%
     mutate(time = as.Date(time, "%d.%m.%Y")) %>% arrange(time)
@@ -777,7 +816,7 @@ update_fuw <- function(){
   
   
   df_fuw_int_new <- df %>% 
-    filter((grepl("ausland", tolower(category)) | grepl("ausland|\\beu\\eu|euro|usa|amerika|deutsch", tolower(tags)) | grepl("ausland|\\beu\\b|euro|usa|amerika|deutsch", cleanText)))   
+    filter((grepl("ausland", tolower(category)) | grepl("ausland|\\beu\\b|euro|usa|amerika|deutsch", tolower(tags)) | grepl("ausland|\\beu\\b|euro|usa|amerika|deutsch", cleanText)))   
   df_fuw_int_new <- df_fuw_int_new[!duplicated(df_fuw_int_new),] %>%
     select(c("time", "SentimentScore")) %>% na.omit()
   
@@ -898,7 +937,7 @@ merge_news <- function() {
 updateNewsIndicator <- function() {
   # Update News
   
-  # Update News via WebScarping (Slow)
+  # Update News via WebScarping (Slow and not very stable)
   # Works on Windows with Python and a set of installations
   
   # TA
@@ -972,7 +1011,32 @@ updateNewsIndicator <- function() {
   
   # Merge to ALL
   merge_news()
-}
+  
+  # Merge Text Data for further Anlysis
+  load("../Data/News/TA/dom/cleanTaDomTxt.RData")
+  load("../Data/News/NZZ/dom/cleanNzzDomTxt.RData")
+  load("../Data/News/TAWWW/dom/cleanTawwwDomTxt.RData")
+  load("../Data/News/FUW/cleanFuwDomTxt.RData")
+  
+  cleanFullDomTxt <- bind_rows(cleanTaDomTxt  %>% mutate(Source = "Tages Anzeiger"), 
+                               cleanTawwwDomTxt  %>% mutate(Source = "Tages Anzeiger Web")  %>% rename(text = text_field), 
+                               cleanNzzDomTxt  %>% mutate(Source = "Neue Z?rcher Zeitung"), 
+                               cleanFuwDomTxt  %>% mutate(Source = "Finanz und Wirtschaft"))
+  cleanFullDomTxt <- cleanFullDomTxt[!duplicated(cleanFullDomTxt$cleanText),]
+  save(cleanFullDomTxt, file="../Data/News/cleanFullDomTxt.Rdata")
+  
+  load("../Data/News/TA/for/cleanTaForTxt.RData")
+  load("../Data/News/NZZ/for/cleanNzzForTxt.RData")
+  load("../Data/News/TAWWW/for/cleanTawwwForTxt.RData")
+  load("../Data/News/FUW/cleanFuwForTxt.RData")
+  
+  cleanFullForTxt <- bind_rows(cleanTaForTxt %>% mutate(Source = "Tages Anzeiger"), 
+                               cleanTawwwForTxt  %>% mutate(Source = "Tages Anzeiger Web") %>% rename(text = text_field), 
+                               cleanNzzForTxt  %>% mutate(Source = "Neue Z?rcher Zeitung"), 
+                               cleanFuwForTxt  %>% mutate(Source = "Finanz und Wirtschaft"))
+  cleanFullForTxt <- cleanFullForTxt[!duplicated(cleanFullForTxt$cleanText),]
+  save(cleanFullForTxt, file="../Data/News/cleanFullForTxt.Rdata")
+  }
 
 read_sentiws <- function(){
   # Load Sentiment Lexicon
