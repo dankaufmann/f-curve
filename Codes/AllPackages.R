@@ -1020,7 +1020,7 @@ updateNewsIndicator <- function() {
   
   cleanFullDomTxt <- bind_rows(cleanTaDomTxt  %>% mutate(Source = "Tages Anzeiger"), 
                                cleanTawwwDomTxt  %>% mutate(Source = "Tages Anzeiger Web")  %>% rename(text = text_field), 
-                               cleanNzzDomTxt  %>% mutate(Source = "Neue Z?rcher Zeitung"), 
+                               cleanNzzDomTxt  %>% mutate(Source = "Neue Zürcher Zeitung"), 
                                cleanFuwDomTxt  %>% mutate(Source = "Finanz und Wirtschaft"))
   cleanFullDomTxt <- cleanFullDomTxt[!duplicated(cleanFullDomTxt$cleanText),]
   save(cleanFullDomTxt, file="../Data/News/cleanFullDomTxt.Rdata")
@@ -1032,7 +1032,7 @@ updateNewsIndicator <- function() {
   
   cleanFullForTxt <- bind_rows(cleanTaForTxt %>% mutate(Source = "Tages Anzeiger"), 
                                cleanTawwwForTxt  %>% mutate(Source = "Tages Anzeiger Web") %>% rename(text = text_field), 
-                               cleanNzzForTxt  %>% mutate(Source = "Neue Z?rcher Zeitung"), 
+                               cleanNzzForTxt  %>% mutate(Source = "Neue Zürcher Zeitung"), 
                                cleanFuwForTxt  %>% mutate(Source = "Finanz und Wirtschaft"))
   cleanFullForTxt <- cleanFullForTxt[!duplicated(cleanFullForTxt$cleanText),]
   save(cleanFullForTxt, file="../Data/News/cleanFullForTxt.Rdata")
