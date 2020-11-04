@@ -17,6 +17,10 @@ The updated f-curve is available daily around 11 am.
 ## Current f-curve:
 ![](./Results/MainGDPShort.png)
 ![](./Results/DecompositionShort.png)
+
+## Comparison with health crisis:
+![](./Results/Covid-19_Hospital.png)
+![](./Results/Covid-19_Deaths.png)
 ![](./Results/Covid-19.png)
 
 ## Historical f-curve

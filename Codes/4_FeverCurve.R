@@ -144,13 +144,24 @@ ggsave(filename = "../Results/DecompositionShort.png", width = figwidth, height 
 
 # Remove last observation (somehow, FOPH does not report all cases and revises later on)
 # But keep it later on if it is confirmed
+Cases[ts_summary(Cases)$end-2] = NA
+Cases[ts_summary(Cases)$end-1] = NA
 Cases[ts_summary(Cases)$end] = NA
 Cases <- na.omit(Cases)
+Deaths[ts_summary(Deaths)$end-2] = NA
+Deaths[ts_summary(Deaths)$end-1] = NA
+Deaths[ts_summary(Deaths)$end] = NA
+Deaths <- na.omit(Deaths)
+Hospital[ts_summary(Hospital)$end-2] = NA
+Hospital[ts_summary(Hospital)$end-1] = NA
+Hospital[ts_summary(Hospital)$end] = NA
+Hospital <- na.omit(Hospital)
 p <- ts_ggplot(
   `f-curve` = ts_span(fc, "2020-01-01"),
   ` f-curve (seven-day ma)` = ts_span(fc_s, "2020-01-01"),
-  `New Covid-19 cases (in 100, seven-day ma, FOPH)` = rollapply(Cases, noMA, mean, na.rm = TRUE)/100,
-  title = "Comparison with health crisis"
+  `New cases (in 100, seven-day ma, FOPH)` = rollapply(Cases, noMA, mean, na.rm = TRUE)/100,
+  title = "Comparison with health crisis: new cases)",
+  subtitle = "Last three days ignored to avoid revisions because of late reports"
 )
 p <- ggLayout(p)
 p <- p + scale_x_date(labels =  date_format("%b %Y"))
@@ -159,6 +170,36 @@ p <- ggColor3(p)
 p
 ggsave(filename = "../Results/Covid-19.png", width = figwidth, height = figheight)
 ggsave(filename = "../Results/Covid-19.pdf", width = figwidth, height = figheight)
+
+p <- ts_ggplot(
+  `f-curve` = ts_span(fc, "2020-01-01"),
+  ` f-curve (seven-day ma)` = ts_span(fc_s, "2020-01-01"),
+  `New hospitalisations (in 10, even-day ma, FOPH)` = rollapply(Hospital, noMA, mean, na.rm = TRUE)/10,
+  title = "Comparison with health crisis: New hospitalisations",
+  subtitle = "Last three days ignored to avoid revisions because of late reports"
+)
+p <- ggLayout(p)
+p <- p + scale_x_date(labels =  date_format("%b %Y"))
+p <- ggColor3(p)
+#p <- addLines(p, myLines, myLabels, -18)
+p
+ggsave(filename = "../Results/Covid-19_Hospital.png", width = figwidth, height = figheight)
+ggsave(filename = "../Results/Covid-19_Hospital.pdf", width = figwidth, height = figheight)
+
+p <- ts_ggplot(
+  `f-curve` = ts_span(fc, "2020-01-01"),
+  ` f-curve (seven-day ma)` = ts_span(fc_s, "2020-01-01"),
+  `New deaths (in 10, even-day ma, FOPH)` = rollapply(Deaths, noMA, mean, na.rm = TRUE)/10,
+  title = "Comparison with health crisis: Deaths",
+  subtitle = "Last three days ignored to avoid revisions because of late reports"
+)
+p <- ggLayout(p)
+p <- p + scale_x_date(labels =  date_format("%b %Y"))
+p <- ggColor3(p)
+#p <- addLines(p, myLines, myLabels, -18)
+p
+ggsave(filename = "../Results/Covid-19_Deaths.png", width = figwidth, height = figheight)
+ggsave(filename = "../Results/Covid-19_Deaths.pdf", width = figwidth, height = figheight)
 
 
 # Save data for later analysis
