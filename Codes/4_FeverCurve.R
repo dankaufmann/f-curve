@@ -159,8 +159,8 @@ Hospital <- na.omit(Hospital)
 p <- ts_ggplot(
   `f-curve` = ts_span(fc, "2020-01-01"),
   ` f-curve (seven-day ma)` = ts_span(fc_s, "2020-01-01"),
-  `New cases (in 100, seven-day ma, FOPH)` = rollapply(Cases, noMA, mean, na.rm = TRUE)/100,
-  title = "Comparison with health crisis: new cases)",
+  `New cases (in 1,000, seven-day ma, FOPH)` = rollapply(Cases, noMA, mean, na.rm = TRUE)/1000,
+  title = "New Covid-19 cases",
   subtitle = "Last three days ignored to avoid revisions because of late reports"
 )
 p <- ggLayout(p)
@@ -174,8 +174,8 @@ ggsave(filename = "../Results/Covid-19.pdf", width = figwidth, height = figheigh
 p <- ts_ggplot(
   `f-curve` = ts_span(fc, "2020-01-01"),
   ` f-curve (seven-day ma)` = ts_span(fc_s, "2020-01-01"),
-  `New hospitalisations (in 10, even-day ma, FOPH)` = rollapply(Hospital, noMA, mean, na.rm = TRUE)/10,
-  title = "Comparison with health crisis: New hospitalisations",
+  `New hospitalisations (in 10, seven-day ma, FOPH)` = rollapply(Hospital, noMA, mean, na.rm = TRUE)/10,
+  title = "New Covid-19 hospitalisations",
   subtitle = "Last three days ignored to avoid revisions because of late reports"
 )
 p <- ggLayout(p)
@@ -189,8 +189,8 @@ ggsave(filename = "../Results/Covid-19_Hospital.pdf", width = figwidth, height =
 p <- ts_ggplot(
   `f-curve` = ts_span(fc, "2020-01-01"),
   ` f-curve (seven-day ma)` = ts_span(fc_s, "2020-01-01"),
-  `New deaths (in 10, even-day ma, FOPH)` = rollapply(Deaths, noMA, mean, na.rm = TRUE)/10,
-  title = "Comparison with health crisis: Deaths",
+  `New deaths (in 10, seven-day ma, FOPH)` = rollapply(Deaths, noMA, mean, na.rm = TRUE)/10,
+  title = "New Covid-19 deaths",
   subtitle = "Last three days ignored to avoid revisions because of late reports"
 )
 p <- ggLayout(p)
