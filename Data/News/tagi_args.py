@@ -40,7 +40,7 @@ def main(argumentlist):
         # print(searchkey.split()[1])
         path = os.path.join(dirname, 'TA\\for')
 
-    url = "https://archive-search.takube.embrio.tech/?lang=de&tenant=TA"
+    url = "https://disco-archive-search.publishing.tamedia.ch/horton-archive/?lang=de&tenant=TA"
 
     # Operating in headless mode
     opts = Options()
