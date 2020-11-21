@@ -24,7 +24,7 @@ The updated f-curve is available daily around 11 am.
 ![](./Results/Covid-19.png)
 
 ## Comparison with other indicators:
-![](./Results/ComaparisonOther.png)
+![](./Results/ComparisonOther.png)
 ![](./Results/ComparisonOtherLong.png)
 
 ## Historical f-curve
