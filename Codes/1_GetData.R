@@ -29,6 +29,8 @@ download.file(url = "https://www.seco.admin.ch/dam/seco/en/dokumente/Wirtschaft/
 download.file(url = "https://raw.githubusercontent.com/trendecon/data/master/data/ch/trendecon_sa.csv", destfile = "../Data/TrendEcon.csv", mode="wb")
 download.file(url = "https://www.bag.admin.ch/dam/bag/de/dokumente/mt/k-und-i/aktuelle-ausbrueche-pandemien/2019-nCoV/covid-19-datengrundlage-lagebericht.xlsx.download.xlsx/200325_Datengrundlage_Grafiken_COVID-19-Bericht.xlsx", destfile = "../Data/Covid19Cases.xlsx", mode="wb")
 download.file(url = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv", destfile = "../Data/Covid19CasesJH.xlsx", mode="wb")
+download.file(url = "https://www.seco.admin.ch/dam/seco/en/dokumente/Wirtschaft/Wirtschaftslage/indikatoren/wwa_publish.xls.download.xls/wwa_publish.xls", destfile = "../Data/SECOWEA.xls", mode="wb")
+download.file(url = "https://datenservice.kof.ethz.ch/api/v1/public/ts?keys=kofbarometer&mime=xlsx", destfile = "../Data/KOFBaro.xlsx", mode="wb")
 
 # Get news indicators
 if (updateNews) {
@@ -82,6 +84,12 @@ Dates     <- substring(colnames(Covid19JH), 2)
 Dates     <- as.Date(Dates, format = "%m.%d.%y")
 CasesJH   <- ts_diff(xts(t(Covid19JH[1,]), order.by = Dates))
 
+# Get Indicators
+KOF <- read.xlsx("../Data/KOFBaro.xlsx", sheetName = "Sheet1", as.data.frame = TRUE, startRow = 1)
+Baro <- xts(KOF$kofbarometer, order.by = as.Date(paste0(KOF$date, "-01")))
+
+SECO <- read.xlsx("../Data/SECOWEA.xls", sheetName = "Data", as.data.frame = TRUE, startRow = 4)
+WEA <- xts(SECO[,3], order.by = as.Date(paste0(SECO[,1], "-", SECO[,2], "-1"), format = "%Y-%U-%u"))
 
 GDP         <- read.xlsx("../Data/PIBSuisse.xls", sheetName = "real_q", as.data.frame = TRUE, startRow = 11)
 GDP         <- (xts(GDP[!is.na(GDP[,3]),3], order.by = as.Date(paste(GDP[!is.na(GDP[,1]),1], GDP[!is.na(GDP[,2]),2]*3-2, "01", sep = "-"))))
@@ -271,5 +279,5 @@ Indicators <- ts_c(TS.CH, RP.CH, RPShort.CH, VIX.CH, IRDIFF.CH, News.CH,
                    Tecon, SMI)
 
 # Save indicators for f-curve
-save(list = c("GDP", "NGDP", "GDPDefl", "Cases", "CasesJH", "Deaths", "Hospital", "Indicators"), file = "../Data/IndicatorData.RData")
+save(list = c("GDP", "NGDP", "GDPDefl", "Cases", "CasesJH", "Deaths", "Hospital", "Indicators", "Baro", "WEA"), file = "../Data/IndicatorData.RData")
 

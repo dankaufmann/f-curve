@@ -140,6 +140,39 @@ p
 ggsave(filename = "../Results/DecompositionShort.pdf", width = figwidth, height = figheight)
 ggsave(filename = "../Results/DecompositionShort.png", width = figwidth, height = figheight)
 
+
+# Comparison with other indicators
+p <- ts_ggplot(
+  `f-curve (daily)` = ts_span(-normalize(fc), "2020-01-01"), 
+  ` SECO Weekly Economic Indicator` = ts_span(normalize(WEA), "2020-01-01"),
+  ` KOF Barometer (monthly)` = ts_span(normalize(Baro), "2020-01-01"), 
+  title = "Comparison with other indicators",
+  subtitle = "All indicators are normalized to be pro-cyclical, have mean 0, and variance 1"
+)
+p <- ggLayout(p)
+p <- p + scale_x_date(labels =  date_format("%b %Y"))
+p <- ggColor3(p)
+#p <- addLines(p, myLines, myLabels, -18)
+p
+ggsave(filename = "../Results/ComparisonOther.png", width = figwidth, height = figheight)
+ggsave(filename = "../Results/ComparisonOther.pdf", width = figwidth, height = figheight)
+
+# Comparison with other indicators
+p <- ts_ggplot(
+  `f-curve (daily)` = ts_span(-normalize(fc), "2000-01-01"), 
+  ` SECO Weekly Economic Indicator` = ts_span(normalize(WEA), "2000-01-01"),
+  ` KOF Barometer (monthly)` = ts_span(normalize(Baro), "2000-01-01"), 
+  title = "Comparison with other indicators",
+  subtitle = "All indicators are normalized to be pro-cyclical, have mean 0, and variance 1"
+)
+p <- ggLayout(p)
+p <- p + scale_x_date(labels =  date_format("%b %Y"))
+p <- ggColor3(p)
+#p <- addLines(p, myLines, myLabels, -18)
+p
+ggsave(filename = "../Results/ComparisonOtherLong.png", width = figwidth, height = figheight)
+ggsave(filename = "../Results/ComparisonOtherLong.pdf", width = figwidth, height = figheight)
+
 #load(file="../Data/MacroData.RData")
 
 # Remove last observation (somehow, FOPH does not report all cases and revises later on)
