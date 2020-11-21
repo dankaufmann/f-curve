@@ -144,7 +144,7 @@ ggsave(filename = "../Results/DecompositionShort.png", width = figwidth, height 
 # Comparison with other indicators
 p <- ts_ggplot(
   `f-curve (daily)` = ts_span(-normalize(fc), "2020-01-01"), 
-  ` SECO Weekly Economic Indicator` = ts_span(normalize(WEA), "2020-01-01"),
+  ` SECO WEA (weekly)` = ts_span(normalize(WEA), "2020-01-01"),
   ` KOF Barometer (monthly)` = ts_span(normalize(Baro), "2020-01-01"), 
   title = "Comparison with other indicators",
   subtitle = "All indicators are normalized to be pro-cyclical, have mean 0, and variance 1"
@@ -160,7 +160,7 @@ ggsave(filename = "../Results/ComparisonOther.pdf", width = figwidth, height = f
 # Comparison with other indicators
 p <- ts_ggplot(
   `f-curve (daily)` = ts_span(-normalize(fc), "2000-01-01"), 
-  ` SECO Weekly Economic Indicator` = ts_span(normalize(WEA), "2000-01-01"),
+  ` SECO WEA (weekly)` = ts_span(normalize(WEA), "2000-01-01"),
   ` KOF Barometer (monthly)` = ts_span(normalize(Baro), "2000-01-01"), 
   title = "Comparison with other indicators",
   subtitle = "All indicators are normalized to be pro-cyclical, have mean 0, and variance 1"
