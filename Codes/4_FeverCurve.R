@@ -166,7 +166,6 @@ p <- ts_ggplot(
   subtitle = "All indicators are normalized to be pro-cyclical, have mean 0, and variance 1"
 )
 p <- ggLayout(p)
-p <- p + scale_x_date(labels =  date_format("%b %Y"))
 p <- ggColor3(p)
 #p <- addLines(p, myLines, myLabels, -18)
 p

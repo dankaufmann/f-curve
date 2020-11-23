@@ -89,7 +89,7 @@ KOF <- read.xlsx("../Data/KOFBaro.xlsx", sheetName = "Sheet1", as.data.frame = T
 Baro <- xts(KOF$kofbarometer, order.by = as.Date(paste0(KOF$date, "-01")))
 
 SECO <- read.xlsx("../Data/SECOWEA.xls", sheetName = "Data", as.data.frame = TRUE, startRow = 4)
-WEA <- xts(SECO[,3], order.by = as.Date(paste0(SECO[,1], "-", SECO[,2], "-1"), format = "%Y-%U-%u"))
+WEA <- xts(SECO[,3], order.by = as.Date(paste0(SECO[,1], "-", SECO[,2], "-1"), format = "%Y-%U-%u")-7)
 
 GDP         <- read.xlsx("../Data/PIBSuisse.xls", sheetName = "real_q", as.data.frame = TRUE, startRow = 11)
 GDP         <- (xts(GDP[!is.na(GDP[,3]),3], order.by = as.Date(paste(GDP[!is.na(GDP[,1]),1], GDP[!is.na(GDP[,2]),2]*3-2, "01", sep = "-"))))
