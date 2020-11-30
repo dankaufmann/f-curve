@@ -34,6 +34,9 @@ library(kableExtra)
 library(magick)
 library(webshot)
 
+# Set time axis to english
+Sys.setlocale("LC_TIME", "C")
+
 webshot::install_phantomjs()
 
 # SEttings for all scripts
