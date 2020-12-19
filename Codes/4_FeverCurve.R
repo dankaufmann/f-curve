@@ -83,7 +83,7 @@ p <- ts_ggplot(
 )
 p <- ggLayout(p)
 p <- ggColor2(p)
-p <- addLines(p, myLines, myLabels, -3.5)
+p <- addLines(p, myLines, myLabels, -5)
 p <- addCorr(p, -Correl, "2015-01-01", 2)
 p
 ggsave(filename = "../Results/MainGDP.pdf", width = figwidth, height = figheight)
