@@ -2,7 +2,7 @@
 "";Rendite der jeweils jüngsten Bundesanleihe mit einer vereinbarten Laufzeit von 10 Jahren;
 Einheit;PROZENT;
 Dimension;Eins;
-Stand vom;22.12.2020 08:21:53 Uhr;
+Stand vom;23.12.2020 07:27:55 Uhr;
 2001-10-01;4,78;
 2001-10-02;4,75;
 2001-10-03;4,68;
@@ -7025,6 +7025,7 @@ Stand vom;22.12.2020 08:21:53 Uhr;
 2020-12-19;.;Kein Wert vorhanden
 2020-12-20;.;Kein Wert vorhanden
 2020-12-21;-0,61;
+2020-12-22;-0,59;
 "";Bemerkung: ISIN DE0001102507 seit dem 17. Juni 2020;
 "";Bemerkung zu 2001-12-01: Bis einschl. 20011228 Wert von Kenn-Nr. 113518, ab 20020102 Wertvon Kenn-Nr. 113518;
 "";Bemerkung zu 2001-12-28: Bis einschl. 20011228 Wert von Kenn-Nr. 113518, ab 20020102 Wertvon Kenn-Nr. 113519;
