@@ -32,6 +32,7 @@ mainDir <- getwd()
 outDir <- makeOutDir(mainDir, paste("/../Vintages/", endDate, sep =""))
 
 # Save macro data for comparison
+rm(list=ls()[grepl("clean", ls())])
 save.image(file = paste(outDir, "/AllData.RData", sep = ""))
 
 # Copy results folder
