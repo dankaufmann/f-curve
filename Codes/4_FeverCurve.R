@@ -107,8 +107,8 @@ ggsave(filename = "../Results/GDPAnnual.pdf", width = figwidth, height = figheig
 ggsave(filename = "../Results/GDPAnnual.png", width = figwidth, height = figheight)
 
 # Main chart of curve
-ShortLines <- c("2020-03-16",  "2020-04-16", "2020-04-30", "2020-05-27", "2020-10-28", "2020-11-09", "2020-12-19")
-ShortLabels <- c("Covid-19 lockdown", "Easing lockdown ann. (phase I)", "Easing lockdown ann. (phase II)", "Easing lockdown ann. (phase III)", "National restrictions ann.", "Successful vaccine study", "Tighter national restrictions ann.")
+ShortLines <- c("2020-03-16",  "2020-04-16", "2020-04-30", "2020-05-27", "2020-10-28", "2020-11-09", "2020-12-19", "2021-02-17")
+ShortLabels <- c("Covid-19 lockdown", "Easing lockdown ann. (phase I)", "Easing lockdown ann. (phase II)", "Easing lockdown ann. (phase III)", "National restrictions ann.", "Successful vaccine study", "Tighter national restrictions ann.", "Loosening national restrictions ann.")
 p <- ts_ggplot(
   ` f-curve, seven-day moving-average`  = ts_span(fc_s, "2020-02-01"),
   `f-curve`                         = ts_span(fc, "2020-02-01"),
