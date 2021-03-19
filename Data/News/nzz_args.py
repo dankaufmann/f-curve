@@ -19,6 +19,9 @@ from selenium.webdriver.support import expected_conditions as EC
 def main(argumentlist):
     nrarguments = (len(argumentlist) - 1)/2
     argumentlist = argumentlist[1:]
+    # Replace xxxxxxx with your login credentials and password for nzz
+    username = "xxxxxxx"
+    password = "xxxxxxx"
     try:
         short_options = "hk:s:e:"
         long_options = ["help", "searchey=", "startdate=", "enddate="]
@@ -40,14 +43,15 @@ def main(argumentlist):
 
     if len(searchkey.split()) != 2:
         sys.exit()
-        
+    
     dirname = os.path.dirname(__file__)
+    #dirname = "C:/Users/burrim/switchdrive/CrisisIndicator/Data/News"
     
     if "schweiz" in searchkey.split()[1]:
-        # print(searchkey.split()[1])
+        #print(searchkey.split()[1])
         path = os.path.join(dirname, 'NZZ\\dom')
     else:
-        # print(searchkey.split()[1])
+        #print(searchkey.split()[1])
         path = os.path.join(dirname, 'NZZ\\for')
 
     url = "https://zeitungsarchiv.nzz.ch/#archive"
@@ -60,7 +64,15 @@ def main(argumentlist):
     browser = webdriver.Firefox(options=opts, executable_path=os.path.join(dirname, "geckodriver.exe"))
     browser.get(url)
     
-    time.sleep(5)
+    time.sleep(8)
+    browser.find_element_by_class_name("fup-menu-login-container").click()
+    time.sleep(8)
+    browser.find_element_by_id("c1-login-field").send_keys(username)
+    browser.find_element_by_name("checkUserAccount").click()
+    time.sleep(8)
+    browser.find_element_by_id("c1-password-field").send_keys(password)
+    browser.find_element_by_id("c1-submit-button-login").click()
+    time.sleep(8)
 
     daterange = pd.date_range(start=strt, end=end)
 
@@ -72,39 +84,44 @@ def main(argumentlist):
 
     for date in daterange:
         datestr = date.strftime("%d.%m.%Y")
-
+        
+        time.sleep(1)
         key = browser.find_element_by_class_name("fup-archive-query-input")
         key.clear()
         key.send_keys(searchkey)
         
         time.sleep(1)
-
         beg = browser.find_element_by_class_name("fup-s-date-start")
         beg.clear()
         beg.send_keys(datestr)
         
         time.sleep(1)
-
         end = browser.find_element_by_class_name("fup-s-date-end")
         end.clear()
         end.send_keys(datestr)
         
         time.sleep(1)
-
         such = browser.find_element_by_class_name("fup-s-exec-search")
         such.click()
         
-        time.sleep(10)
+        time.sleep(8)
 
-        nr = browser.find_element_by_class_name("fup-archive-result-hits").text
+        #nr = browser.find_element_by_class_name("fup-archive-result-hits").text
+        #time.sleep(1)
+        #nr = int(nr.split()[0])
         try:
+            nr = browser.find_element_by_class_name("fup-archive-result-hits")
+            browser.execute_script("arguments[0].scrollIntoView();", nr)
+            nr = browser.find_element_by_class_name("fup-archive-result-hits").text
+            time.sleep(1)
             nr = int(nr.split()[0])
         except Exception as e:
              print(e)
              such.click()
         
              time.sleep(10)
-
+             nr = browser.find_element_by_class_name("fup-archive-result-hits")
+             browser.execute_script("arguments[0].scrollIntoView();", nr)
              nr = browser.find_element_by_class_name("fup-archive-result-hits").text
              nr = int(nr.split()[0])
              
@@ -115,7 +132,7 @@ def main(argumentlist):
                 actions = ActionChains(browser)
                 element = browser.find_elements_by_class_name("fup-common-scroll")[1]
                 length = element.size["height"]
-                browser.execute_script("arguments[0].scrollIntoView();", element);
+                browser.execute_script("arguments[0].scrollIntoView();", element)
                 actions.move_to_element_with_offset(element, 4, length - 5)
                 actions.click()
                 actions.perform()
