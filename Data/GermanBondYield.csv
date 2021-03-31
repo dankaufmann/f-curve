@@ -2,7 +2,7 @@
 "";Rendite der jeweils jüngsten Bundesanleihe mit einer vereinbarten Laufzeit von 10 Jahren;
 Einheit;PROZENT;
 Dimension;Eins;
-Stand vom;29.03.2021 09:38:54 Uhr;
+Stand vom;31.03.2021 07:21:35 Uhr;
 2001-10-01;4,78;
 2001-10-02;4,75;
 2001-10-03;4,68;
@@ -7120,6 +7120,10 @@ Stand vom;29.03.2021 09:38:54 Uhr;
 2021-03-24;-0,36;
 2021-03-25;-0,37;
 2021-03-26;-0,36;
+2021-03-27;.;Kein Wert vorhanden
+2021-03-28;.;Kein Wert vorhanden
+2021-03-29;-0,34;
+2021-03-30;-0,26;
 "";Bemerkung: ISIN DE0001102531 seit dem 6. Januar 2021;
 "";Bemerkung zu 2001-12-01: Bis einschl. 20011228 Wert von Kenn-Nr. 113518, ab 20020102 Wertvon Kenn-Nr. 113518;
 "";Bemerkung zu 2001-12-28: Bis einschl. 20011228 Wert von Kenn-Nr. 113518, ab 20020102 Wertvon Kenn-Nr. 113519;
