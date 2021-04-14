@@ -88,7 +88,7 @@ CasesJH   <- ts_diff(xts(t(Covid19JH[1,]), order.by = Dates))
 KOF <- read.xlsx("../Data/KOFBaro.xlsx", sheetName = "Sheet1", as.data.frame = TRUE, startRow = 1)
 Baro <- xts(KOF$kofbarometer, order.by = as.Date(paste0(KOF$date, "-01")))
 
-SECO <- read.xlsx("../Data/SECOWEA.xls", sheetName = "Data", as.data.frame = TRUE, startRow = 4)  %>% select(c(1,2,3)) %>% na.omit()
+SECO <- xlsx::read.xlsx("../Data/SECOWEA.xls", sheetName = "Index", as.data.frame = TRUE, startRow = 4)  %>% select(c(1,2,3)) %>% na.omit()
 WEA <- xts(SECO[,3], order.by = as.Date(paste0(SECO[,1], "-", SECO[,2], "-1"), format = "%Y-%U-%u")-7)
 
 GDP         <- read.xlsx("../Data/PIBSuisse.xls", sheetName = "real_q", as.data.frame = TRUE, startRow = 11)
