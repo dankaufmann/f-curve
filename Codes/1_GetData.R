@@ -120,7 +120,7 @@ Gov10.DEU[,2] <- as.numeric(gsub(",", ".", gsub("\\.", "", Gov10.DEU[,2])))
 Gov10.DEU <- Gov10.DEU[!is.na(Gov10.DEU[,2]),]
 Gov10.DEU <- xts(Gov10.DEU[,2], order.by = as.Date(Gov10.DEU[,1]))
 Gov1.EUR <-  read.csv("../Data/EuroShortRate.csv", sep = ",", skip = 4, stringsAsFactors = FALSE, ) %>% na.omit()
-Gov1.EUR <- xts(Gov1.EUR[,2], order.by = as.Date(Gov1.EUR[,1]))
+Gov1.EUR <- xts(Gov1.EUR[,1], order.by = as.Date(rownames(Gov1.EUR)))
 LIB1.EUR <- ts_ts(ts_fred('EUR12MD156N'))
 
 # Volatility CH
