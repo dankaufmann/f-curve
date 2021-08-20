@@ -476,6 +476,7 @@ update_nzz <- function() {
   cleanNzzForTxt <- bind_rows(cleanNzzForTxt, 
                               df %>% 
                                 select(time, text, cleanText, pos_n, neg_n, n_w, SentimentScore))
+
   cleanNzzForTxt <- cleanNzzForTxt[!duplicated(cleanNzzForTxt$cleanText),]
   save(cleanNzzForTxt, file = paste0(path,"/","cleanNzzForTxt.RData"))
   
