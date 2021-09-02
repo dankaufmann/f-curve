@@ -3,6 +3,7 @@ SYMBOL;SBIGY1;SBIGY3;SBIGY7;SG35Y;SG57Y;SG71Y;SG10Y
 NAME;SBI Dom Gov 1-3 Y;SBI Dom Gov 3-7 Y;SBI Dom Gov 7+ Y;SBI Dom Gov 3-5 Y;SBI Dom Gov 5-7 Y;SBI Dom Gov 7-10 Y;SBI Dom Gov 10+ Y
 INDEX TYPE;Yield;Yield;Yield;Yield;Yield;Yield;Yield
 DATE;Close;Close;Close;Close;Close;Close;Close
+01.09.2021;-0.72;-0.57;-0.16;-0.65;-0.53;-0.37;-0.14
 31.08.2021;-0.73;-0.58;-0.18;-0.66;-0.54;-0.4;-0.16
 30.08.2021;-0.74;-0.59;-0.19;-0.67;-0.55;-0.41;-0.17
 27.08.2021;-0.74;-0.58;-0.19;-0.66;-0.54;-0.4;-0.17
