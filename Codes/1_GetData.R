@@ -112,7 +112,7 @@ download.file(url = "https://www.six-group.com/exchanges/downloads/indexdata/hsb
 download.file(url = "https://www.bundesbank.de/statistic-rmi/StatisticDownload?tsId=BBK01.WT1010&its_csvFormat=de&its_fileFormat=csv&mode=its", destfile = "../Data/GermanBondYield.csv", mode="wb")
 download.file(url = "http://sdw.ecb.europa.eu/quickviewexport.do;jsessionid=62044D6532AB70D16C184E5A8FFADEEC?SERIES_KEY=165.YC.B.U2.EUR.4F.G_N_A.SV_C_YM.SR_1Y&type=csv", destfile = "../Data/EuroShortRate.csv", mode="wb")
 download.file(url = "https://www.six-group.com/exchanges/downloads/indexdata/hsmi.csv", destfile = "../Data/SMI.csv", mode="wb")
-
+ 
 # German government bond yields
 Gov10.DEU     <- read.csv("../Data/GermanBondYield.csv", sep = ";", skip = 5,  na.strings = "Kein Wert vorhanden", stringsAsFactors = FALSE, )
 Gov10.DEU     <- Gov10.DEU[,1:2]
