@@ -64,15 +64,15 @@ for(h in 1:length(FcstDates)){
     Y.h0  <- ts_pc(depVar)
     
     # Remove observations that were not observed in the past
-    if(lastObsDate < FcstDates[h+1]){
+   # if(lastObsDate < FcstDates[h+1]){
       # Include each quarter data up to the xx month and xxx day
       #to_include <- (allMonths-allQuarters*3+3 <=  currMonth-currQuart*3+3 & allDays <= currDay)
       #X.l0  <- ts_frequency(Ind[to_include,], to = "quarter", aggregate = "mean", na.rm = TRUE)
       X.l0  <- ts_frequency(Ind, to = "quarter", aggregate = "mean", na.rm = TRUE)
       
-    }else{
-      X.l0  <- ts_frequency(Ind, to = "quarter", aggregate = "mean", na.rm = TRUE)
-    }
+    # }else{
+    #   X.l0  <- ts_frequency(Ind, to = "quarter", aggregate = "mean", na.rm = TRUE)
+    # }
     
     Data <- ts_c(Y.h0, X.l0)
     if(noLags>0){
