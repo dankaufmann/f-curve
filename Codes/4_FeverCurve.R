@@ -236,7 +236,7 @@ ggsave(filename = "../Results/Covid-19_Deaths.pdf", width = figwidth, height = f
 
 # Save data for later analysis
 save(list = c("fc", "fc_s", "fc_news", "fc_fin","lastObsDate"), file = "../Data/f-curve.RData")
-toExport <- data.frame(ts_c(fc, fc_s), lastObsDate)
-colnames(toExport) <- c("f-curve", "smoothed", "update")
+toExport <- data.frame(ts_c(fc, fc_s, fc_news, fc_fin, fc_dom, fc_for, fc_res), lastObsDate)
+colnames(toExport) <- c("f-curve", "smoothed", "fc-news", "fc-fin", "fc-dom", "fc-for", "fc-res","update")
 write.csv(toExport, file = "../Results/f-curve-data.csv")
 
