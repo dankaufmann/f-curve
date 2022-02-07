@@ -123,7 +123,8 @@ Gov1.EUR <-  read.csv("../Data/EuroShortRate.csv", sep = ",", skip = 5, stringsA
   select(1:2)
 colnames(Gov1.EUR) <- c("time", "value")
 Gov1.EUR <- xts(Gov1.EUR$value, order.by = as.Date(Gov1.EUR$time))
-LIB1.EUR <- ts_ts(ts_fred('EUR12MD156N'))
+#LIB1.EUR <- ts_ts(ts_fred('EUR12MD156N'))
+LIB1.EUR <- openxlsx::read.xlsx("../Data/LIB1-EUR.xlsx", detectDates=T) %>% ts_xts()
 
 # Volatility CH
 VIX.CH  <- read.csv("../Data/VIX.csv", sep = ";", skip = 1)
