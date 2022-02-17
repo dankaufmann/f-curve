@@ -73,10 +73,23 @@ for (n in c("News.CH", "News.FOR")) {
 }
 
 # Get Covid Cases
-Covid19     <- xlsx::read.xlsx("../Data/Covid19cases.xlsx", sheetName = "COVID19 Zahlen", as.data.frame = TRUE, startRow = 7)
-Cases    <- xts(Covid19[,2], order.by = Covid19[,1])
-Hospital <- xts(Covid19[,4], order.by = Covid19[,1])
-Deaths   <- xts(Covid19[,6], order.by = Covid19[,1])
+#Covid19     <- xlsx::read.xlsx("../Data/Covid19cases.xlsx", sheetName = "COVID19 Zahlen", as.data.frame = TRUE, startRow = 7)
+#Cases    <- xts(Covid19[,2], order.by = Covid19[,1])
+#Hospital <- xts(Covid19[,4], order.by = Covid19[,1])
+#Deaths   <- xts(Covid19[,6], order.by = Covid19[,1])
+Covid19 <- read.csv("https://www.covid19.admin.ch/api/data/20220216-i4f5f0q1/sources/COVID19Cases_geoRegion.csv") %>%
+  filter(geoRegion == "CH")
+Cases    <- xts(Covid19[,3], order.by = as.Date(Covid19[,2]))
+
+Covid19 <- read.csv("https://www.covid19.admin.ch/api/data/20220216-i4f5f0q1/sources/COVID19Death_geoRegion.csv") %>%
+  filter(geoRegion == "CH")
+Deaths    <- xts(Covid19[,3], order.by = as.Date(Covid19[,2]))
+
+Covid19 <- read.csv("https://www.covid19.admin.ch/api/data/20220216-i4f5f0q1/sources/COVID19Hosp_geoRegion.csv") %>%
+  filter(geoRegion == "CH")
+Hospital    <- xts(Covid19[,3], order.by = as.Date(Covid19[,2]))
+
+
 
 Covid19JH     <- read.csv("../Data/Covid19casesJH.xlsx", sep = ",")
 Covid19JH <- Covid19JH[Covid19JH[,2] == "Switzerland",]
