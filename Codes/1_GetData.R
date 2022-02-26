@@ -99,15 +99,15 @@ Dates     <- as.Date(Dates, format = "%m.%d.%y")
 CasesJH   <- ts_diff(xts(t(Covid19JH[1,]), order.by = Dates))
 
 # Get Indicators
-KOF <- read.xlsx("../Data/KOFBaro.xlsx", sheetName = "Sheet1", as.data.frame = TRUE, startRow = 1)
+KOF <- xlsx::read.xlsx("../Data/KOFBaro.xlsx", sheetName = "Sheet1", as.data.frame = TRUE, startRow = 1)
 Baro <- xts(KOF$kofbarometer, order.by = as.Date(paste0(KOF$date, "-01")))
 
 SECO <- xlsx::read.xlsx("../Data/SECOWEA.xls", sheetName = "Index", as.data.frame = TRUE, startRow = 4)  %>% select(c(1,2,3)) %>% na.omit()
 WEA <- xts(SECO[,3], order.by = as.Date(paste0(SECO[,1], "-", SECO[,2], "-1"), format = "%Y-%U-%u")-7)
 
-GDP         <- read.xlsx("../Data/PIBSuisse.xls", sheetName = "real_q", as.data.frame = TRUE, startRow = 11)
+GDP         <- xlsx::read.xlsx("../Data/PIBSuisse.xls", sheetName = "real_q", as.data.frame = TRUE, startRow = 11)
 GDP         <- (xts(GDP[!is.na(GDP[,3]),3], order.by = as.Date(paste(GDP[!is.na(GDP[,1]),1], GDP[!is.na(GDP[,2]),2]*3-2, "01", sep = "-"))))
-GDPDefl     <- read.xlsx("../Data/PIBSuisse.xls", sheetName = "defl_q", as.data.frame = TRUE, startRow = 11)
+GDPDefl     <- xlsx::read.xlsx("../Data/PIBSuisse.xls", sheetName = "defl_q", as.data.frame = TRUE, startRow = 11)
 GDPDefl         <- (xts(GDPDefl[!is.na(GDPDefl[,3]),3], order.by = as.Date(paste(GDPDefl[!is.na(GDPDefl[,1]),1], GDPDefl[!is.na(GDPDefl[,2]),2]*3-2, "01", sep = "-"))))
 #GDPDefl     <- (xts(GDPDefl[,3], order.by = as.Date(paste(GDPDefl[,1], GDPDefl[,2]*3-2, "01", sep = "-"))))
 NGDP        <- GDP*GDPDefl
@@ -144,7 +144,7 @@ VIX.CH  <- read.csv("../Data/VIX.csv", sep = ";", skip = 1)
 VIX.CH  <- xts(VIX.CH[,3], order.by = dmy(VIX.CH[,1]))
 
 # Bond yields history SNB
-BondHistory <- read.xlsx("../Data/BondsHistory/SNBBondHistory.xlsx", startRow = 17, sheetName = "Report")
+BondHistory <- xlsx::read.xlsx("../Data/BondsHistory/SNBBondHistory.xlsx", startRow = 17, sheetName = "Report")
 Gov1.CH.h   <- xts(BondHistory$EID1, order.by = as.Date(BondHistory$Date))
 Gov2.CH.h   <- xts(BondHistory$EID2, order.by = as.Date(BondHistory$Date))
 Gov8.CH.h   <- xts(BondHistory$EID8, order.by = as.Date(BondHistory$Date))

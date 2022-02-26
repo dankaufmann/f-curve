@@ -117,7 +117,7 @@ p <- ts_ggplot(
 p <- ggLayout(p)
 p <- ggColor3(p)
 p <- addLines(p, ShortLines, ShortLabels, -8)
-p <- p + scale_x_date(labels =  date_format("%b %Y"))
+p <- p + scale_x_date(labels =  scales::date_format("%b %Y"))
 ggsave(filename = "../Results/MainGDPShort.pdf", width = figwidth, height = figheight)
 ggsave(filename = "../Results/MainGDPShort.png", width = figwidth, height = figheight)
 p
@@ -135,7 +135,7 @@ ggsave(filename = "../Results/Decomposition.png", width = figwidth, height = fig
 p <- ggplot(subset(DecompData, Date>"2020-02-01"), aes(x = Date, y = value,fill=variable)) + geom_bar(stat='identity')
 p <- ggLayout(p)
 #p <- addLines(p, ShortLines, ShortLabels, -8)
-p <- p + scale_x_date(labels =  date_format("%b %Y"))
+p <- p + scale_x_date(labels =  scales::date_format("%b %Y"))
 p
 ggsave(filename = "../Results/DecompositionShort.pdf", width = figwidth, height = figheight)
 ggsave(filename = "../Results/DecompositionShort.png", width = figwidth, height = figheight)
@@ -150,7 +150,7 @@ p <- ts_ggplot(
   subtitle = "All indicators are normalized to be pro-cyclical, have mean 0, and variance 1"
 )
 p <- ggLayout(p)
-p <- p + scale_x_date(labels =  date_format("%b %Y"))
+p <- p + scale_x_date(labels =  scales::date_format("%b %Y"))
 p <- ggColor3(p)
 #p <- addLines(p, myLines, myLabels, -18)
 p
@@ -196,7 +196,7 @@ p <- ts_ggplot(
   subtitle = "Last three days ignored to avoid revisions because of late reports"
 )
 p <- ggLayout(p)
-p <- p + scale_x_date(labels =  date_format("%b %Y"))
+p <- p + scale_x_date(labels =  scales::date_format("%b %Y"))
 p <- ggColor3(p)
 #p <- addLines(p, myLines, myLabels, -18)
 p
@@ -211,7 +211,7 @@ p <- ts_ggplot(
   subtitle = "Last three days ignored to avoid revisions because of late reports"
 )
 p <- ggLayout(p)
-p <- p + scale_x_date(labels =  date_format("%b %Y"))
+p <- p + scale_x_date(labels =  scales::date_format("%b %Y"))
 p <- ggColor3(p)
 #p <- addLines(p, myLines, myLabels, -18)
 p
