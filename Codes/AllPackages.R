@@ -387,6 +387,9 @@ update_ta <- function() {
   df_ta_int <- bind_rows(df_ta_int, df)},
   silent = T)
   
+  df_ta_ch <- df_ta_ch[!duplicated(df_ta_ch$time),]
+  df_ta_int <- df_ta_int[!duplicated(df_ta_int$time),]
+  
   save(df_ta_ch, df_ta_int, file = "../Data/News/ta.RData")
   
 }
