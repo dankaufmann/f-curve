@@ -489,6 +489,9 @@ update_nzz <- function() {
   df_nzz_int <- bind_rows(df_nzz_int, df)},
   silent = T)
   
+  df_nzz_ch <- df_nzz_ch[!duplicated(df_nzz_ch$time),]
+  df_nzz_int <- df_nzz_int[!duplicated(df_nzz_int$time),]
+  
   save(df_nzz_ch, df_nzz_int, file = "../Data/News/nzz.RData")
   
 }
