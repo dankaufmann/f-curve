@@ -25,7 +25,7 @@ updateNews  <- F # Choose whether you want to update news (takes up to 20 min)
 # Download the data
 #-------------------------------------------------------------------------------------
 # Macro data (only GDP and Covid Cases, rest loaded in separate file) and trendecon
-download.file(url = "https://www.seco.admin.ch/dam/seco/en/dokumente/Wirtschaft/Wirtschaftslage/VIP%20Quartalssch%C3%A4tzungen/qna_p_csa.xls.download.xls/qna_p_csa.xls", destfile = "../Data/PIBSuisse.xls", mode="wb")
+#download.file(url = "https://www.seco.admin.ch/dam/seco/en/dokumente/Wirtschaft/Wirtschaftslage/VIP%20Quartalssch%C3%A4tzungen/qna_p_csa.xls.download.xls/qna_p_csa.xls", destfile = "../Data/PIBSuisse.xls", mode="wb")
 download.file(url = "https://raw.githubusercontent.com/trendecon/data/master/data/ch/trendecon_sa.csv", destfile = "../Data/TrendEcon.csv", mode="wb")
 #download.file(url = "https://www.bag.admin.ch/dam/bag/de/dokumente/mt/k-und-i/aktuelle-ausbrueche-pandemien/2019-nCoV/covid-19-datengrundlage-lagebericht.xlsx.download.xlsx/200325_Datengrundlage_Grafiken_COVID-19-Bericht.xlsx", destfile = "../Data/Covid19Cases.xlsx", mode="wb")
 #download.file(url = "https://www.bag.admin.ch/dam/bag/de/dokumente/mt/k-und-i/aktuelle-ausbrueche-pandemien/2019-nCoV/covid-19-datengrundlage-lagebericht.xlsx.download.xlsx/200325_Datengrundlage_Grafiken_COVID-19-Bericht.xlsx", destfile = "../Data/Covid19Cases.xlsx", mode="wb")
@@ -105,12 +105,35 @@ Baro <- xts(KOF$kofbarometer, order.by = as.Date(paste0(KOF$date, "-01")))
 SECO <- xlsx::read.xlsx("../Data/SECOWEA.xls", sheetName = "Index", as.data.frame = TRUE, startRow = 4)  %>% select(c(1,2,3)) %>% na.omit()
 WEA <- xts(SECO[,3], order.by = as.Date(paste0(SECO[,1], "-", SECO[,2], "-1"), format = "%Y-%U-%u")-7)
 
-GDP         <- xlsx::read.xlsx("../Data/PIBSuisse.xls", sheetName = "real_q", as.data.frame = TRUE, startRow = 11)
-GDP         <- (xts(GDP[!is.na(GDP[,3]),3], order.by = as.Date(paste(GDP[!is.na(GDP[,1]),1], GDP[!is.na(GDP[,2]),2]*3-2, "01", sep = "-"))))
-GDPDefl     <- xlsx::read.xlsx("../Data/PIBSuisse.xls", sheetName = "defl_q", as.data.frame = TRUE, startRow = 11)
-GDPDefl         <- (xts(GDPDefl[!is.na(GDPDefl[,3]),3], order.by = as.Date(paste(GDPDefl[!is.na(GDPDefl[,1]),1], GDPDefl[!is.na(GDPDefl[,2]),2]*3-2, "01", sep = "-"))))
+#GDP         <- xlsx::read.xlsx("../Data/PIBSuisse.xls", sheetName = "real_q", as.data.frame = TRUE, startRow = 11)
+#GDP         <- (xts(GDP[!is.na(GDP[,3]),3], order.by = as.Date(paste(GDP[!is.na(GDP[,1]),1], GDP[!is.na(GDP[,2]),2]*3-2, "01", sep = "-"))))
+#GDPDefl     <- xlsx::read.xlsx("../Data/PIBSuisse.xls", sheetName = "defl_q", as.data.frame = TRUE, startRow = 11)
+#GDPDefl         <- (xts(GDPDefl[!is.na(GDPDefl[,3]),3], order.by = as.Date(paste(GDPDefl[!is.na(GDPDefl[,1]),1], GDPDefl[!is.na(GDPDefl[,2]),2]*3-2, "01", sep = "-"))))
 #GDPDefl     <- (xts(GDPDefl[,3], order.by = as.Date(paste(GDPDefl[,1], GDPDefl[,2]*3-2, "01", sep = "-"))))
-NGDP        <- GDP*GDPDefl
+#NGDP        <- GDP*GDPDefl
+
+GDPData <-  read.csv("https://www.seco.admin.ch/dam/seco/fr/dokumente/Wirtschaft/Wirtschaftslage/BIP_Daten/ch_seco_gdp_csv.csv.download.csv/ch_seco_gdp.csv")
+
+GDP <- GDPData %>%
+  filter(type == "real", 
+         seas_adj == "cssa", 
+         structure == "gdp") %>%
+  select(date, value) %>%
+  rename(time = date) %>%
+  ts_pc() %>%
+  ts_xts()
+
+NGDP <- GDPData %>%
+  filter(type == "nom", 
+         seas_adj == "cssa", 
+         structure == "gdp") %>%
+  select(date, value) %>%
+  rename(time = date) %>%
+  ts_pc() %>%
+  ts_xts()
+
+GDPDefl = NGDP/GDP
+
 
 Tecon   <- read.csv("../Data/TrendEcon.csv")
 Tecon   <- xts(Tecon[,2], order.by = as.Date(Tecon[,1]))
