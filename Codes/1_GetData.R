@@ -120,7 +120,7 @@ GDP <- GDPData %>%
          structure == "gdp") %>%
   select(date, value) %>%
   rename(time = date) %>%
-  ts_pc() %>%
+  #ts_pc() %>%
   ts_xts()
 
 NGDP <- GDPData %>%
@@ -129,7 +129,7 @@ NGDP <- GDPData %>%
          structure == "gdp") %>%
   select(date, value) %>%
   rename(time = date) %>%
-  ts_pc() %>%
+  #ts_pc() %>%
   ts_xts()
 
 GDPDefl = NGDP/GDP
