@@ -43,9 +43,9 @@ Sys.setlocale("LC_TIME", "C")
 figwidth  <- 6.5
 figheight <- 5.5
 
-myLines  <- c("2001-09-11", "2008-09-16", "2011-08-04", "2015-01-15", "2020-03-16")
-myLabels <- c("9/11 attacks", "Collapse Lehman Brothers", "Barroso: Euro debt crisis spreads", "Removal exchange rate floor", "Covid-19 lockdown")
-myLabelsDE <- c("9/11 Attentate", "Kollaps Lehman Brothers", "Ausbreitung Euro Schuldenkrise", "Aufhebung Euro Mindestkurs", "Covid-19 lockdown")
+myLines  <- c("2001-09-11", "2008-09-16", "2011-08-04", "2015-01-15", "2020-03-16", "2022-02-24")
+myLabels <- c("9/11 attacks", "Collapse Lehman Brothers", "Barroso: Euro debt crisis spreads", "Removal exchange rate floor", "Covid-19 lockdown",  "Russian invasion of Ukraine")
+myLabelsDE <- c("9/11 Attentate", "Kollaps Lehman Brothers", "Ausbreitung Euro Schuldenkrise", "Aufhebung Euro Mindestkurs", "Covid-19 lockdown", "Russische Invasion der Ukraine")
 
 
 # Make output directory forder
