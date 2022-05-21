@@ -3,6 +3,7 @@ SYMBOL;SDNY;SDN13Y;SDN35Y;SDN57Y;SDN71Y;SDN10Y;SDNAY;SNA13Y;SNA35Y;SNA57Y;SNA71Y
 NAME;SBI Dom Non-Gov AAA-BBB Y;SBI Dom Non-Gov AAA-BBB 1-3 Y;SBI Dom Non-Gov AAA-BBB 3-5 Y;SBI Dom Non-Gov AAA-BBB 5-7 Y;SBI Dom Non-Gov AAA-BBB 7-10 Y;SBI Dom Non-Gov AAA-BBB 10+ Y;SBI Dom Non-Gov AAA-A Y;SBI Dom Non-Gov AAA-A 1-3 Y;SBI Dom Non-Gov AAA-A 3-5 Y;SBI Dom Non-Gov AAA-A 5-7 Y;SBI Dom Non-Gov AAA-A 7-10 Y;SBI Dom Non-Gov AAA-A 10+ Y;SBI Dom Non-Gov AAA-AA Y;SBI Dom Non-Gov AAA-AA 1-3 Y;SBI Dom Non-Gov AAA-AA 3-5 Y;SBI Dom Non-Gov AAA-AA 5-7 Y;SBI Dom Non-Gov AAA-AA 7-10 Y;SBI Dom Non-Gov AAA-AA 10+ Y
 INDEX TYPE;Yield;Yield;Yield;Yield;Yield;Yield;Yield;Yield;Yield;Yield;Yield;Yield;Yield;Yield;Yield;Yield;Yield;Yield
 DATE;Close;Close;Close;Close;Close;Close;Close;Close;Close;Close;Close;Close;Close;Close;Close;Close;Close;Close
+20.05.2022;1.24;0.50;0.85;1.04;1.27;1.50;1.23;0.41;0.77;1.01;1.25;1.49;1.21;0.37;0.70;0.94;1.20;1.48
 19.05.2022;1.22;0.50;0.84;1.02;1.25;1.47;1.20;0.41;0.76;0.99;1.22;1.46;1.18;0.36;0.69;0.92;1.18;1.45
 18.05.2022;1.26;0.50;0.85;1.05;1.29;1.53;1.25;0.41;0.77;1.02;1.27;1.52;1.23;0.38;0.71;0.95;1.23;1.51
 17.05.2022;1.29;0.49;0.84;1.06;1.33;1.58;1.28;0.40;0.76;1.03;1.31;1.56;1.26;0.37;0.71;0.97;1.27;1.55
