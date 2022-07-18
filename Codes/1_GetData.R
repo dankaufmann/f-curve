@@ -30,7 +30,8 @@ download.file(url = "https://raw.githubusercontent.com/trendecon/data/master/dat
 #download.file(url = "https://www.bag.admin.ch/dam/bag/de/dokumente/mt/k-und-i/aktuelle-ausbrueche-pandemien/2019-nCoV/covid-19-datengrundlage-lagebericht.xlsx.download.xlsx/200325_Datengrundlage_Grafiken_COVID-19-Bericht.xlsx", destfile = "../Data/Covid19Cases.xlsx", mode="wb")
 #download.file(url = "https://www.bag.admin.ch/dam/bag/de/dokumente/mt/k-und-i/aktuelle-ausbrueche-pandemien/2019-nCoV/covid-19-datengrundlage-lagebericht.xlsx.download.xlsx/200325_Datengrundlage_Grafiken_COVID-19-Bericht.xlsx", destfile = "../Data/Covid19Cases.xlsx", mode="wb")
 download.file(url = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv", destfile = "../Data/Covid19CasesJH.xlsx", mode="wb")
-download.file(url = "https://www.seco.admin.ch/dam/seco/en/dokumente/Wirtschaft/Wirtschaftslage/indikatoren/wwa_publish.xls.download.xls/wwa_publish.xls", destfile = "../Data/SECOWEA.xls", mode="wb")
+#download.file(url = "https://www.seco.admin.ch/dam/seco/en/dokumente/Wirtschaft/Wirtschaftslage/indikatoren/wwa_publish.xls.download.xls/wwa_publish.xls", destfile = "../Data/SECOWEA.xls", mode="wb")
+download.file(url = "https://www.seco.admin.ch/dam/seco/de/dokumente/Wirtschaft/Wirtschaftslage/indikatoren/wwa.csv.download.csv/wwa.csv", destfile = "../Data/SECOWEA.csv", mode="wb")
 download.file(url = "https://datenservice.kof.ethz.ch/api/v1/public/ts?keys=kofbarometer&mime=xlsx", destfile = "../Data/KOFBaro.xlsx", mode="wb")
 
 # Get news indicators
@@ -102,8 +103,9 @@ CasesJH   <- ts_diff(xts(t(Covid19JH[1,]), order.by = Dates))
 KOF <- xlsx::read.xlsx("../Data/KOFBaro.xlsx", sheetName = "Sheet1", as.data.frame = TRUE, startRow = 1)
 Baro <- xts(KOF$kofbarometer, order.by = as.Date(paste0(KOF$date, "-01")))
 
-SECO <- xlsx::read.xlsx("../Data/SECOWEA.xls", sheetName = "Index", as.data.frame = TRUE, startRow = 4)  %>% select(c(1,2,3)) %>% na.omit()
-WEA <- xts(SECO[,3], order.by = as.Date(paste0(SECO[,1], "-", SECO[,2], "-1"), format = "%Y-%U-%u")-7)
+SECO <- read.csv("../Data/SECOWEA.csv", sep = ",")
+#%>% select(c(1,2,3)) %>% na.omit()
+WEA <- xts(SECO[,5], order.by = as.Date(paste0(SECO[,4])))
 
 #GDP         <- xlsx::read.xlsx("../Data/PIBSuisse.xls", sheetName = "real_q", as.data.frame = TRUE, startRow = 11)
 #GDP         <- (xts(GDP[!is.na(GDP[,3]),3], order.by = as.Date(paste(GDP[!is.na(GDP[,1]),1], GDP[!is.na(GDP[,2]),2]*3-2, "01", sep = "-"))))
