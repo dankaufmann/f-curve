@@ -105,7 +105,12 @@ Baro <- xts(KOF$kofbarometer, order.by = as.Date(paste0(KOF$date, "-01")))
 
 SECO <- read.csv("../Data/SECOWEA.csv", sep = ",")
 #%>% select(c(1,2,3)) %>% na.omit()
-WEA <- xts(SECO[,5], order.by = as.Date(paste0(SECO[,4])))
+#WEA <- xts(SECO[,5], order.by = as.Date(paste0(SECO[,4])))
+WEA <- filter(SECO, structure == "seco_wwa") %>%
+  select(date, value) %>% 
+  rename(time = date,
+         WEA = value) %>%
+  ts_xts()
 
 #GDP         <- xlsx::read.xlsx("../Data/PIBSuisse.xls", sheetName = "real_q", as.data.frame = TRUE, startRow = 11)
 #GDP         <- (xts(GDP[!is.na(GDP[,3]),3], order.by = as.Date(paste(GDP[!is.na(GDP[,1]),1], GDP[!is.na(GDP[,2]),2]*3-2, "01", sep = "-"))))
