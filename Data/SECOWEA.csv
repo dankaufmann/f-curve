@@ -931,8 +931,10 @@ seco_wwa,index,csa,2022-10-17,0.894694072338215
 seco_wwa,index,csa,2022-10-24,0.604814074699663
 seco_wwa,index,csa,2022-10-31,0.50100660952059906
 seco_wwa,index,csa,2022-11-07,0.763481361343918
-seco_wwa,index,csa,2022-11-14,0.233325832558164
-seco_wwa,index,csa,2022-11-21,-0.530696198627926
+seco_wwa,index,csa,2022-11-14,0.527744422586284
+seco_wwa,index,csa,2022-11-21,-0.37536697289664
+seco_wwa,index,csa,2022-11-28,-0.491516682048825
+seco_wwa,index,csa,2022-12-05,-0.0975105387035777
 seco_wwa_pre_covid,index,csa,2019-12-30,0.241484342270624
 seco_wwa_pre_covid,index,csa,2020-01-06,0.227802535389458
 seco_wwa_pre_covid,index,csa,2020-01-13,0.124665878486738
@@ -1083,5 +1085,7 @@ seco_wwa_pre_covid,index,csa,2022-10-17,2.93130152120729
 seco_wwa_pre_covid,index,csa,2022-10-24,2.79880757152815
 seco_wwa_pre_covid,index,csa,2022-10-31,2.66873970784918
 seco_wwa_pre_covid,index,csa,2022-11-07,2.6237366625166
-seco_wwa_pre_covid,index,csa,2022-11-14,2.45670413996545
-seco_wwa_pre_covid,index,csa,2022-11-21,2.17275586289004
+seco_wwa_pre_covid,index,csa,2022-11-14,2.53172794312206
+seco_wwa_pre_covid,index,csa,2022-11-21,2.28736506977969
+seco_wwa_pre_covid,index,csa,2022-11-28,2.0437509452849
+seco_wwa_pre_covid,index,csa,2022-12-05,1.83759344889525
