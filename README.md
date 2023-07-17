@@ -9,11 +9,13 @@
 
 **Recommended citation:** [Burri](https://www.linkedin.com/in/marc-burri-a64628196/) Marc and Daniel [Kaufmann](https://dankaufmann.com): "A daily fever curve for the Swiss economy", Swiss Journal of Economics and Statistics, 156(5), 1-11, doi:[10.1186/s41937-020-00051-z](https://doi.org/10.1186/s41937-020-00051-z)
 
-## Download current data and installation instructions
+## As of 2023-07-03 daily updates of the f-curve are discontinued.
+Data up to 2023-07-03 are available in this repository. Instructions how to further update the f-curve yourself are listed below.
+
+## Download latest data and installation instructions
 [f-curve data (csv)](./Results/f-curve-data.csv) | [Publication](https://sjes.springeropen.com/articles/10.1186/s41937-020-00051-z) | [Working Paper](./f-curve_WP_20-05.pdf) | [Installation instructions](./WebScraping.md) | [Revision log](./RevisionLog.md)
 
-The updated f-curve is available daily around 11 am.
- 
+
 ## Current f-curve:
 ![](./Results/MainGDPShort.png)
 ![](./Results/DecompositionShort.png)
